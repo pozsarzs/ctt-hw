@@ -1,5 +1,5 @@
 EESchema Schematic File Version 1
-LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt_sw2.cache
+LIBS:power,maxim,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
@@ -13,6 +13,58 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 9750 1725 0    60   ~
+8
+Text Notes 9750 4575 0    60   ~
+7
+Text Notes 9750 4075 0    60   ~
+6
+Text Notes 9750 2025 0    60   ~
+5
+Text Notes 9750 1575 0    60   ~
+4
+Text Notes 9750 4325 0    60   ~
+3
+Text Notes 9750 1875 0    60   ~
+2
+Text Notes 9750 6050 0    60   ~
+1
+Text Notes 9740 6720 0    60   ~
+2
+Text Notes 9750 1430 0    60   ~
+1
+Text Notes 3390 1660 1    60   ~
+1
+Text Notes 3290 1660 1    60   ~
+2
+Text Notes 3190 1660 1    60   ~
+3
+Text Notes 3090 1660 1    60   ~
+4
+Text Notes 2990 1660 1    60   ~
+5
+Text Notes 2890 1660 1    60   ~
+6
+Text Notes 2790 1650 1    60   ~
+7
+Text Notes 2690 1650 1    60   ~
+8
+Text Notes 2590 1720 1    60   ~
+14
+Text Notes 2490 1720 1    60   ~
+13
+Text Notes 2390 1720 1    60   ~
+12
+Text Notes 2290 1720 1    60   ~
+11
+Text Notes 2190 1720 1    60   ~
+10
+Text Notes 2075 1650 1    60   ~
+9
+Text Notes 10200 4400 0    60   ~
+CN3
+Text Notes 10200 6150 0    60   ~
+CN3
 Text GLabel 9850 6100 2    60   UnSpc
 COM
 Wire Wire Line
@@ -464,12 +516,12 @@ Wire Wire Line
 	4800 2250 4800 1450
 Wire Wire Line
 	8700 6100 8700 5800
-Text Notes 10050 6550 0    60   ~
-CN3
-Text Notes 10000 1250 0    60   ~
-CN3
-Text Notes 10050 3950 0    60   ~
+Text Notes 10200 6800 0    60   ~
 CN2
+Text Notes 10200 1500 0    60   ~
+CN2
+Text Notes 10200 1650 0    60   ~
+CN3
 Text Notes 2700 1150 0    60   ~
 CN1
 Text GLabel 9850 6750 2    60   UnSpc
@@ -946,7 +998,7 @@ F 1 "1N4148" H 3150 3350 40  0000 C C
 	-1   0    0    1   
 $EndComp
 Text GLabel 9850 1600 2    60   Output
-Um
+AO
 $Comp
 L R R9
 U 1 1 4D16FCBC
@@ -957,11 +1009,11 @@ F 1 "100k 1%" V 8300 2350 50  0000 C C
 	1    0    0    -1  
 $EndComp
 Text GLabel 9850 1750 2    60   Input
-0-1V
+Um1
 Text GLabel 9850 1900 2    60   Input
-100V
+Um2
 Text GLabel 9850 2050 2    60   Input
-0-20V
+Um3
 $Comp
 L R R1
 U 1 1 4D16FAC6
@@ -976,16 +1028,16 @@ L R R2
 U 1 1 4D16FAAA
 P 7050 4600
 F 0 "R2" V 6950 4600 50  0000 C C
-F 1 "R" V 7150 4600 50  0000 C C
+F 1 "?" V 7150 4600 50  0000 C C
 	1    7050 4600
 	0    1    1    0   
 $EndComp
 Text GLabel 9850 4350 2    60   UnSpc
-Base
+B
 Text GLabel 9850 4600 2    60   UnSpc
-Emitter
+E
 Text GLabel 9850 4100 2    60   UnSpc
-Collector
+C
 $Comp
 L SPST JC4
 U 1 1 4D16F9F7
