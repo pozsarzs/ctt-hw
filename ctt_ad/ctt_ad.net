@@ -1,0 +1,293 @@
+# EESchema Netlist Version 1.1 created  8/1/2011-09:46:09
+(
+ ( 4C95F4A7 CPR10X16 C1 220u
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 4C95F4A0 CPR10X16 C2 100u
+  ( 1 GND )
+  ( 2 -5VA )
+ )
+ ( 4C95F51C C2 C3 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 4C95F51E C2 C4 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 4C95F520 C2 C5 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 4C95F4AF C2 C6 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 4C95F518 C2 C7 100n
+  ( 1 GND )
+  ( 2 -5VA )
+ )
+ ( 4C95E2CE C2 C8 10n
+  ( 1 ? )
+  ( 2 GND )
+ )
+ ( 4C95E080 C2 C9 1u
+  ( 1 N-000043 )
+  ( 2 N-000010 )
+ )
+ ( 4C95DF51 C2 C10 100n
+  ( 1 N-000037 )
+  ( 2 N-000038 )
+ )
+ ( 4C95DF74 C2 C11 150n
+  ( 1 N-000038 )
+  ( 2 N-000016 )
+ )
+ ( 4C95E30F D5 D1 1N4148
+  ( 1 -5VA )
+  ( 2 N-000014 )
+ )
+ ( 4C95E31E D5 D2 1N4148
+  ( 1 N-000014 )
+  ( 2 +5V )
+ )
+ ( 4C95D393 40DIP-ELL600 IC1 ICL7109
+  ( 1 GND )
+  ( 2 N-000005 )
+  ( 3 N-000004 )
+  ( 4 N-000046 )
+  ( 5 N-000027 )
+  ( 6 N-000025 )
+  ( 7 N-000026 )
+  ( 8 N-000024 )
+  ( 9 N-000028 )
+  ( 10 N-000020 )
+  ( 11 N-000031 )
+  ( 12 N-000021 )
+  ( 13 N-000030 )
+  ( 14 N-000022 )
+  ( 15 N-000029 )
+  ( 16 N-000023 )
+  ( 17 ? )
+  ( 18 GND )
+  ( 19 GND )
+  ( 20 GND )
+  ( 21 ? )
+  ( 22 N-000042 )
+  ( 23 N-000011 )
+  ( 24 GND )
+  ( 25 ? )
+  ( 26 N-000045 )
+  ( 27 ? )
+  ( 28 -5VA )
+  ( 29 N-000015 )
+  ( 30 N-000017 )
+  ( 31 N-000016 )
+  ( 32 N-000037 )
+  ( 33 GND )
+  ( 34 GND )
+  ( 35 N-000039 )
+  ( 36 N-000041 )
+  ( 37 N-000043 )
+  ( 38 N-000010 )
+  ( 39 N-000015 )
+  ( 40 +5V )
+ )
+ ( 4C95F179 14DIP-ELL300 IC2 74LS74
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 N-000003 )
+  ( 4 ? )
+  ( 5 N-000045 )
+  ( 6 N-000047 )
+  ( 7 GND )
+  ( 14 +5V )
+ )
+ ( 4C95D7F0 20DIP-ELL300 IC3 74LS245
+  ( 1 N-000036 )
+  ( 2 DI0_1 )
+  ( 3 DI1_1 )
+  ( 4 DI2_1 )
+  ( 5 DI3_1 )
+  ( 6 DI4_1 )
+  ( 7 DI5_1 )
+  ( 8 DI6_1 )
+  ( 9 DI7_1 )
+  ( 10 GND )
+  ( 11 N-000047 )
+  ( 12 N-000046 )
+  ( 13 N-000004 )
+  ( 14 GND )
+  ( 15 N-000027 )
+  ( 16 N-000025 )
+  ( 17 N-000026 )
+  ( 18 N-000024 )
+  ( 19 ? )
+  ( 20 +5V )
+ )
+ ( 4C95D7FA 20DIP-ELL300 IC4 74LS245
+  ( 1 N-000036 )
+  ( 2 DI0_1 )
+  ( 3 DI1_1 )
+  ( 4 DI2_1 )
+  ( 5 DI3_1 )
+  ( 6 DI4_1 )
+  ( 7 DI5_1 )
+  ( 8 DI6_1 )
+  ( 9 DI7_1 )
+  ( 10 GND )
+  ( 11 N-000028 )
+  ( 12 N-000020 )
+  ( 13 N-000031 )
+  ( 14 N-000021 )
+  ( 15 N-000030 )
+  ( 16 N-000022 )
+  ( 17 N-000029 )
+  ( 18 N-000023 )
+  ( 19 ? )
+  ( 20 +5V )
+ )
+ ( 4C95F06F RV2 P1 1k
+  ( 1 N-000040 )
+  ( 2 N-000041 )
+  ( 3 N-000012 )
+ )
+ ( 4C95E1F8 HC-18UV Q1 4.19_MHz
+  ( 1 N-000011 )
+  ( 3 N-000042 )
+ )
+ ( 4C95E2E1 R6 R1 1M
+  ( 1 N-000014 )
+  ( 2 N-000039 )
+ )
+ ( 4C95E2EE R6 R2 10k
+  ( 1 ? )
+  ( 2 N-000014 )
+ )
+ ( 4C95E390 R6 R3 3.9k
+  ( 1 N-000040 )
+  ( 2 N-000015 )
+ )
+ ( 4C95E38D R6 R4 22k
+  ( 1 +5V )
+  ( 2 N-000012 )
+ )
+ ( 4C95F37D R6 R5 1k
+  ( 1 N-000003 )
+  ( 2 +5V )
+ )
+ ( 4C95F37A R6 R6 1k
+  ( 1 N-000002 )
+  ( 2 N-000005 )
+ )
+ ( 4C95DF3F R6 R7 82k
+  ( 1 N-000017 )
+  ( 2 N-000038 )
+ )
+ ( 4C95F377 TO92 T1 BC182
+  ( 1 GND )
+  ( 2 N-000002 )
+  ( 3 N-000003 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,171 @@
+Cmp-Mod V01 Genere par PcbNew le 8/1/2011-18:21:10
+
+BeginCmp
+TimeStamp = /4BF434EF;
+Reference = C1;
+ValeurCmp = 33n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF434EA;
+Reference = C2;
+ValeurCmp = 33n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF434E7;
+Reference = C3;
+ValeurCmp = 33n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF434DF;
+Reference = C4;
+ValeurCmp = 33n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF434DA;
+Reference = C5;
+ValeurCmp = 33n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF434F7;
+Reference = C6;
+ValeurCmp = 100u;
+IdModule  = CPR10X16;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF41B3C;
+Reference = CN1;
+ValeurCmp = DB25;
+IdModule  = DB25FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF41A75;
+Reference = IC1;
+ValeurCmp = 74LS245;
+IdModule  = 20dip300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF41A46;
+Reference = IC2;
+ValeurCmp = 74LS374;
+IdModule  = 20DIP300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF41A61;
+Reference = IC3;
+ValeurCmp = 74LS688;
+IdModule  = 20dip300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF41A58;
+Reference = IC4;
+ValeurCmp = 74LS138;
+IdModule  = 16dip300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF42252;
+Reference = IC5;
+ValeurCmp = 74LS157;
+IdModule  = 16dip300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF432D6;
+Reference = J1;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF432D2;
+Reference = J2;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF432CD;
+Reference = J3;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF432B0;
+Reference = J4;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF42DE8;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF42EB7;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF41DAF;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF42FA6;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF43243;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF4324A;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF43236;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF43227;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = R5;
+EndCmp
+
+EndListe

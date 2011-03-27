@@ -1,0 +1,296 @@
+# EESchema Netlist Version 1.1 created  2010.12.27. 9:54:38
+(
+ ( /4BF434EF C2 C1 33n
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /4BF434EA C2 C2 33n
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /4BF434E7 C2 C3 33n
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /4BF434DF C2 C4 33n
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /4BF434DA C2 C5 33n
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /4BF434F7 CPR10X16 C6 100u
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /4BF41B3C DB25FC CN1 DB25
+  ( 1 N-000018 )
+  ( 2 N-000020 )
+  ( 3 N-000053 )
+  ( 4 N-000043 )
+  ( 5 N-000052 )
+  ( 6 N-000044 )
+  ( 7 N-000051 )
+  ( 8 N-000045 )
+  ( 9 N-000050 )
+  ( 10 N-000049 )
+  ( 11 N-000041 )
+  ( 12 N-000039 )
+  ( 13 N-000035 )
+  ( 14 N-000036 )
+  ( 15 N-000038 )
+  ( 16 N-000025 )
+  ( 17 ? )
+  ( 18 /GND )
+  ( 19 /GND )
+  ( 20 /GND )
+  ( 21 /GND )
+  ( 22 /GND )
+  ( 23 /GND )
+  ( 24 /GND )
+  ( 25 /GND )
+ )
+ ( /4BF41A75 DIP-20__300_ELL IC1 74LS245
+  ( 1 N-000040 )
+  ( 2 N-000020 )
+  ( 3 N-000053 )
+  ( 4 N-000043 )
+  ( 5 N-000052 )
+  ( 6 N-000044 )
+  ( 7 N-000051 )
+  ( 8 N-000045 )
+  ( 9 N-000050 )
+  ( 10 /GND )
+  ( 11 /DO7 )
+  ( 12 /DO6 )
+  ( 13 /DO5 )
+  ( 14 /DO4 )
+  ( 15 /DO3 )
+  ( 16 /DO2 )
+  ( 17 /DO1 )
+  ( 18 /DO0 )
+  ( 19 /GND )
+  ( 20 /+5V )
+ )
+ ( /4BF41A46 DIP-20__300_ELL IC2 74LS374
+  ( 1 /GND )
+  ( 2 N-000047 )
+  ( 3 /DO0 )
+  ( 4 /DO1 )
+  ( 5 N-000019 )
+  ( 6 N-000046 )
+  ( 7 /DO2 )
+  ( 8 /DO3 )
+  ( 9 ? )
+  ( 10 /GND )
+  ( 11 N-000025 )
+  ( 12 N-000024 )
+  ( 13 /DO4 )
+  ( 14 /DO5 )
+  ( 15 N-000007 )
+  ( 16 N-000022 )
+  ( 17 /DO6 )
+  ( 18 /DO7 )
+  ( 19 N-000008 )
+  ( 20 /+5V )
+ )
+ ( /4BF41A61 DIP-20__300_ELL IC3 74LS688
+  ( 1 /GND )
+  ( 2 /GND )
+  ( 3 /GND )
+  ( 4 /GND )
+  ( 5 /GND )
+  ( 6 /GND )
+  ( 7 /GND )
+  ( 8 /GND )
+  ( 9 /GND )
+  ( 10 /GND )
+  ( 11 N-000004 )
+  ( 12 N-000008 )
+  ( 13 N-000005 )
+  ( 14 N-000022 )
+  ( 15 N-000006 )
+  ( 16 N-000007 )
+  ( 17 N-000009 )
+  ( 18 N-000024 )
+  ( 19 N-000038 )
+  ( 20 /+5V )
+ )
+ ( /4BF41A58 DIP-16__300_ELL IC4 74LS138
+  ( 1 N-000047 )
+  ( 2 N-000019 )
+  ( 3 N-000046 )
+  ( 4 N-000018 )
+  ( 5 N-000038 )
+  ( 6 N-000042 )
+  ( 7 ? )
+  ( 8 /GND )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 /+5V )
+ )
+ ( /4BF42252 DIP-16__300_ELL IC5 74LS157
+  ( 1 N-000036 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 N-000041 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000049 )
+  ( 8 /GND )
+  ( 9 N-000035 )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 N-000039 )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /GND )
+  ( 16 /+5V )
+ )
+ ( /4BF432D6 SIL-2 J1 JUMPER
+  ( 1 /GND )
+  ( 2 N-000009 )
+ )
+ ( /4BF432D2 SIL-2 J2 JUMPER
+  ( 1 /GND )
+  ( 2 N-000006 )
+ )
+ ( /4BF432CD SIL-2 J3 JUMPER
+  ( 1 /GND )
+  ( 2 N-000005 )
+ )
+ ( /4BF432B0 SIL-2 J4 JUMPER
+  ( 1 /GND )
+  ( 2 N-000004 )
+ )
+ ( /4BF42DE8 R5 R1 1k
+  ( 1 /+5V )
+  ( 2 N-000025 )
+ )
+ ( /4BF42EB7 R5 R2 1k
+  ( 1 /+5V )
+  ( 2 N-000036 )
+ )
+ ( /4BF41DAF R5 R3 1k
+  ( 1 /+5V )
+  ( 2 N-000040 )
+ )
+ ( /4BF42FA6 R5 R4 1k
+  ( 1 /+5V )
+  ( 2 N-000042 )
+ )
+ ( /4BF43243 R5 R5 1k
+  ( 1 /+5V )
+  ( 2 N-000006 )
+ )
+ ( /4BF4324A R5 R6 1k
+  ( 1 /+5V )
+  ( 2 N-000009 )
+ )
+ ( /4BF43236 R5 R7 1k
+  ( 1 /+5V )
+  ( 2 N-000005 )
+ )
+ ( /4BF43227 R5 R8 1k
+  ( 1 /+5V )
+  ( 2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component CN1
+ DB25*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

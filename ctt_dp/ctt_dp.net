@@ -1,0 +1,167 @@
+# EESchema Netlist Version 1.1 created  18/9/2010-12:43:06
+(
+ ( 4C9497A9 C2 C1 33n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 4C9497B8 CPR10X16 C2 1u
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 4C9494E6 LEDV D1 LED
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( 4C949519 LEDV D2 LED
+  ( 1 N-000009 )
+  ( 2 N-000023 )
+ )
+ ( 4C94951A LEDV D3 LED
+  ( 1 N-000021 )
+  ( 2 N-000022 )
+ )
+ ( 4C94950F LEDV D4 LED
+  ( 1 N-000021 )
+  ( 2 N-000008 )
+ )
+ ( 4C9494EF LEDV D5 LED
+  ( 1 N-000011 )
+  ( 2 N-000018 )
+ )
+ ( 4C949518 LEDV D6 LED
+  ( 1 N-000011 )
+  ( 2 N-000012 )
+ )
+ ( 4C949510 LEDV D7 LED
+  ( 1 N-000011 )
+  ( 2 N-000017 )
+ )
+ ( 4C9494F2 LEDV D8 LED
+  ( 1 N-000011 )
+  ( 2 N-000013 )
+ )
+ ( 4C949511 LEDV D9 LED
+  ( 1 N-000011 )
+  ( 2 N-000016 )
+ )
+ ( 4C94951D LEDV D10 LED
+  ( 1 N-000011 )
+  ( 2 N-000014 )
+ )
+ ( 4C94951C LEDV D11 LED
+  ( 1 N-000011 )
+  ( 2 N-000015 )
+ )
+ ( 4C9494A6 20DIP-ELL300 IC1 74LS374
+  ( 1 GND )
+  ( 2 N-000019 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 N-000010 )
+  ( 6 N-000020 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 N-000008 )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 N-000023 )
+  ( 20 +5V )
+ )
+ ( 4C9494B6 16DIP-ELL300 IC2 74LS138
+  ( 1 N-000019 )
+  ( 2 N-000010 )
+  ( 3 N-000020 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 N-000006 )
+  ( 7 ? )
+  ( 8 GND )
+  ( 9 N-000018 )
+  ( 10 N-000012 )
+  ( 11 N-000017 )
+  ( 12 N-000013 )
+  ( 13 N-000016 )
+  ( 14 N-000014 )
+  ( 15 N-000015 )
+  ( 16 +5V )
+ )
+ ( 4C949655 R6 R1 1k
+  ( 1 N-000007 )
+  ( 2 N-000008 )
+ )
+ ( 4C949750 R6 R2 1k
+  ( 1 +5V )
+  ( 2 N-000006 )
+ )
+ ( 4C949640 R6 R3 330
+  ( 1 +5V )
+  ( 2 N-000011 )
+ )
+ ( 4C949664 R6 R4 330
+  ( 1 +5V )
+  ( 2 N-000021 )
+ )
+ ( 4C949659 R6 R5 330
+  ( 1 +5V )
+  ( 2 N-000009 )
+ )
+ ( 4C9496D3 R6 R6 330
+  ( 1 +5V )
+  ( 2 N-000005 )
+ )
+ ( 4C94963A TO92 T1 BC182
+  ( 1 GND )
+  ( 2 N-000007 )
+  ( 3 N-000022 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
