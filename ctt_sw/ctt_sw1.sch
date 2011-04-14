@@ -1,41 +1,51 @@
-EESchema Schematic File Version 2  date 2011.04.01. 13:42:23
+EESchema Schematic File Version 2  date 2011.04.14. 21:28:28
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
 LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
+LIBS:adc-dac
 LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
 LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
 LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:opto
+LIBS:philips
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
 LIBS:valves
-LIBS:ctt_sw1-cache
+LIBS:video
+LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 1
+Sheet 4 7
 Title "CTT Transistor tester - CTT/SW1 Switching unit"
-Date "1 apr 2011"
+Date "14 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/14"
@@ -43,6 +53,62 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 9875 5275 0    60   ~ 0
+7
+Text Notes 9275 5275 0    60   ~ 0
+1
+Text Notes 9825 4775 0    60   ~ 0
+10
+Text Notes 9275 4775 0    60   ~ 0
+2
+Text Notes 9275 4175 0    60   ~ 0
+4
+Text Notes 9875 4175 0    60   ~ 0
+3
+Text Notes 9875 3675 0    60   ~ 0
+9
+Text Notes 9825 3175 0    60   ~ 0
+13
+Text Notes 9875 2675 0    60   ~ 0
+6
+Text Notes 9825 2175 0    60   ~ 0
+11
+Text Notes 9225 3675 0    60   ~ 0
+8
+Text Notes 9175 3175 0    60   ~ 0
+14
+Text Notes 9275 2675 0    60   ~ 0
+5
+Text Notes 9175 2175 0    60   ~ 0
+12
+Text Notes 675  3750 0    60   ~ 0
+CN5
+Text Notes 1250 3950 0    60   ~ 0
+2
+Text Notes 1250 2550 0    60   ~ 0
+2
+Text Notes 1250 2425 0    60   ~ 0
+2
+Text Notes 1250 2125 0    60   ~ 0
+1
+Text Notes 1250 2000 0    60   ~ 0
+1
+Text Notes 1250 3500 0    60   ~ 0
+8
+Text Notes 1250 3400 0    60   ~ 0
+5
+Text Notes 1250 3300 0    60   ~ 0
+4
+Text Notes 1250 3200 0    60   ~ 0
+1
+Text Notes 1250 3100 0    60   ~ 0
+2
+Text Notes 1250 3000 0    60   ~ 0
+3
+Text Notes 1250 2900 0    60   ~ 0
+6
+Text Notes 1250 2800 0    60   ~ 0
+7
 Connection ~ 2100 5800
 Wire Wire Line
 	2100 5800 4250 5800
@@ -578,11 +644,11 @@ Text HLabel 1200 2425 0    60   UnSpc ~ 0
 GND
 Text HLabel 1200 2125 0    60   Input ~ 0
 +5V
-Text Notes 725  2175 0    60   ~ 0
+Text Notes 675  2175 0    60   ~ 0
 CN4
-Text Notes 725  2450 0    60   ~ 0
+Text Notes 675  2450 0    60   ~ 0
 CN4
-Text Notes 725  2575 0    60   ~ 0
+Text Notes 675  2575 0    60   ~ 0
 CN2
 $Comp
 L R R19
@@ -1259,10 +1325,10 @@ Text HLabel 1200 3400 0    60   Input ~ 0
 DO6
 Text HLabel 1200 3500 0    60   Input ~ 0
 DO7
-Text Notes 725  2825 0    60   ~ 0
+Text Notes 675  2825 0    60   ~ 0
 CN1
 Text Notes 1250 3700 0    60   ~ 0
-9
+1
 Text HLabel 1200 3700 0    60   Input ~ 0
 -SL0
 Text HLabel 1200 2550 0    60   UnSpc ~ 0
@@ -1314,7 +1380,7 @@ F 1 "74LS04" H 6040 3425 60  0001 C CNN
 	3    5850 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 725  2050 0    60   ~ 0
+Text Notes 675  2050 0    60   ~ 0
 CN2
 Text HLabel 1200 3950 0    60   Output ~ 0
 -NPN

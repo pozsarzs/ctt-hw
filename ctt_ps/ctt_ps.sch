@@ -1,11 +1,51 @@
-EESchema Schematic File Version 1
-LIBS:power,maxim,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
-EELAYER 23  0
+EESchema Schematic File Version 2  date 2011.04.14. 21:28:28
+LIBS:power
+LIBS:74xx
+LIBS:xilinx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:opto
+LIBS:philips
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:ctt-cache
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 1
+Sheet 1 7
 Title "CTT Transistor tester - CTT/PS Power supply"
-Date "24 dec 2010"
+Date "14 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/20"

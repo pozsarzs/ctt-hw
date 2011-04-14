@@ -1,11 +1,51 @@
-EESchema Schematic File Version 1
-LIBS:power,maxim,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
-EELAYER 23  0
+EESchema Schematic File Version 2  date 2011.04.14. 21:28:28
+LIBS:power
+LIBS:74xx
+LIBS:xilinx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:gennum
+LIBS:graphic
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:opto
+LIBS:philips
+LIBS:pspice
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:ctt-cache
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 1
+Sheet 3 7
 Title "CTT Transistor tester - CTT/IF Interface unit"
-Date "24 dec 2010"
+Date "14 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/3"
@@ -13,113 +53,113 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6200 6100 0    60   ~
+Text Notes 6200 6100 0    60   ~ 0
 J2-4: Close
-Text Notes 6200 5950 0    60   ~
+Text Notes 6200 5950 0    60   ~ 0
 J1:   Open 
-Text Notes 1550 1550 0    60   ~
+Text Notes 1550 1550 0    60   ~ 0
 2
-Text Notes 1550 950  0    60   ~
+Text Notes 1550 950  0    60   ~ 0
 1
-Text Notes 10050 3700 0    60   ~
+Text Notes 10050 3700 0    60   ~ 0
 8
-Text Notes 10050 4100 0    60   ~
+Text Notes 10050 4100 0    60   ~ 0
 3
-Text Notes 10050 3400 0    60   ~
+Text Notes 10050 3400 0    60   ~ 0
 6
-Text Notes 10050 3800 0    60   ~
+Text Notes 10050 3800 0    60   ~ 0
 5
-Text Notes 10050 3600 0    60   ~
+Text Notes 10050 3600 0    60   ~ 0
 4
-Text Notes 10050 3500 0    60   ~
+Text Notes 10050 3500 0    60   ~ 0
 3
-Text Notes 10050 4000 0    60   ~
+Text Notes 10050 4000 0    60   ~ 0
 2
-Text Notes 10050 3900 0    60   ~
+Text Notes 10050 3900 0    60   ~ 0
 1
-Text Notes 10050 1850 0    60   ~
+Text Notes 10050 1850 0    60   ~ 0
 8
-Text Notes 10050 1950 0    60   ~
+Text Notes 10050 1950 0    60   ~ 0
 7
-Text Notes 10050 2050 0    60   ~
+Text Notes 10050 2050 0    60   ~ 0
 6
-Text Notes 10050 2150 0    60   ~
+Text Notes 10050 2150 0    60   ~ 0
 5
-Text Notes 10050 2250 0    60   ~
+Text Notes 10050 2250 0    60   ~ 0
 4
-Text Notes 10050 2350 0    60   ~
+Text Notes 10050 2350 0    60   ~ 0
 3
-Text Notes 10050 2450 0    60   ~
+Text Notes 10050 2450 0    60   ~ 0
 2
-Text Notes 10050 2550 0    60   ~
+Text Notes 10050 2550 0    60   ~ 0
 1
-Text Notes 10050 5700 0    60   ~
+Text Notes 10050 5700 0    60   ~ 0
 8
-Text Notes 10050 5600 0    60   ~
+Text Notes 10050 5600 0    60   ~ 0
 7
-Text Notes 10050 5500 0    60   ~
+Text Notes 10050 5500 0    60   ~ 0
 6
-Text Notes 10050 5400 0    60   ~
+Text Notes 10050 5400 0    60   ~ 0
 5
-Text Notes 10050 5300 0    60   ~
+Text Notes 10050 5300 0    60   ~ 0
 4
-Text Notes 10050 5200 0    60   ~
+Text Notes 10050 5200 0    60   ~ 0
 3
-Text Notes 10050 5100 0    60   ~
+Text Notes 10050 5100 0    60   ~ 0
 2
-Text Notes 10050 5000 0    60   ~
+Text Notes 10050 5000 0    60   ~ 0
 1
-Text GLabel 1500 1550 0    60   UnSpc
+Text HLabel 1500 1550 0    60   UnSpc ~ 0
 GND
-Text GLabel 1500 950  0    60   UnSpc
+Text HLabel 1500 950  0    60   UnSpc ~ 0
 +5V
-Text GLabel 10150 2550 2    60   Output
+Text HLabel 10150 2550 2    60   Output ~ 0
 -SL7
-Text GLabel 10150 2450 2    60   Output
+Text HLabel 10150 2450 2    60   Output ~ 0
 -SL6
-Text GLabel 10150 2350 2    60   Output
+Text HLabel 10150 2350 2    60   Output ~ 0
 -SL5
-Text GLabel 10150 2250 2    60   Output
+Text HLabel 10150 2250 2    60   Output ~ 0
 -SL4
-Text GLabel 10150 2150 2    60   Output
+Text HLabel 10150 2150 2    60   Output ~ 0
 -SL3
-Text GLabel 10150 2050 2    60   Output
+Text HLabel 10150 2050 2    60   Output ~ 0
 -SL2
-Text GLabel 10150 1950 2    60   Output
+Text HLabel 10150 1950 2    60   Output ~ 0
 -SL1
-Text GLabel 10150 1850 2    60   Output
+Text HLabel 10150 1850 2    60   Output ~ 0
 -SL0
-Text GLabel 10150 5700 2    60   Output
+Text HLabel 10150 5700 2    60   Output ~ 0
 DO7
-Text GLabel 10150 5600 2    60   Output
+Text HLabel 10150 5600 2    60   Output ~ 0
 DO6
-Text GLabel 10150 5500 2    60   Output
+Text HLabel 10150 5500 2    60   Output ~ 0
 DO5
-Text GLabel 10150 5400 2    60   Output
+Text HLabel 10150 5400 2    60   Output ~ 0
 DO4
-Text GLabel 10150 5300 2    60   Output
+Text HLabel 10150 5300 2    60   Output ~ 0
 DO3
-Text GLabel 10150 5200 2    60   Output
+Text HLabel 10150 5200 2    60   Output ~ 0
 DO2
-Text GLabel 10150 5100 2    60   Output
+Text HLabel 10150 5100 2    60   Output ~ 0
 DO1
-Text GLabel 10150 5000 2    60   Output
+Text HLabel 10150 5000 2    60   Output ~ 0
 DO0
-Text GLabel 10150 4100 2    60   Input
+Text HLabel 10150 4100 2    60   Input ~ 0
 DI7
-Text GLabel 10150 4000 2    60   Input
+Text HLabel 10150 4000 2    60   Input ~ 0
 DI6
-Text GLabel 10150 3900 2    60   Input
+Text HLabel 10150 3900 2    60   Input ~ 0
 DI5
-Text GLabel 10150 3800 2    60   Input
+Text HLabel 10150 3800 2    60   Input ~ 0
 DI4
-Text GLabel 10150 3700 2    60   Input
+Text HLabel 10150 3700 2    60   Input ~ 0
 DI3
-Text GLabel 10150 3600 2    60   Input
+Text HLabel 10150 3600 2    60   Input ~ 0
 DI2
-Text GLabel 10150 3500 2    60   Input
+Text HLabel 10150 3500 2    60   Input ~ 0
 DI1
-Text GLabel 10150 3400 2    60   Input
+Text HLabel 10150 3400 2    60   Input ~ 0
 DI0
 Wire Wire Line
 	1500 1550 3350 1550
@@ -644,8 +684,8 @@ $Comp
 L GND #PWR01
 U 1 1 4D158FBF
 P 2100 1700
-F 0 "#PWR01" H 2100 1700 30  0001 C C
-F 1 "GND" H 2100 1630 30  0001 C C
+F 0 "#PWR01" H 2100 1700 30  0001 C CNN
+F 1 "GND" H 2100 1630 30  0001 C CNN
 	1    2100 1700
 	1    0    0    -1  
 $EndComp
@@ -653,31 +693,31 @@ $Comp
 L GND #PWR02
 U 1 1 4D158F7A
 P 7200 3200
-F 0 "#PWR02" H 7200 3200 30  0001 C C
-F 1 "GND" H 7200 3130 30  0001 C C
+F 0 "#PWR02" H 7200 3200 30  0001 C CNN
+F 1 "GND" H 7200 3130 30  0001 C CNN
 	1    7200 3200
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1950 4350
 NoConn ~ 5200 3450
-Text Notes 6200 4150 0    60   ~
+Text Notes 6200 4150 0    60   ~ 0
 "Eq ID"
-Text Notes 10200 4900 0    60   ~
+Text Notes 10200 4900 0    60   ~ 0
 CN2
-Text Notes 10200 3300 0    60   ~
+Text Notes 10200 3300 0    60   ~ 0
 CN3
-Text Notes 10200 1750 0    60   ~
+Text Notes 10200 1750 0    60   ~ 0
 CN4
-Text Notes 1300 1300 0    60   ~
+Text Notes 1300 1300 0    60   ~ 0
 CN5
-Text Notes 1350 4050 0    60   ~
+Text Notes 1350 4050 0    60   ~ 0
 "LPT"
 $Comp
 L 74LS688 IC3
 U 1 1 4BF41A61
 P 6150 2200
-F 0 "IC3" V 6200 2250 60  0000 C C
-F 1 "74LS688" H 6150 1250 60  0000 C C
+F 0 "IC3" V 6200 2250 60  0000 C CNN
+F 1 "74LS688" H 6150 1250 60  0000 C CNN
 	1    6150 2200
 	0    -1   -1   0   
 $EndComp
@@ -685,8 +725,8 @@ $Comp
 L CP C6
 U 1 1 4BF434F7
 P 2100 1250
-F 0 "C6" H 2150 1350 50  0000 L C
-F 1 "100u" H 2100 1100 50  0000 L C
+F 0 "C6" H 2150 1350 50  0000 L CNN
+F 1 "100u" H 2100 1100 50  0000 L CNN
 	1    2100 1250
 	1    0    0    -1  
 $EndComp
@@ -694,8 +734,8 @@ $Comp
 L C C1
 U 1 1 4BF434EF
 P 3350 1250
-F 0 "C1" H 3400 1350 50  0000 L C
-F 1 "33n" H 3400 1150 50  0000 L C
+F 0 "C1" H 3400 1350 50  0000 L CNN
+F 1 "33n" H 3400 1150 50  0000 L CNN
 	1    3350 1250
 	1    0    0    -1  
 $EndComp
@@ -703,8 +743,8 @@ $Comp
 L C C2
 U 1 1 4BF434EA
 P 3100 1250
-F 0 "C2" H 3150 1350 50  0000 L C
-F 1 "33n" H 3150 1150 50  0000 L C
+F 0 "C2" H 3150 1350 50  0000 L CNN
+F 1 "33n" H 3150 1150 50  0000 L CNN
 	1    3100 1250
 	1    0    0    -1  
 $EndComp
@@ -712,8 +752,8 @@ $Comp
 L C C3
 U 1 1 4BF434E7
 P 2850 1250
-F 0 "C3" H 2900 1350 50  0000 L C
-F 1 "33n" H 2900 1150 50  0000 L C
+F 0 "C3" H 2900 1350 50  0000 L CNN
+F 1 "33n" H 2900 1150 50  0000 L CNN
 	1    2850 1250
 	1    0    0    -1  
 $EndComp
@@ -721,8 +761,8 @@ $Comp
 L C C4
 U 1 1 4BF434DF
 P 2600 1250
-F 0 "C4" H 2650 1350 50  0000 L C
-F 1 "33n" H 2650 1150 50  0000 L C
+F 0 "C4" H 2650 1350 50  0000 L CNN
+F 1 "33n" H 2650 1150 50  0000 L CNN
 	1    2600 1250
 	1    0    0    -1  
 $EndComp
@@ -730,8 +770,8 @@ $Comp
 L C C5
 U 1 1 4BF434DA
 P 2350 1250
-F 0 "C5" H 2400 1350 50  0000 L C
-F 1 "33n" H 2400 1150 50  0000 L C
+F 0 "C5" H 2400 1350 50  0000 L CNN
+F 1 "33n" H 2400 1150 50  0000 L CNN
 	1    2350 1250
 	1    0    0    -1  
 $EndComp
@@ -739,8 +779,8 @@ $Comp
 L JUMPER J1
 U 1 1 4BF432D6
 P 6400 4850
-F 0 "J1" H 6100 4900 60  0000 C C
-F 1 "JUMPER" H 6400 4770 40  0001 C C
+F 0 "J1" H 6100 4900 60  0000 C CNN
+F 1 "JUMPER" H 6400 4770 40  0001 C CNN
 	1    6400 4850
 	1    0    0    -1  
 $EndComp
@@ -748,8 +788,8 @@ $Comp
 L JUMPER J2
 U 1 1 4BF432D2
 P 6400 4700
-F 0 "J2" H 6100 4750 60  0000 C C
-F 1 "JUMPER" H 6400 4620 40  0001 C C
+F 0 "J2" H 6100 4750 60  0000 C CNN
+F 1 "JUMPER" H 6400 4620 40  0001 C CNN
 	1    6400 4700
 	1    0    0    -1  
 $EndComp
@@ -757,8 +797,8 @@ $Comp
 L JUMPER J3
 U 1 1 4BF432CD
 P 6400 4550
-F 0 "J3" H 6100 4600 60  0000 C C
-F 1 "JUMPER" H 6400 4470 40  0001 C C
+F 0 "J3" H 6100 4600 60  0000 C CNN
+F 1 "JUMPER" H 6400 4470 40  0001 C CNN
 	1    6400 4550
 	1    0    0    -1  
 $EndComp
@@ -766,8 +806,8 @@ $Comp
 L JUMPER J4
 U 1 1 4BF432B0
 P 6400 4400
-F 0 "J4" H 6100 4450 60  0000 C C
-F 1 "JUMPER" H 6400 4320 40  0001 C C
+F 0 "J4" H 6100 4450 60  0000 C CNN
+F 1 "JUMPER" H 6400 4320 40  0001 C CNN
 	1    6400 4400
 	1    0    0    -1  
 $EndComp
@@ -775,8 +815,8 @@ $Comp
 L R R6
 U 1 1 4BF4324A
 P 8350 4850
-F 0 "R6" V 8200 5100 50  0000 C C
-F 1 "1k" V 8350 4850 50  0000 C C
+F 0 "R6" V 8200 5100 50  0000 C CNN
+F 1 "1k" V 8350 4850 50  0000 C CNN
 	1    8350 4850
 	0    1    1    0   
 $EndComp
@@ -784,8 +824,8 @@ $Comp
 L R R5
 U 1 1 4BF43243
 P 8350 4750
-F 0 "R5" V 8400 5000 50  0000 C C
-F 1 "1k" V 8350 4750 50  0000 C C
+F 0 "R5" V 8400 5000 50  0000 C CNN
+F 1 "1k" V 8350 4750 50  0000 C CNN
 	1    8350 4750
 	0    1    1    0   
 $EndComp
@@ -793,8 +833,8 @@ $Comp
 L R R7
 U 1 1 4BF43236
 P 8350 4650
-F 0 "R7" V 8300 4900 50  0000 C C
-F 1 "1k" V 8350 4650 50  0000 C C
+F 0 "R7" V 8300 4900 50  0000 C CNN
+F 1 "1k" V 8350 4650 50  0000 C CNN
 	1    8350 4650
 	0    1    1    0   
 $EndComp
@@ -802,8 +842,8 @@ $Comp
 L R R8
 U 1 1 4BF43227
 P 8350 4550
-F 0 "R8" V 8300 4800 50  0000 C C
-F 1 "1k" V 8350 4550 50  0000 C C
+F 0 "R8" V 8300 4800 50  0000 C CNN
+F 1 "1k" V 8350 4550 50  0000 C CNN
 	1    8350 4550
 	0    1    1    0   
 $EndComp
@@ -812,8 +852,8 @@ $Comp
 L GND #PWR03
 U 1 1 4BF430E2
 P 2050 7000
-F 0 "#PWR03" H 2050 7000 30  0001 C C
-F 1 "GND" H 2050 6930 30  0001 C C
+F 0 "#PWR03" H 2050 7000 30  0001 C CNN
+F 1 "GND" H 2050 6930 30  0001 C CNN
 	1    2050 7000
 	1    0    0    -1  
 $EndComp
@@ -821,8 +861,8 @@ $Comp
 L R R4
 U 1 1 4BF42FA6
 P 8800 2950
-F 0 "R4" V 8880 2950 50  0000 C C
-F 1 "1k" V 8800 2950 50  0000 C C
+F 0 "R4" V 8880 2950 50  0000 C CNN
+F 1 "1k" V 8800 2950 50  0000 C CNN
 	1    8800 2950
 	0    1    1    0   
 $EndComp
@@ -830,8 +870,8 @@ $Comp
 L R R2
 U 1 1 4BF42EB7
 P 3100 3950
-F 0 "R2" V 3050 4200 50  0000 C C
-F 1 "1k" V 3100 3950 50  0000 C C
+F 0 "R2" V 3050 4200 50  0000 C CNN
+F 1 "1k" V 3100 3950 50  0000 C CNN
 	1    3100 3950
 	1    0    0    -1  
 $EndComp
@@ -839,8 +879,8 @@ $Comp
 L R R1
 U 1 1 4BF42DE8
 P 2800 3950
-F 0 "R1" V 2750 4200 50  0000 C C
-F 1 "1k" V 2800 3950 50  0000 C C
+F 0 "R1" V 2750 4200 50  0000 C CNN
+F 1 "1k" V 2800 3950 50  0000 C CNN
 	1    2800 3950
 	1    0    0    -1  
 $EndComp
@@ -848,8 +888,8 @@ $Comp
 L 74LS157 IC5
 U 1 1 4BF42252
 P 8350 3800
-F 0 "IC5" H 8400 3850 60  0000 C C
-F 1 "74LS157" H 8350 4500 60  0000 C C
+F 0 "IC5" H 8400 3850 60  0000 C CNN
+F 1 "74LS157" H 8350 4500 60  0000 C CNN
 	1    8350 3800
 	-1   0    0    -1  
 $EndComp
@@ -857,8 +897,8 @@ $Comp
 L R R3
 U 1 1 4BF41DAF
 P 2950 3950
-F 0 "R3" V 2900 4200 50  0000 C C
-F 1 "1k" V 2950 3950 50  0000 C C
+F 0 "R3" V 2900 4200 50  0000 C CNN
+F 1 "1k" V 2950 3950 50  0000 C CNN
 	1    2950 3950
 	1    0    0    -1  
 $EndComp
@@ -866,8 +906,8 @@ $Comp
 L DB25 CN1
 U 1 1 4BF41B3C
 P 1500 5550
-F 0 "CN1" H 1550 6900 70  0000 C C
-F 1 "DB25" H 1450 4200 70  0000 C C
+F 0 "CN1" H 1550 6900 70  0000 C CNN
+F 1 "DB25" H 1450 4200 70  0000 C CNN
 	1    1500 5550
 	-1   0    0    1   
 $EndComp
@@ -875,8 +915,8 @@ $Comp
 L 74LS245 IC1
 U 1 1 4BF41A75
 P 4000 5500
-F 0 "IC1" H 3900 5850 60  0000 L C
-F 1 "74LS245" H 4100 4900 60  0000 L C
+F 0 "IC1" H 3900 5850 60  0000 L CNN
+F 1 "74LS245" H 4100 4900 60  0000 L CNN
 	1    4000 5500
 	1    0    0    -1  
 $EndComp
@@ -884,8 +924,8 @@ $Comp
 L 74LS138 IC4
 U 1 1 4BF41A58
 P 8800 2200
-F 0 "IC4" H 8750 2200 60  0000 C C
-F 1 "74LS138" H 8950 1651 60  0000 C C
+F 0 "IC4" H 8750 2200 60  0000 C CNN
+F 1 "74LS138" H 8950 1651 60  0000 C CNN
 	1    8800 2200
 	1    0    0    -1  
 $EndComp
@@ -893,8 +933,8 @@ $Comp
 L 74LS374 IC2
 U 1 1 4BF41A46
 P 5400 4150
-F 0 "IC2" V 5400 4250 60  0000 C C
-F 1 "74LS374" H 5450 3800 60  0000 C C
+F 0 "IC2" V 5400 4250 60  0000 C CNN
+F 1 "74LS374" H 5450 3800 60  0000 C CNN
 	1    5400 4150
 	0    -1   -1   0   
 $EndComp
