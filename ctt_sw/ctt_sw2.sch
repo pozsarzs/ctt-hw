@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.04.16. 21:01:51
+EESchema Schematic File Version 2  date 2011.04.18. 22:10:22
 LIBS:power
 LIBS:74xx
 LIBS:xilinx
@@ -43,9 +43,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 9
+Sheet 2 8
 Title "CTT Transistor tester - CTT/SW2 Switching unit"
-Date "16 apr 2011"
+Date "18 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/34"
