@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.04.14. 21:28:28
+EESchema Schematic File Version 2  date 2011.04.16. 21:01:51
 LIBS:power
 LIBS:74xx
 LIBS:xilinx
@@ -43,9 +43,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 7
+Sheet 1 9
 Title "CTT Transistor tester - CTT/DP Display unit"
-Date "14 apr 2011"
+Date "16 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/7"

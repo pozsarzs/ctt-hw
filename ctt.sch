@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.04.14. 21:28:28
+EESchema Schematic File Version 2  date 2011.04.16. 21:01:49
 LIBS:power
 LIBS:74xx
 LIBS:xilinx
@@ -43,9 +43,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 7
+Sheet 1 9
 Title "CTT Transistor tester"
-Date "14 apr 2011"
+Date "16 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/2"
@@ -53,6 +53,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 2150 4250 500  150 
+U 4DA9C945
+F0 "CTT/PS1" 60
+F1 "ctt_ps\ctt_ps1.sch" 60
+$EndSheet
+$Sheet
+S 4950 4450 1200 2350
+U 4DA9C7D6
+F0 "Sheet4DA9C7D5" 60
+F1 "file4DA9C7D5.sch" 60
+$EndSheet
 Text Notes 4050 3450 0    60   ~ 0
 CN5
 Text Notes 3600 1300 0    60   ~ 0
