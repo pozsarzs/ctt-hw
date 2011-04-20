@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.04.18. 22:10:22
+EESchema Schematic File Version 2  date 2011.04.19. 8:36:32
 LIBS:power
 LIBS:74xx
 LIBS:xilinx
@@ -43,9 +43,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 8
+Sheet 1 9
 Title "CTT Transistor tester - CTT/PS Power supply"
-Date "18 apr 2011"
+Date "19 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/20"

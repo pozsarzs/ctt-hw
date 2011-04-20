@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.04.18. 22:10:22
+EESchema Schematic File Version 2  date 2011.04.19. 11:12:57
 LIBS:power
 LIBS:74xx
 LIBS:xilinx
@@ -45,7 +45,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 8
 Title "CTT Transistor tester"
-Date "18 apr 2011"
+Date "19 apr 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/2"
@@ -53,30 +53,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4000 4500 1200 2350
-U 4DA9C945
-F0 "CTT/PS1" 60
-F1 "ctt_ps\ctt_ps1.sch" 60
-$EndSheet
-Text Notes 4050 3450 0    60   ~ 0
-CN5
-Text Notes 3600 1300 0    60   ~ 0
-CN5
-Text Notes 3600 2150 0    60   ~ 0
-CN2
-Text Notes 3600 2800 0    60   ~ 0
-CN1
-Text Notes 4050 1900 0    60   ~ 0
-CN3
-Text Notes 4050 2800 0    60   ~ 0
-CN4
-Text Label 6200 3100 0    60   ~ 0
-58
+Wire Wire Line
+	4750 5700 4550 5700
+Wire Wire Line
+	4750 5450 4550 5450
+Wire Wire Line
+	4750 5200 4550 5200
+Wire Wire Line
+	4750 5000 4550 5000
+Wire Wire Line
+	4750 4750 4550 4750
 Wire Wire Line
 	6400 3100 6100 3100
-Wire Wire Line
-	8650 4100 8650 2500
 Wire Wire Line
 	8650 2500 9050 2500
 Wire Wire Line
@@ -88,7 +76,9 @@ Wire Wire Line
 Wire Wire Line
 	10900 2100 10900 4000
 Wire Wire Line
-	10900 4000 2700 4000
+	10900 4000 8600 4000
+Wire Wire Line
+	8600 4000 2700 4000
 Wire Wire Line
 	2700 4000 2700 2450
 Connection ~ 2850 2100
@@ -98,17 +88,15 @@ Wire Wire Line
 	2850 2450 2700 2450
 Connection ~ 3050 2200
 Wire Wire Line
-	2550 2200 3250 2200
+	2550 2200 3050 2200
+Wire Wire Line
+	3050 2200 3250 2200
 Wire Wire Line
 	4550 2700 4800 2700
 Wire Wire Line
 	6400 3300 6100 3300
 Wire Wire Line
 	6350 1900 6100 1900
-Wire Wire Line
-	7300 5800 4650 5800
-Wire Wire Line
-	4650 5800 4650 3400
 Wire Wire Line
 	4650 3400 4550 3400
 Wire Wire Line
@@ -126,32 +114,15 @@ Wire Wire Line
 Wire Wire Line
 	4550 1350 4800 1350
 Wire Wire Line
-	9550 4450 9600 4450
+	17150 6950 17200 6950
 Wire Wire Line
-	10000 6050 9200 6050
+	17600 8550 16800 8550
 Wire Wire Line
-	9200 6050 9200 5900
+	16800 8550 16800 8400
 Wire Wire Line
-	6600 6500 7300 6500
+	17500 7150 16100 7150
 Wire Wire Line
-	10100 6750 10100 6600
-Wire Wire Line
-	10100 6600 8500 6600
-Wire Wire Line
-	7300 5550 7000 5550
-Connection ~ 9900 6600
-Wire Wire Line
-	9900 6750 9900 4650
-Wire Wire Line
-	9900 4650 8500 4650
-Wire Wire Line
-	8900 5900 8900 6250
-Wire Wire Line
-	6800 5400 7300 5400
-Wire Bus Line
-	6700 5300 6700 2600
-Wire Bus Line
-	6900 5050 6900 3900
+	16500 8400 16500 8750
 Wire Wire Line
 	10450 2200 10750 2200
 Wire Wire Line
@@ -161,19 +132,41 @@ Wire Wire Line
 Wire Wire Line
 	8800 2200 8800 2250
 Wire Wire Line
-	1000 4800 1300 4800
-Wire Wire Line
-	1300 4800 1300 4850
-Wire Wire Line
-	1000 4700 1250 4700
-Wire Wire Line
 	3050 2200 3050 2250
 Wire Bus Line
-	2850 2800 2850 3700
+	2850 2800 2850 2900
+Wire Bus Line
+	2850 2900 2850 3000
+Wire Bus Line
+	2850 3000 2850 3100
+Wire Bus Line
+	2850 3100 2850 3200
+Wire Bus Line
+	2850 3200 2850 3300
+Wire Bus Line
+	2850 3300 2850 3400
+Wire Bus Line
+	2850 3400 2850 3500
+Wire Bus Line
+	2850 3500 2850 3700
 Wire Wire Line
 	950  3400 1250 3400
 Wire Bus Line
-	6900 3700 6900 2800
+	6900 3700 6900 3500
+Wire Bus Line
+	6900 3500 6900 3400
+Wire Bus Line
+	6900 3400 6900 3300
+Wire Bus Line
+	6900 3300 6900 3200
+Wire Bus Line
+	6900 3200 6900 3100
+Wire Bus Line
+	6900 3100 6900 3000
+Wire Bus Line
+	6900 3000 6900 2900
+Wire Bus Line
+	6900 2900 6900 2800
 Wire Wire Line
 	1250 2450 950  2450
 Wire Wire Line
@@ -183,11 +176,59 @@ Wire Wire Line
 Wire Wire Line
 	950  1850 1250 1850
 Wire Bus Line
-	8750 2800 8750 3800
+	8750 2800 8750 2900
 Wire Bus Line
-	8750 3800 850  3800
+	8750 2900 8750 3000
 Wire Bus Line
-	850  3800 850  1950
+	8750 3000 8750 3100
+Wire Bus Line
+	8750 3100 8750 3200
+Wire Bus Line
+	8750 3200 8750 3300
+Wire Bus Line
+	8750 3300 8750 3400
+Wire Bus Line
+	8750 3400 8750 3500
+Wire Bus Line
+	8750 3500 8750 3800
+Wire Bus Line
+	8750 3800 6800 3800
+Wire Bus Line
+	6800 3800 2750 3800
+Wire Bus Line
+	2750 3800 850  3800
+Wire Bus Line
+	850  3800 850  3500
+Wire Bus Line
+	850  3500 850  3400
+Wire Bus Line
+	850  3400 850  3300
+Wire Bus Line
+	850  3300 850  3200
+Wire Bus Line
+	850  3200 850  3100
+Wire Bus Line
+	850  3100 850  3000
+Wire Bus Line
+	850  3000 850  2900
+Wire Bus Line
+	850  2900 850  2800
+Wire Bus Line
+	850  2800 850  2650
+Wire Bus Line
+	850  2650 850  2550
+Wire Bus Line
+	850  2550 850  2450
+Wire Bus Line
+	850  2450 850  2350
+Wire Bus Line
+	850  2350 850  2250
+Wire Bus Line
+	850  2250 850  2150
+Wire Bus Line
+	850  2150 850  2050
+Wire Bus Line
+	850  2050 850  1950
 Wire Wire Line
 	950  1950 1250 1950
 Wire Wire Line
@@ -280,59 +321,53 @@ Wire Wire Line
 	2950 3000 3250 3000
 Wire Wire Line
 	2950 3200 3250 3200
-Wire Wire Line
-	7300 5050 7000 5050
-Wire Wire Line
-	7300 4850 7000 4850
-Wire Wire Line
-	7300 4650 7000 4650
-Wire Wire Line
-	7000 4450 7300 4450
-Wire Wire Line
-	7000 4550 7300 4550
-Wire Wire Line
-	7000 4750 7300 4750
-Wire Wire Line
-	7000 4950 7300 4950
-Wire Wire Line
-	7000 5150 7300 5150
 Wire Bus Line
-	2950 1850 2950 800 
+	2950 1850 2950 1550
+Wire Bus Line
+	2950 1550 2950 1450
+Wire Bus Line
+	2950 1450 2950 1350
+Wire Bus Line
+	2950 1350 2950 1250
+Wire Bus Line
+	2950 1250 2950 1150
+Wire Bus Line
+	2950 1150 2950 800 
 Wire Bus Line
 	8750 1150 8750 800 
 Wire Bus Line
-	8750 800  2950 800 
+	8750 800  6800 800 
 Wire Bus Line
-	6900 900  6900 2600
+	6800 800  2950 800 
+Wire Bus Line
+	6900 900  6900 1150
+Wire Bus Line
+	6900 1150 6900 1250
+Wire Bus Line
+	6900 1250 6900 1350
+Wire Bus Line
+	6900 1350 6900 2600
 Wire Bus Line
 	6900 2600 6700 2600
 Wire Wire Line
-	6800 5300 7300 5300
+	16500 7400 16500 7050
 Wire Wire Line
-	8900 4900 8900 4550
+	16500 7050 16100 7050
 Wire Wire Line
-	8900 4550 8500 4550
-Wire Wire Line
-	10000 6150 9900 6150
-Connection ~ 9900 6150
+	17600 8650 17500 8650
+Connection ~ 17500 8650
 Wire Notes Line
-	8900 5400 9100 5400
+	16500 7900 16700 7900
 Wire Wire Line
-	7000 5650 7300 5650
+	16800 7400 16800 7300
 Wire Wire Line
-	6600 6400 7300 6400
+	16800 7300 17200 7300
 Wire Wire Line
-	7300 6600 6600 6600
+	17200 7300 17200 6950
 Wire Wire Line
-	9200 4900 9200 4800
+	16500 8750 17600 8750
 Wire Wire Line
-	9200 4800 9600 4800
-Wire Wire Line
-	9600 4800 9600 4450
-Wire Wire Line
-	8900 6250 10000 6250
-Wire Wire Line
-	9050 4450 8500 4450
+	16650 6950 16100 6950
 Wire Wire Line
 	4550 1250 4800 1250
 Wire Wire Line
@@ -360,7 +395,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 2800 4800 2800
 Wire Wire Line
-	2550 2100 3250 2100
+	2550 2100 2850 2100
+Wire Wire Line
+	2850 2100 3250 2100
 Wire Wire Line
 	8500 2100 8950 2100
 Wire Wire Line
@@ -370,6 +407,83 @@ Wire Wire Line
 Wire Wire Line
 	8600 2400 8600 4000
 Connection ~ 8600 4000
+Wire Wire Line
+	4550 4650 4750 4650
+Wire Wire Line
+	4550 4850 4750 4850
+Wire Wire Line
+	4550 5100 4750 5100
+Wire Wire Line
+	4550 5350 4750 5350
+Wire Wire Line
+	4550 5600 4750 5600
+$Sheet
+S 3250 4500 1300 2350
+U 4DAD2AEB
+F0 "CTT/PS2" 60
+F1 "ctt_ps\ctt_ps2.sch" 60
+F2 "-Um3-RW" I R 4550 4850 60 
+F3 "Um3-COM RW" I R 4550 4750 60 
+F4 "-Um3-RG" I R 4550 5200 60 
+F5 "+Um3-RG" I R 4550 5000 60 
+F6 "+Um3-RW" I R 4550 4650 60 
+F7 "Um3-COM RG" I R 4550 5100 60 
+F8 "-Um1-RW" I R 4550 5450 60 
+F9 "+Um1-RW" I R 4550 5350 60 
+F10 "+Um1-RG" I R 4550 5600 60 
+F11 "-Um1-RG" I R 4550 5700 60 
+F12 "COM" I R 4550 6350 60 
+F13 "GND" I R 4550 6450 60 
+F14 "+5V 2A" I R 4550 6550 60 
+F15 "-5V 1A" I R 4550 6700 60 
+$EndSheet
+$Sheet
+S 4750 4500 1300 2350
+U 4DA9C945
+F0 "CTT/PS1" 60
+F1 "ctt_ps\ctt_ps1.sch" 60
+F2 "23V 1A COM" I R 6050 6000 60 
+F3 "-Um3-RW" I L 4750 4850 60 
+F4 "Um3-COM RW" I L 4750 4750 60 
+F5 "-Um3-RG" I L 4750 5200 60 
+F6 "+Um3-RG" I L 4750 5000 60 
+F7 "+Um3-RW" I L 4750 4650 60 
+F8 "Um3-COM RG" I L 4750 5100 60 
+F9 "-Um1-RW" I L 4750 5450 60 
+F10 "+Um1-RW" I L 4750 5350 60 
+F11 "+Um1-RG" I L 4750 5600 60 
+F12 "-Um1-RG" I L 4750 5700 60 
+F13 "-NPN" I R 6050 4650 60 
+F14 "Um3" I R 6050 5350 60 
+F15 "Um2" I R 6050 5250 60 
+F16 "Um1" I R 6050 5150 60 
+F17 "COM" I R 6050 5450 60 
+F18 "GND" I R 6050 5000 60 
+F19 "+5V 2A" I R 6050 4900 60 
+F20 "90V 10mA AC/2" I R 6050 6700 60 
+F21 "90V 10mA AC/1" I R 6050 6600 60 
+F22 "8V 1A AC/1" I R 6050 6400 60 
+F23 "8V 1A AC/2" I R 6050 6500 60 
+F24 "8V 2A AC/2" I R 6050 6300 60 
+F25 "8V 2A AC/1" I R 6050 6200 60 
+F26 "23V 1A AC/2" I R 6050 6100 60 
+F27 "23V 1A AC/1" I R 6050 5900 60 
+F28 "-5V 1A" I R 6050 4800 60 
+$EndSheet
+Text Notes 4050 3450 0    60   ~ 0
+CN5
+Text Notes 3600 1300 0    60   ~ 0
+CN5
+Text Notes 3600 2150 0    60   ~ 0
+CN2
+Text Notes 3600 2800 0    60   ~ 0
+CN1
+Text Notes 4050 1900 0    60   ~ 0
+CN3
+Text Notes 4050 2800 0    60   ~ 0
+CN4
+Text Label 6200 3100 0    60   ~ 0
+58
 Entry Wire Line
 	6400 3100 6500 3200
 Text Label 4600 2800 0    60   ~ 0
@@ -456,9 +570,9 @@ F23 "+5V" I L 4800 2700 60
 F24 "GND" U L 4800 2800 60 
 F25 "COM" U R 6100 3100 60 
 $EndSheet
-Text Label 9400 6250 0    60   ~ 0
+Text Label 17000 8750 0    60   ~ 0
 40
-Text Label 9400 6050 0    60   ~ 0
+Text Label 17000 8550 0    60   ~ 0
 39
 Text Label 6200 2000 0    60   ~ 0
 38
@@ -479,8 +593,6 @@ F 1 "CONN_3" V 6750 1900 40  0001 C CNN
 	1    6700 1900
 	1    0    0    -1  
 $EndComp
-Text Label 7100 5800 0    60   ~ 0
-41
 Text Notes 8000 2150 0    60   ~ 0
 CN4
 Text Notes 7650 3100 0    60   ~ 0
@@ -497,150 +609,54 @@ Text Notes 9450 3050 0    60   ~ 0
 CN1
 Text Notes 2000 2200 0    60   ~ 0
 CN5
-Text Label 7100 5400 0    60   ~ 0
-17
-Text Label 7100 5300 0    60   ~ 0
-18
-Text Label 9600 4600 1    60   ~ 0
+Text Label 17200 7100 1    60   ~ 0
 35
-Entry Wire Line
-	6500 6500 6600 6600
-Entry Wire Line
-	6500 6400 6600 6500
-Entry Wire Line
-	6500 6300 6600 6400
-Text Label 8550 6600 0    60   ~ 0
-27
-Text Label 8550 4650 0    60   ~ 0
+Text Label 16150 7150 0    60   ~ 0
 34
-Text Label 8550 4550 0    60   ~ 0
+Text Label 16150 7050 0    60   ~ 0
 33
-Text Label 8550 4450 0    60   ~ 0
+Text Label 16150 6950 0    60   ~ 0
 32
-Text Label 7100 5650 0    60   ~ 0
-28
-Text Label 7100 5550 0    60   ~ 0
-26
-$Comp
-L -5V #PWR?
-U 1 1 4D162C34
-P 7000 5650
-F 0 "#PWR?" H 7000 5790 20  0001 C CNN
-F 1 "-5V" H 7000 5760 30  0000 C CNN
-	1    7000 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 4D162C2A
-P 7000 5550
-F 0 "#PWR?" H 7000 5640 20  0001 C CNN
-F 1 "+5V" H 7000 5640 30  0000 C CNN
-	1    7000 5550
-	0    -1   -1   0   
-$EndComp
-Text Notes 9450 5600 1    60   ~ 0
+Text Notes 17050 8100 1    60   ~ 0
 Power
-Text Notes 10100 5900 0    60   ~ 0
+Text Notes 17700 8400 0    60   ~ 0
 230V AC
-$Comp
-L GND #PWR?
-U 1 1 4D1629DE
-P 10100 6750
-F 0 "#PWR?" H 10100 6750 30  0001 C CNN
-F 1 "GND" H 10100 6680 30  0001 C CNN
-	1    10100 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDPWR #PWR?
-U 1 1 4D1629AD
-P 9900 6750
-F 0 "#PWR?" H 9900 6800 40  0001 C CNN
-F 1 "GNDPWR" V 9900 6550 40  0001 C CNN
-	1    9900 6750
-	1    0    0    -1  
-$EndComp
 $Comp
 L SPST SW1b
 U 1 1 4D16276B
-P 8900 5400
-F 0 "SW1b" H 8900 5500 70  0001 C CNN
-F 1 "SPST" H 8900 5300 70  0001 C CNN
-	1    8900 5400
+P 16500 7900
+F 0 "SW1b" H 16500 8000 70  0001 C CNN
+F 1 "SPST" H 16500 7800 70  0001 C CNN
+	1    16500 7900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L SPST SW1
 U 1 1 4D162767
-P 9200 5400
-F 0 "SW1" H 9200 5900 70  0000 C CNN
-F 1 "SPST" H 9200 5300 70  0001 C CNN
-	1    9200 5400
+P 16800 7900
+F 0 "SW1" H 16800 8400 70  0000 C CNN
+F 1 "SPST" H 16800 7800 70  0001 C CNN
+	1    16800 7900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L FUSE F1
 U 1 1 4D162714
-P 9300 4450
-F 0 "F1" H 9700 4450 40  0000 C CNN
-F 1 "000 mA" H 9300 4600 40  0000 C CNN
-	1    9300 4450
+P 16900 6950
+F 0 "F1" H 17300 6950 40  0000 C CNN
+F 1 "000 mA" H 16900 7100 40  0000 C CNN
+	1    16900 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_3 CN1
 U 1 1 4D1626F7
-P 10350 6150
-F 0 "CN1" V 10300 6150 50  0000 C CNN
-F 1 "CONN_3" V 10400 6150 40  0001 C CNN
-	1    10350 6150
+P 17950 8650
+F 0 "CN1" V 17900 8650 50  0000 C CNN
+F 1 "CONN_3" V 18000 8650 40  0001 C CNN
+	1    17950 8650
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	6700 5300 6800 5400
-Entry Wire Line
-	6700 5200 6800 5300
-Entry Bus Bus
-	6800 3800 6900 3900
-Entry Wire Line
-	6900 5050 7000 5150
-Entry Wire Line
-	6900 4950 7000 5050
-Entry Wire Line
-	6900 4850 7000 4950
-Entry Wire Line
-	6900 4750 7000 4850
-Entry Wire Line
-	6900 4650 7000 4750
-Entry Wire Line
-	6900 4550 7000 4650
-Entry Wire Line
-	6900 4450 7000 4550
-Entry Wire Line
-	6900 4350 7000 4450
-Text Label 7100 5150 0    60   ~ 0
-08
-Text Label 7100 5050 0    60   ~ 0
-07
-Text Label 7100 4950 0    60   ~ 0
-06
-Text Label 7100 4850 0    60   ~ 0
-05
-Text Label 7100 4750 0    60   ~ 0
-04
-Text Label 7100 4650 0    60   ~ 0
-03
-Text Label 7100 4550 0    60   ~ 0
-02
-Text Label 7100 4450 0    60   ~ 0
-01
-Text Label 7000 6400 0    60   ~ 0
-31
-Text Label 7000 6500 0    60   ~ 0
-30
-Text Label 7000 6600 0    60   ~ 0
-29
 Text Label 8550 2000 0    60   ~ 0
 28
 Text Label 10500 2200 0    60   ~ 0
@@ -668,28 +684,6 @@ F 0 "#PWR?" H 8800 2250 30  0001 C CNN
 F 1 "GND" H 8800 2180 30  0001 C CNN
 	1    8800 2250
 	1    0    0    -1  
-$EndComp
-Text Label 1050 4800 0    60   ~ 0
-27
-Text Label 1050 4700 0    60   ~ 0
-26
-$Comp
-L GND #PWR?
-U 1 1 4D1605A3
-P 1300 4850
-F 0 "#PWR?" H 1300 4850 30  0001 C CNN
-F 1 "GND" H 1300 4780 30  0001 C CNN
-	1    1300 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 4D1605A2
-P 1250 4700
-F 0 "#PWR?" H 1250 4790 20  0001 C CNN
-F 1 "+5V" H 1250 4790 30  0000 C CNN
-	1    1250 4700
-	0    1    1    0   
 $EndComp
 Text Label 2600 2200 0    60   ~ 0
 27
@@ -987,32 +981,6 @@ F26 "J2-2" I R 4550 2450 60
 F27 "J8-2" I R 4550 2550 60 
 F28 "+5V" O R 4550 2700 60 
 F29 "GND" U R 4550 2800 60 
-$EndSheet
-$Sheet
-S 7300 4350 1200 2350
-U 4DA73560
-F0 "CTT/PS" 60
-F1 "ctt_ps/ctt_ps.sch" 60
-F2 "230V AC" I R 8500 4550 60 
-F3 "230V AC" I R 8500 4450 60 
-F4 "Um1" O L 7300 6400 60 
-F5 "Um2" O L 7300 6500 60 
-F6 "Um3" O L 7300 6600 60 
-F7 "-SL6" I L 7300 5300 60 
-F8 "-SL7" I L 7300 5400 60 
-F9 "+5V" O L 7300 5550 60 
-F10 "-5V" O L 7300 5650 60 
-F11 "PR GND" U R 8500 4650 60 
-F12 "GND" U R 8500 6600 60 
-F13 "DO7" I L 7300 4450 60 
-F14 "DO6" I L 7300 4550 60 
-F15 "DO5" I L 7300 4650 60 
-F16 "DO4" I L 7300 4750 60 
-F17 "DO3" I L 7300 4850 60 
-F18 "DO2" I L 7300 4950 60 
-F19 "DO0" I L 7300 5150 60 
-F20 "DO1" I L 7300 5050 60 
-F21 "-NPN" I L 7300 5800 60 
 $EndSheet
 $Sheet
 S 7300 1150 1200 2350
