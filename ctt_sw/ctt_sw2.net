@@ -1,383 +1,277 @@
-# EESchema Netlist Version 1.1 created  27/3/2011-05:43:33
+# EESchema Netlist Version 1.1 created  6/5/2011-19:43:59
 (
- ( 4D8E0172 $noname  R22 R {Lib=R}
-  (    1  ? )
-  (    2 N-000036 )
- )
- ( 4D2A0ECD $noname  R16 R {Lib=R}
-  (    1 N-000015 )
-  (    2  ? )
- )
- ( 4D17046C $noname  J7 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000015 )
- )
- ( 4D17046B $noname  D7 1N4148 {Lib=DIODE}
-  (    1 N-000015 )
-  (    2 +5V_1 )
- )
- ( 4D2A0ECE $noname  R23 R {Lib=R}
-  (    1 N-000038 )
-  (    2  ? )
- )
- ( 4D2A0ECA $noname  R15 R {Lib=R}
-  (    1  ? )
-  (    2 N-000037 )
- )
- ( 4D2A0EBA $noname  R21 R {Lib=R}
-  (    1 N-000011 )
-  (    2  ? )
- )
- ( 4D2A0EB9 $noname  R20 R {Lib=R}
-  (    1 N-000012 )
-  (    2  ? )
- )
- ( 4D2A0EB8 $noname  R19 R {Lib=R}
-  (    1 N-000013 )
-  (    2  ? )
- )
- ( 4D2A0EB7 $noname  R18 R {Lib=R}
-  (    1 N-000014 )
-  (    2  ? )
- )
- ( 4D2A0EB6 $noname  R17 R {Lib=R}
-  (    1 N-000039 )
-  (    2  ? )
- )
- ( 4D2A0EA4 $noname  R14 R {Lib=R}
-  (    1  ? )
-  (    2 N-000018 )
- )
- ( 4D2A0E9F $noname  R13 R {Lib=R}
-  (    1  ? )
-  (    2 N-000017 )
- )
- ( 4D2A0E9E $noname  R12 R {Lib=R}
-  (    1  ? )
-  (    2 N-000016 )
- )
- ( 4D2A0E95 $noname  R11 R {Lib=R}
-  (    1  ? )
-  (    2 N-000019 )
- )
- ( 4D2A0E7D $noname  R10 R {Lib=R}
-  (    1  ? )
-  (    2 N-000035 )
- )
- ( 4D1709E6 $noname  JC6 SPST {Lib=SPST}
-  (    1 N-000022 )
-  (    2 Collector_1 )
- )
- ( 4D1709E3 $noname  JC7 SPST {Lib=SPST}
-  (    1 N-000024 )
-  (    2 Collector_1 )
- )
- ( 4D1709DF $noname  JC8 SPST {Lib=SPST}
-  (    1 N-000027 )
-  (    2 Collector_1 )
- )
- ( 4D1709DC $noname  JC8-2 SPST {Lib=SPST}
-  (    1 N-000025 )
-  (    2 Collector_1 )
- )
- ( 4D170907 $noname  JC12 SPST {Lib=SPST}
-  (    1 Um_1 )
-  (    2 Base_1 )
- )
- ( 4D170905 $noname  JC11 SPST {Lib=SPST}
-  (    1 Um_1 )
-  (    2 Collector_1 )
- )
- ( 4D170901 $noname  JC10 SPST {Lib=SPST}
-  (    1 Um_1 )
-  (    2 N-000022 )
- )
- ( 4D1708FB $noname  JC9 SPST {Lib=SPST}
-  (    1 Um_1 )
-  (    2 N-000033 )
- )
- ( 4D170466 $noname  J12 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000011 )
- )
- ( 4D170465 $noname  D12 1N4148 {Lib=DIODE}
-  (    1 N-000011 )
-  (    2 +5V_1 )
- )
- ( 4D170463 $noname  J11 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000012 )
- )
- ( 4D170462 $noname  D11 1N4148 {Lib=DIODE}
-  (    1 N-000012 )
-  (    2 +5V_1 )
- )
- ( 4D17045F $noname  J10 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000013 )
- )
- ( 4D17045E $noname  D10 1N4148 {Lib=DIODE}
-  (    1 N-000013 )
-  (    2 +5V_1 )
- )
- ( 4D170456 $noname  J9 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000014 )
- )
- ( 4D170455 $noname  D9 1N4148 {Lib=DIODE}
-  (    1 N-000014 )
-  (    2 +5V_1 )
- )
- ( 4D170452 $noname  J8 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000039 )
- )
- ( 4D170451 $noname  D8 1N4148 {Lib=DIODE}
-  (    1 N-000039 )
-  (    2 +5V_1 )
- )
- ( 4D170253 $noname  J2-2 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000036 )
- )
- ( 4D170252 $noname  D13 1N4148 {Lib=DIODE}
-  (    1 N-000036 )
-  (    2 +5V_1 )
- )
- ( 4D170247 $noname  J6 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000037 )
- )
- ( 4D170246 $noname  D6 1N4148 {Lib=DIODE}
-  (    1 N-000037 )
-  (    2 +5V_1 )
- )
- ( 4D170243 $noname  J5 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000018 )
- )
- ( 4D170242 $noname  D5 1N4148 {Lib=DIODE}
-  (    1 N-000018 )
-  (    2 +5V_1 )
- )
- ( 4D170240 $noname  J4 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000017 )
- )
- ( 4D17023F $noname  D4 1N4148 {Lib=DIODE}
-  (    1 N-000017 )
-  (    2 +5V_1 )
- )
- ( 4D17023B $noname  J3 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000016 )
- )
- ( 4D17023A $noname  D3 1N4148 {Lib=DIODE}
-  (    1 N-000016 )
-  (    2 +5V_1 )
- )
- ( 4D170238 $noname  J2 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000019 )
- )
- ( 4D170237 $noname  D2 1N4148 {Lib=DIODE}
-  (    1 N-000019 )
-  (    2 +5V_1 )
- )
- ( 4D170234 $noname  J1 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000035 )
- )
- ( 4D170233 $noname  D1 1N4148 {Lib=DIODE}
-  (    1 N-000035 )
-  (    2 +5V_1 )
- )
- ( 4D16FCBC $noname  R9 100k_1% {Lib=R}
-  (    1 N-000033 )
-  (    2 COM_1 )
- )
- ( 4D16FAC6 $noname  R1 100_1% {Lib=R}
-  (    1 N-000031 )
-  (    2 0-1V_1 )
- )
- ( 4D16FAAA $noname  R2 R {Lib=R}
-  (    1 N-000021 )
-  (    2 0-1V_1 )
- )
- ( 4D16F9F7 $noname  JC4 SPST {Lib=SPST}
-  (    1 N-000022 )
-  (    2 Emitter_1 )
- )
- ( 4D16F9E7 $noname  JC3 SPST {Lib=SPST}
-  (    1 COM_1 )
-  (    2 Emitter_1 )
- )
- ( 4D16F1D1 $noname  R7 ?_1%_1W {Lib=R}
-  (    1 0-20V_1 )
-  (    2 N-000025 )
- )
- ( 4D16F1D0 $noname  R6 1_1%_1W {Lib=R}
-  (    1 0-20V_1 )
-  (    2 N-000027 )
- )
- ( 4D16F1C9 $noname  R5 100_1% {Lib=R}
-  (    1 0-20V_1 )
-  (    2 N-000024 )
- )
- ( 4D16F1C8 $noname  R4 1k_1% {Lib=R}
-  (    1 0-20V_1 )
-  (    2 N-000022 )
- )
- ( 4D16F1BF $noname  R3 33K {Lib=R}
-  (    1  ? )
-  (    2 N-000028 )
- )
- ( 4D16F1B4 $noname  R8 900K_1% {Lib=R}
-  (    1 N-000033 )
-  (    2 N-000028 )
- )
- ( 4D16F172 $noname  JC5 SPST {Lib=SPST}
-  (    1 N-000028 )
-  (    2 Collector_1 )
- )
- ( 4D16F141 $noname  JC2-2 SPST {Lib=SPST}
-  (    1 Base_1 )
-  (    2 N-000021 )
- )
- ( 4D16F13D $noname  JC2 SPST {Lib=SPST}
-  (    1 Base_1 )
-  (    2 N-000031 )
- )
- ( 4D16F129 $noname  JC1 SPST {Lib=SPST}
-  (    1 Base_1 )
-  (    2 COM_1 )
- )
- ( 4D16DF3F $noname  C1 100u {Lib=CP}
-  (    1 +5V_1 )
-  (    2 GND_1 )
- )
- ( 4D16DDEA $noname  J8-2 Reed_relay {Lib=INDUCTOR}
-  (    1 +5V_1 )
-  (    2 N-000038 )
- )
- ( 4D16DDE9 $noname  D14 1N4148 {Lib=DIODE}
-  (    1 N-000038 )
-  (    2 +5V_1 )
+ ( 4D16DF3F C2V10 C1 100u
+  ( 1 +5V_1 )
+  ( 2 GND_1 )
+ )
+ ( 4D170233 D5 D1 1N4148
+  ( 1 N-000040 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170237 D5 D2 1N4148
+  ( 1 N-000024 )
+  ( 2 +5V_1 )
+ )
+ ( 4D17023A D5 D3 1N4148
+  ( 1 N-000021 )
+  ( 2 +5V_1 )
+ )
+ ( 4D17023F D5 D4 1N4148
+  ( 1 N-000022 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170242 D5 D5 1N4148
+  ( 1 N-000023 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170246 D5 D6 1N4148
+  ( 1 N-000042 )
+  ( 2 +5V_1 )
+ )
+ ( 4D17046B D5 D7 1N4148
+  ( 1 N-000020 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170451 D5 D8 1N4148
+  ( 1 N-000044 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170455 D5 D9 1N4148
+  ( 1 N-000019 )
+  ( 2 +5V_1 )
+ )
+ ( 4D17045E D5 D10 1N4148
+  ( 1 N-000018 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170462 D5 D11 1N4148
+  ( 1 N-000017 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170465 D5 D12 1N4148
+  ( 1 N-000016 )
+  ( 2 +5V_1 )
+ )
+ ( 4D170252 D5 D13 1N4148
+  ( 1 N-000041 )
+  ( 2 +5V_1 )
+ )
+ ( 4D16DDE9 D5 D14 1N4148
+  ( 1 N-000045 )
+  ( 2 ? )
+ )
+ ( 4D170234 SIL-2 J1 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000040 )
+ )
+ ( 4D170238 SIL-2 J2 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000024 )
+ )
+ ( 4D170253 SIL-2 J2-2 Reed_relay
+  ( 1 ? )
+  ( 2 N-000041 )
+ )
+ ( 4D17023B SIL-2 J3 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000021 )
+ )
+ ( 4D170240 SIL-2 J4 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000022 )
+ )
+ ( 4D170243 SIL-2 J5 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000023 )
+ )
+ ( 4D170247 SIL-2 J6 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000042 )
+ )
+ ( 4D17046C SIL-2 J7 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000020 )
+ )
+ ( 4D170452 SIL-2 J8 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000044 )
+ )
+ ( 4D16DDEA SIL-2 J8-2 Reed_relay
+  ( 1 ? )
+  ( 2 +5V_1 )
+ )
+ ( 004D1704 SIL-2 J9 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000019 )
+ )
+ ( 4D17045F SIL-2 J10 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000018 )
+ )
+ ( 4D170463 SIL-2 J11 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000017 )
+ )
+ ( 4D170466 SIL-2 J12 Reed_relay
+  ( 1 +5V_1 )
+  ( 2 N-000016 )
+ )
+ ( 4D16F129 R7 JC1 SPST
+  ( 1 B_1 )
+  ( 2 COM_1 )
+ )
+ ( 4D16F13D R7 JC2 SPST
+  ( 1 B_1 )
+  ( 2 N-000036 )
+ )
+ ( 4D16F141 R7 JC2-2 SPST
+  ( 1 B_1 )
+  ( 2 N-000026 )
+ )
+ ( 4D16F9E7 R7 JC3 SPST
+  ( 1 COM_1 )
+  ( 2 E_1 )
+ )
+ ( 4D16F9F7 R7 JC4 SPST
+  ( 1 N-000027 )
+  ( 2 E_1 )
+ )
+ ( 4D16F172 R7 JC5 SPST
+  ( 1 N-000033 )
+  ( 2 C_1 )
+ )
+ ( 4D1709E6 R7 JC6 SPST
+  ( 1 N-000027 )
+  ( 2 C_1 )
+ )
+ ( 4D1709E3 R7 JC7 SPST
+  ( 1 N-000029 )
+  ( 2 C_1 )
+ )
+ ( 4D1709DF R7 JC8 SPST
+  ( 1 N-000032 )
+  ( 2 C_1 )
+ )
+ ( 4D1709DC R7 JC8-2 SPST
+  ( 1 N-000030 )
+  ( 2 C_1 )
+ )
+ ( 4D1708FB R7 JC9 SPST
+  ( 1 AO_1 )
+  ( 2 N-000038 )
+ )
+ ( 4D170901 R7 JC10 SPST
+  ( 1 AO_1 )
+  ( 2 N-000027 )
+ )
+ ( 4D170905 R7 JC11 SPST
+  ( 1 AO_1 )
+  ( 2 C_1 )
+ )
+ ( 4D170907 R7 JC12 SPST
+  ( 1 AO_1 )
+  ( 2 B_1 )
+ )
+ ( 4D16FAC6 R6 R1 100_1%
+  ( 1 N-000036 )
+  ( 2 Um1_1 )
+ )
+ ( 4D16FAAA R6 R2 1k_1%
+  ( 1 N-000026 )
+  ( 2 Um1_1 )
+ )
+ ( 4D16F1BF R6 R3 33K
+  ( 1 ? )
+  ( 2 N-000033 )
+ )
+ ( 4D16F1C8 R6 R4 1k_1%
+  ( 1 Um3_1 )
+  ( 2 N-000027 )
+ )
+ ( 4D16F1C9 R6 R5 100_1%
+  ( 1 Um3_1 )
+  ( 2 N-000029 )
+ )
+ ( 4D16F1D0 R6 R6 1_1%_1W
+  ( 1 Um3_1 )
+  ( 2 N-000032 )
+ )
+ ( 4D16F1D1 R6 R7 10_1%
+  ( 1 Um3_1 )
+  ( 2 N-000030 )
+ )
+ ( 4D16F1B4 R6 R8 990K_1%
+  ( 1 N-000038 )
+  ( 2 N-000033 )
+ )
+ ( 4D16FCBC R6 R9 10k_1%
+  ( 1 N-000038 )
+  ( 2 COM_1 )
+ )
+ ( 4D2A0E7D R6 R10 56
+  ( 1 ? )
+  ( 2 N-000040 )
+ )
+ ( 4D2A0E95 R6 R11 56
+  ( 1 ? )
+  ( 2 N-000024 )
+ )
+ ( 4D2A0E9E R6 R12 56
+  ( 1 ? )
+  ( 2 N-000021 )
+ )
+ ( 4D2A0E9F R6 R13 56
+  ( 1 ? )
+  ( 2 N-000022 )
+ )
+ ( 4D2A0EA4 R6 R14 56
+  ( 1 ? )
+  ( 2 N-000023 )
+ )
+ ( 4D2A0ECA R6 R15 56
+  ( 1 ? )
+  ( 2 N-000042 )
+ )
+ ( 4D2A0ECD R6 R16 56
+  ( 1 N-000020 )
+  ( 2 ? )
+ )
+ ( 4D2A0EB6 R6 R17 56
+  ( 1 N-000044 )
+  ( 2 ? )
+ )
+ ( 4D2A0EB7 R6 R18 56
+  ( 1 N-000019 )
+  ( 2 ? )
+ )
+ ( 4D2A0EB8 R6 R19 56
+  ( 1 N-000018 )
+  ( 2 ? )
+ )
+ ( 4D2A0EB9 R6 R20 56
+  ( 1 N-000017 )
+  ( 2 ? )
+ )
+ ( 4D2A0EBA R6 R21 56
+  ( 1 N-000016 )
+  ( 2 ? )
+ )
+ ( 4D8E0172 R6 R22 56
+  ( 1 ? )
+  ( 2 N-000041 )
+ )
+ ( 4D2A0ECE R6 R23 56
+  ( 1 N-000045 )
+  ( 2 ? )
  )
 )
 *
 { Allowed footprints by component:
-$component R22
- R?
- SM0603
- SM0805
+$component C1
+ CP*
+ SM*
 $endlist
-$component R16
- R?
- SM0603
- SM0805
-$endlist
-$component D7
- D?
- S*
-$endlist
-$component R23
- R?
- SM0603
- SM0805
-$endlist
-$component R15
- R?
- SM0603
- SM0805
-$endlist
-$component R21
- R?
- SM0603
- SM0805
-$endlist
-$component R20
- R?
- SM0603
- SM0805
-$endlist
-$component R19
- R?
- SM0603
- SM0805
-$endlist
-$component R18
- R?
- SM0603
- SM0805
-$endlist
-$component R17
- R?
- SM0603
- SM0805
-$endlist
-$component R14
- R?
- SM0603
- SM0805
-$endlist
-$component R13
- R?
- SM0603
- SM0805
-$endlist
-$component R12
- R?
- SM0603
- SM0805
-$endlist
-$component R11
- R?
- SM0603
- SM0805
-$endlist
-$component R10
- R?
- SM0603
- SM0805
-$endlist
-$component D12
- D?
- S*
-$endlist
-$component D11
- D?
- S*
-$endlist
-$component D10
- D?
- S*
-$endlist
-$component D9
- D?
- S*
-$endlist
-$component D8
- D?
- S*
-$endlist
-$component D13
- D?
- S*
-$endlist
-$component D6
- D?
- S*
-$endlist
-$component D5
- D?
- S*
-$endlist
-$component D4
- D?
- S*
-$endlist
-$component D3
+$component D1
  D?
  S*
 $endlist
@@ -385,14 +279,53 @@ $component D2
  D?
  S*
 $endlist
-$component D1
+$component D3
  D?
  S*
 $endlist
-$component R9
- R?
- SM0603
- SM0805
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D13
+ D?
+ S*
+$endlist
+$component D14
+ D?
+ S*
 $endlist
 $component R1
  R?
@@ -404,17 +337,7 @@ $component R2
  SM0603
  SM0805
 $endlist
-$component R7
- R?
- SM0603
- SM0805
-$endlist
-$component R6
- R?
- SM0603
- SM0805
-$endlist
-$component R5
+$component R3
  R?
  SM0603
  SM0805
@@ -424,7 +347,17 @@ $component R4
  SM0603
  SM0805
 $endlist
-$component R3
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
  R?
  SM0603
  SM0805
@@ -434,162 +367,80 @@ $component R8
  SM0603
  SM0805
 $endlist
-$component C1
- CP*
- SM*
+$component R9
+ R?
+ SM0603
+ SM0805
 $endlist
-$component D14
- D?
- S*
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 4 "+5V_1"
- J7 1
- D7 2
- J12 1
- D12 2
- J11 1
- D11 2
- J10 1
- D10 2
- J9 1
- D9 2
- J8 1
- D8 2
- J2-2 1
- D13 2
- J6 1
- D6 2
- J5 1
- D5 2
- J4 1
- D4 2
- J3 1
- D3 2
- J2 1
- D2 2
- J1 1
- D1 2
- C1 1
- J8-2 1
- D14 2
-Net 10 "Emitter_1"
- JC4 2
- JC3 2
-Net 11 ""
- R21 1
- J12 2
- D12 1
-Net 12 ""
- R20 1
- J11 2
- D11 1
-Net 13 ""
- R19 1
- J10 2
- D10 1
-Net 14 ""
- R18 1
- J9 2
- D9 1
-Net 15 ""
- R16 1
- J7 2
- D7 1
-Net 16 ""
- R12 2
- J3 2
- D3 1
-Net 17 ""
- R13 2
- J4 2
- D4 1
-Net 18 ""
- R14 2
- J5 2
- D5 1
-Net 19 ""
- R11 2
- J2 2
- D2 1
-Net 20 "COM_1"
- R9 2
- JC3 1
- JC1 2
-Net 21 ""
- R2 1
- JC2-2 2
-Net 22 ""
- JC6 1
- JC10 2
- JC4 1
- R4 2
-Net 23 "0-1V_1"
- R1 2
- R2 2
-Net 24 ""
- JC7 1
- R5 2
-Net 25 ""
- JC8-2 1
- R7 2
-Net 26 "Base_1"
- JC12 2
- JC2-2 1
- JC2 1
- JC1 1
-Net 27 ""
- JC8 1
- R6 2
-Net 28 ""
- R3 2
- R8 2
- JC5 1
-Net 29 "0-20V_1"
- R7 1
- R6 1
- R5 1
- R4 1
-Net 30 "Collector_1"
- JC6 2
- JC7 2
- JC8 2
- JC8-2 2
- JC11 2
- JC5 2
-Net 31 ""
- R1 1
- JC2 2
-Net 33 ""
- JC9 2
- R9 1
- R8 1
-Net 34 "Um_1"
- JC12 1
- JC11 1
- JC10 1
- JC9 1
-Net 35 ""
- R10 2
- J1 2
- D1 1
-Net 36 ""
- R22 2
- J2-2 2
- D13 1
-Net 37 ""
- R15 2
- J6 2
- D6 1
-Net 38 ""
- R23 1
- J8-2 2
- D14 1
-Net 39 ""
- R17 1
- J8 2
- D8 1
-}
-#End

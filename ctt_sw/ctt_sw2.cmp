@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2007-11-29-a) date = 26/3/2011-15:24:25
+Cmp-Mod V01 Created by Cvpcb (2007-11-29-a) date = 6/5/2011-19:43:59
 
 BeginCmp
 TimeStamp = 4D16DF3F;
@@ -176,7 +176,7 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = 4D170456;
+TimeStamp = 004D1704;
 Reference = J9;
 ValeurCmp = Reed_relay;
 IdModule  = SIL-2;
@@ -311,7 +311,7 @@ EndCmp
 BeginCmp
 TimeStamp = 4D16FAAA;
 Reference = R2;
-ValeurCmp = R;
+ValeurCmp = 1k_1%;
 IdModule  = R6;
 EndCmp
 
@@ -346,119 +346,119 @@ EndCmp
 BeginCmp
 TimeStamp = 4D16F1D1;
 Reference = R7;
-ValeurCmp = ?_1%_1W;
+ValeurCmp = 10_1%;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D16F1B4;
 Reference = R8;
-ValeurCmp = 900K_1%;
+ValeurCmp = 990K_1%;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D16FCBC;
 Reference = R9;
-ValeurCmp = 100k_1%;
+ValeurCmp = 10k_1%;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0E7D;
 Reference = R10;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0E95;
 Reference = R11;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0E9E;
 Reference = R12;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0E9F;
 Reference = R13;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0EA4;
 Reference = R14;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0ECA;
 Reference = R15;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0ECD;
 Reference = R16;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0EB6;
 Reference = R17;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0EB7;
 Reference = R18;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0EB8;
 Reference = R19;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0EB9;
 Reference = R20;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0EBA;
 Reference = R21;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D8E0172;
 Reference = R22;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = 4D2A0ECE;
 Reference = R23;
-ValeurCmp = R;
+ValeurCmp = 56;
 IdModule  = R6;
 EndCmp
 

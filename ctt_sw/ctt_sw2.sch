@@ -1,11 +1,11 @@
 EESchema Schematic File Version 1
-LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "CTT Transistor tester - CTT/SW2 Switching unit"
-Date "31 mar 2011"
+Date "6 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/34"
@@ -1024,7 +1024,7 @@ L R R9
 U 1 1 4D16FCBC
 P 8200 2400
 F 0 "R9" V 8100 2650 50  0000 C C
-F 1 "100k 1%" V 8300 2350 50  0000 C C
+F 1 "10k 1%" V 8300 2350 50  0000 C C
 	1    8200 2400
 	1    0    0    -1  
 $EndComp
@@ -1114,7 +1114,7 @@ L R R8
 U 1 1 4D16F1B4
 P 8450 2400
 F 0 "R8" V 8400 2650 50  0000 C C
-F 1 "900K 1%" V 8550 2350 50  0000 C C
+F 1 "990K 1%" V 8550 2350 50  0000 C C
 	1    8450 2400
 	1    0    0    -1  
 $EndComp
