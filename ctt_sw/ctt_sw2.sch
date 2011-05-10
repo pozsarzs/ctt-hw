@@ -1,5 +1,5 @@
 EESchema Schematic File Version 1
-LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
@@ -1069,7 +1069,7 @@ L R R7
 U 1 1 4D16F1D1
 P 9700 2400
 F 0 "R7" V 9650 2650 50  0000 C C
-F 1 "10 1%" V 9800 2350 50  0000 C C
+F 1 "10 1% 10W" V 9800 2350 50  0000 C C
 	1    9700 2400
 	1    0    0    -1  
 $EndComp
