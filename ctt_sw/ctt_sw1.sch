@@ -1,5 +1,5 @@
 EESchema Schematic File Version 1
-LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
@@ -13,6 +13,124 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 725  3850 0    60   ~
+CN5
+Text Notes 1250 2550 0    60   ~
+2
+Text Notes 1250 2425 0    60   ~
+2
+Text Notes 1250 2425 0    60   ~
+2
+Text Notes 1250 2125 0    60   ~
+1
+Text Notes 1250 2000 0    60   ~
+1
+Text Notes 1250 3950 0    60   ~
+2
+Text Notes 1250 3500 0    60   ~
+8
+Text Notes 1250 3400 0    60   ~
+5
+Text Notes 1250 3300 0    60   ~
+4
+Text Notes 1250 3200 0    60   ~
+1
+Text Notes 1250 3100 0    60   ~
+2
+Text Notes 1250 3000 0    60   ~
+3
+Text Notes 1250 2900 0    60   ~
+6
+Text Notes 1250 2800 0    60   ~
+7
+Text Notes 7590 5430 0    60   ~
+PH
+Text Notes 7200 5430 0    60   ~
+PL
+Text Notes 10000 3040 0    60   ~
+13
+Text Notes 10020 3540 0    60   ~
+9
+Text Notes 10020 4040 0    60   ~
+3
+Text Notes 10000 4640 0    60   ~
+10
+Text Notes 10020 5140 0    60   ~
+7
+Text Notes 9030 5140 0    60   ~
+1
+Text Notes 9030 4640 0    60   ~
+2
+Text Notes 9030 4040 0    60   ~
+4
+Text Notes 9030 3540 0    60   ~
+8
+Text Notes 8970 3050 0    60   ~
+14
+Text Notes 10020 2540 0    60   ~
+6
+Text Notes 9030 2540 0    60   ~
+5
+Text Notes 10000 2040 0    60   ~
+11
+Text Notes 8970 2040 0    60   ~
+12
+Text GLabel 9100 3550 2    60   Input
+J7
+Text GLabel 9100 4050 2    60   Input
+J11
+Text GLabel 9100 5150 2    60   Input
+J8-2
+Text GLabel 9100 4650 2    60   Input
+J2-2
+Text GLabel 10000 5150 0    60   Input
+J8
+Text GLabel 10000 4650 0    60   Input
+J2
+Text GLabel 10000 4050 0    60   Input
+J12
+Text GLabel 10000 3550 0    60   Input
+J1
+Text GLabel 10000 3050 0    60   Input
+J5
+Text GLabel 10000 2550 0    60   Input
+J9
+Text GLabel 10000 2050 0    60   Input
+J3
+Text GLabel 9100 3050 2    60   Input
+J6
+Text GLabel 9100 2550 2    60   Input
+J10
+Text GLabel 9100 2050 2    60   Input
+J4
+Text GLabel 1200 3950 0    60   Input
+-NPN
+Text GLabel 1200 3700 0    60   Input
+-SL0
+Text GLabel 1200 3500 0    60   Input
+DO7
+Text GLabel 1200 3400 0    60   Input
+DO6
+Text GLabel 1200 3300 0    60   Input
+DO5
+Text GLabel 1200 3200 0    60   Input
+DO4
+Text GLabel 1200 3100 0    60   Input
+DO3
+Text GLabel 1200 3000 0    60   Input
+DO2
+Text GLabel 1200 2900 0    60   Input
+DO1
+Text GLabel 1200 2800 0    60   Input
+DO0
+Text GLabel 1200 2550 0    60   Input
+GND
+Text GLabel 1200 2425 0    60   Input
+GND
+Text GLabel 1200 2125 0    60   Input
++5V
+Text GLabel 1200 2000 0    60   Input
++5V
 Connection ~ 2100 5800
 Wire Wire Line
 	2100 5800 4250 5800
@@ -544,10 +662,6 @@ Wire Wire Line
 	2100 6550 5150 6550
 Text Notes 9475 2100 0    60   ~
 CN3
-Text Notes 1200 2425 0    60   ~
-GND
-Text Notes 1200 2125 0    60   ~
-+5V
 Text Notes 725  2175 0    60   ~
 CN4
 Text Notes 725  2450 0    60   ~
@@ -833,51 +947,23 @@ F 1 "BC182" H 4100 5900 50  0000 C C
 	1    3800 5550
 	1    0    0    -1  
 $EndComp
-Text Notes 10000 5150 0    60   ~
-J8
-Text Notes 10000 4650 0    60   ~
-J2
-Text Notes 10000 4050 0    60   ~
-J12
-Text Notes 10000 3550 0    60   ~
-J1
-Text Notes 10000 3050 0    60   ~
-J5
-Text Notes 10000 2550 0    60   ~
-J9
-Text Notes 10000 2050 0    60   ~
-J3
-Text Notes 9100 5150 2    60   ~
-J8-2
-Text Notes 9100 4650 2    60   ~
-J2-2
-Text Notes 9100 4050 2    60   ~
-J11
-Text Notes 9100 3550 2    60   ~
-J7
-Text Notes 9100 3050 3    60   ~
-J6
-Text Notes 9100 2550 2    60   ~
-J10
-Text Notes 9100 2050 2    60   ~
-J4
-Text Notes 900  6250 0    60   ~
+Text Notes 830  6330 0    60   ~
 D0: Operation mode
-Text Notes 900  6400 0    60   ~
+Text Notes 830  6480 0    60   ~
 D1: Operation mode
-Text Notes 900  6550 0    60   ~
+Text Notes 830  6630 0    60   ~
 D2: Operation mode
-Text Notes 900  6700 0    60   ~
+Text Notes 830  6780 0    60   ~
 D3: Unused
-Text Notes 900  6850 0    60   ~
-D4: -Ube
-Text Notes 900  7000 0    60   ~
-D5: Uce/Ube enable
-Text Notes 900  7150 0    60   ~
+Text Notes 830  6930 0    60   ~
+D4: -Ube/Uce
+Text Notes 830  7080 0    60   ~
+D5: -EN Uce/Ube
+Text Notes 830  7230 0    60   ~
 D6: -NPN/PNP
-Text Notes 900  7300 0    60   ~
+Text Notes 830  7380 0    60   ~
 D7: -HP
-Text Notes 900  6050 0    60   ~
+Text Notes 830  6130 0    60   ~
 Input bits
 $Comp
 L NPN T12
@@ -1147,7 +1233,7 @@ P 7450 5550
 F 0 "JC1" V 7450 5750 50  0000 C C
 F 1 "SWITCH_INV" H 7300 5400 50  0001 C C
 	1    7450 5550
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L DIODE D15
@@ -1213,32 +1299,10 @@ F 1 "GND" H 1600 4180 30  0001 C C
 	1    1600 4250
 	1    0    0    -1  
 $EndComp
-Text Notes 1200 2800 0    60   ~
-DO0
-Text Notes 1200 2900 0    60   ~
-DO1
-Text Notes 1200 3000 0    60   ~
-DO2
-Text Notes 1200 3100 0    60   ~
-DO3
-Text Notes 1200 3200 0    60   ~
-DO4
-Text Notes 1200 3300 0    60   ~
-DO5
-Text Notes 1200 3400 0    60   ~
-DO6
-Text Notes 1200 3500 0    60   ~
-DO7
 Text Notes 725  2825 0    60   ~
 CN1
 Text Notes 1250 3700 0    60   ~
-9
-Text Notes 1200 3700 0    60   ~
--SL0
-Text Notes 1200 2550 0    60   ~
-GND
-Text Notes 1200 2000 0    60   ~
-+5V
+1
 $Comp
 L 74LS04 IC3
 U 1 1 4D909D6D
@@ -1286,8 +1350,6 @@ F 1 "74LS04" H 6040 3425 60  0001 C C
 $EndComp
 Text Notes 725  2050 0    60   ~
 CN2
-Text Notes 1200 3950 0    60   ~
--NPN
 NoConn ~ 5000 2800
 $Comp
 L 74LS04 IC3
