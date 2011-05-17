@@ -1,11 +1,38 @@
-EESchema Schematic File Version 1
-LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
+EESchema Schematic File Version 2  date 2011.05.16. 17:40:14
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:ctt-cache
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 1
+Sheet 1 10
 Title "CTT Transistor tester"
-Date "24 dec 2010"
+Date "16 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/2"
@@ -13,17 +40,66 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L SWITCH_INV SW?
-U 1 1 4DD0087F
-P 2600 6550
-F 0 "SW?" H 2400 6700 50  0000 C C
-F 1 "SWITCH_INV" H 2450 6400 50  0000 C C
-	1    2600 6550
-	1    0    0    -1  
-$EndComp
-Text Label 7100 6250 0    60   ~
-41
+Connection ~ 8950 6600
+Wire Wire Line
+	8950 6700 8950 6600
+Wire Wire Line
+	9100 5050 8600 5050
+Wire Wire Line
+	9100 4800 8600 4800
+Wire Wire Line
+	9100 4550 8600 4550
+Wire Wire Line
+	10500 4650 10400 4650
+Wire Wire Line
+	10500 4450 10400 4450
+Wire Wire Line
+	2950 5350 2950 7100
+Wire Wire Line
+	2950 5350 2150 5350
+Wire Wire Line
+	1550 5350 1100 5350
+Wire Wire Line
+	1100 5350 1100 3950
+Wire Wire Line
+	1100 3950 10850 3950
+Wire Wire Line
+	7300 6350 6600 6350
+Wire Wire Line
+	950  7100 1350 7100
+Connection ~ 1100 5650
+Wire Wire Line
+	950  5650 1350 5650
+Wire Bus Line
+	6450 3200 6450 3600
+Wire Wire Line
+	6350 3300 6100 3300
+Wire Wire Line
+	1100 5650 1100 6050
+Wire Wire Line
+	1100 6050 1350 6050
+Wire Wire Line
+	6200 7200 6200 6600
+Wire Wire Line
+	6200 7200 2350 7200
+Wire Wire Line
+	7300 6600 6400 6600
+Wire Wire Line
+	6400 6600 6400 7300
+Wire Wire Line
+	6400 7300 2650 7300
+Wire Wire Line
+	2650 7300 2650 5750
+Wire Wire Line
+	2650 5750 2350 5750
+Wire Wire Line
+	2350 6850 2850 6850
+Wire Wire Line
+	6200 6600 6100 6600
+Wire Wire Line
+	3250 6600 2850 6600
+Wire Wire Line
+	2850 6600 2850 6850
 Wire Wire Line
 	4650 3850 4650 3400
 Wire Wire Line
@@ -37,11 +113,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 6250 7300 6250
 Wire Wire Line
-	4550 6600 4800 6600
+	4800 6600 4550 6600
 Wire Wire Line
-	4550 4450 4800 4450
+	4800 4450 4550 4450
 Wire Bus Line
-	6900 1350 6900 900 
+	6900 900  6900 1350
 Connection ~ 8650 3950
 Wire Wire Line
 	8650 3950 8650 2400
@@ -52,10 +128,10 @@ Wire Wire Line
 Wire Wire Line
 	8900 2100 8500 2100
 Wire Wire Line
-	3250 2100 2550 2100
+	2550 2100 3250 2100
 Connection ~ 2850 2200
 Wire Wire Line
-	3250 2200 2550 2200
+	2550 2200 3250 2200
 Wire Wire Line
 	6100 2350 6250 2350
 Wire Wire Line
@@ -80,25 +156,8 @@ Wire Wire Line
 	4550 1550 4800 1550
 Wire Wire Line
 	4550 1350 4800 1350
-Wire Wire Line
-	14100 4750 14150 4750
-Wire Wire Line
-	14550 6350 13750 6350
-Wire Wire Line
-	13750 6350 13750 6200
-Wire Wire Line
-	14650 7050 14650 6900
-Wire Wire Line
-	14650 6900 13050 6900
-Connection ~ 14450 6900
-Wire Wire Line
-	14450 7050 14450 4950
-Wire Wire Line
-	14450 4950 13050 4950
-Wire Wire Line
-	13450 6200 13450 6550
 Wire Bus Line
-	2850 3900 2850 5050
+	2850 5050 2850 3900
 Wire Wire Line
 	10450 2200 10750 2200
 Wire Wire Line
@@ -110,11 +169,11 @@ Wire Wire Line
 Wire Wire Line
 	2850 2250 2850 2200
 Wire Bus Line
-	2850 3700 2850 2800
+	2850 2800 2850 3700
 Wire Wire Line
 	950  3400 1250 3400
 Wire Bus Line
-	6900 2800 6900 3700
+	6900 3700 6900 2800
 Wire Wire Line
 	1250 2450 950  2450
 Wire Wire Line
@@ -244,25 +303,6 @@ Wire Bus Line
 Wire Bus Line
 	8750 800  2950 800 
 Wire Wire Line
-	13450 5200 13450 4850
-Wire Wire Line
-	13450 4850 13050 4850
-Wire Wire Line
-	14550 6450 14450 6450
-Connection ~ 14450 6450
-Wire Notes Line
-	13450 5700 13650 5700
-Wire Wire Line
-	13750 5200 13750 5100
-Wire Wire Line
-	13750 5100 14150 5100
-Wire Wire Line
-	14150 5100 14150 4750
-Wire Wire Line
-	13450 6550 14550 6550
-Wire Wire Line
-	13600 4750 13050 4750
-Wire Wire Line
 	4550 1250 4800 1250
 Wire Wire Line
 	4550 1450 4800 1450
@@ -285,7 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2800 4800 2800
 Wire Bus Line
-	6500 3900 6500 5050
+	6500 5050 6500 3900
 Wire Wire Line
 	6100 5050 6400 5050
 Wire Wire Line
@@ -307,10 +347,8 @@ Wire Wire Line
 Wire Wire Line
 	6700 4600 6700 3950
 Wire Wire Line
-	3000 2100 3000 3950
+	3000 3950 3000 2100
 Connection ~ 3000 2100
-Wire Wire Line
-	3000 3950 10850 3950
 Wire Wire Line
 	10850 3950 10850 2100
 Wire Wire Line
@@ -339,30 +377,186 @@ Wire Wire Line
 Wire Wire Line
 	7050 4800 7050 4900
 Wire Wire Line
-	4675 4450 4675 3950
+	4675 3950 4675 4450
 Connection ~ 4675 3950
 Connection ~ 4675 4450
 Wire Wire Line
-	4675 6600 4675 6825
+	4675 6825 4675 6600
 Connection ~ 4675 6600
-Text Label 4625 6575 0    60   ~
+Wire Wire Line
+	3250 6500 2750 6500
+Wire Wire Line
+	2750 6500 2750 6650
+Wire Wire Line
+	6300 6500 6300 7000
+Wire Wire Line
+	6300 6500 6100 6500
+Wire Wire Line
+	2750 6650 2350 6650
+Wire Wire Line
+	7300 6500 6500 6500
+Wire Wire Line
+	6500 6500 6500 7400
+Wire Wire Line
+	6500 7400 2550 7400
+Wire Wire Line
+	2550 7400 2550 6150
+Wire Wire Line
+	2550 6150 2350 6150
+Wire Wire Line
+	1350 5850 1200 5850
+Wire Wire Line
+	1200 5850 1200 6250
+Wire Wire Line
+	6100 3200 6350 3200
+Wire Wire Line
+	6100 3400 6350 3400
+Wire Bus Line
+	6450 3600 6150 3600
+Wire Bus Line
+	6150 3600 6150 4200
+Wire Bus Line
+	6150 4200 850  4200
+Wire Bus Line
+	850  4200 850  7000
+Wire Wire Line
+	6350 3100 6100 3100
+Wire Wire Line
+	950  6250 1350 6250
+Connection ~ 1200 6250
+Wire Wire Line
+	1350 6750 950  6750
+Connection ~ 3000 3950
+Wire Wire Line
+	6300 7000 2350 7000
+Wire Wire Line
+	6600 6350 6600 7100
+Wire Wire Line
+	6600 7100 2950 7100
+Wire Wire Line
+	10400 4550 10500 4550
+Wire Wire Line
+	8600 4450 9100 4450
+Wire Wire Line
+	8600 4700 9100 4700
+Wire Wire Line
+	8600 4950 9100 4950
+Wire Wire Line
+	8750 6700 8750 6600
+Wire Wire Line
+	8750 6600 9100 6600
+$Comp
+L GND #PWR?
+U 1 1 4DD14509
+P 8750 6700
+F 0 "#PWR?" H 8750 6700 30  0001 C CNN
+F 1 "GND" H 8750 6630 30  0001 C CNN
+	1    8750 6700
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9100 4350 1300 2350
+U 4DD14235
+F0 "CTT/PS4" 60
+F1 "ctt_ps\ctt_ps4.sch" 60
+F2 "230V AC" I R 10400 4450 60 
+F3 "PRT GND" U R 10400 4550 60 
+F4 "230V AC" I R 10400 4650 60 
+F5 "8V 2A AC" O L 9100 4450 60 
+F6 "8V 2A AC" O L 9100 4550 60 
+F7 "8V 0.5A AC" O L 9100 4700 60 
+F8 "8V 0.5A AC" O L 9100 4800 60 
+F9 "18V 10mA AC" O L 9100 4950 60 
+F10 "18V 10mA AC" O L 9100 5050 60 
+F11 "25V 1A AC" O L 9100 5200 60 
+F12 "25V 1A AC" O L 9100 5400 60 
+F13 "3V ??A AC" O L 9100 5550 60 
+F14 "3V ??A AC" O L 9100 5750 60 
+F15 "25V 1A AC COM" U L 9100 5300 60 
+F16 "3V ??A AC COM" O L 9100 5650 60 
+F17 "GND" U L 9100 6600 60 
+$EndSheet
+$Comp
+L INDUCTOR L?
+U 1 1 4DD1415A
+P 1850 5350
+F 0 "L?" V 1800 5350 40  0000 C CNN
+F 1 "INDUCTOR" V 1950 5350 40  0000 C CNN
+	1    1850 5350
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	6350 3100 6450 3200
+Entry Wire Line
+	850  6150 950  6250
+Entry Wire Line
+	850  5550 950  5650
+Entry Wire Line
+	850  6650 950  6750
+Entry Wire Line
+	850  7000 950  7100
+Entry Wire Line
+	6350 3400 6450 3500
+Entry Wire Line
+	6350 3300 6450 3400
+Entry Wire Line
+	6350 3200 6450 3300
+$Comp
+L SWITCH_INV SW?
+U 1 1 4DD13F71
+P 1850 5750
+F 0 "SW?" H 1650 5900 50  0000 C CNN
+F 1 "SWITCH_INV" H 1700 5600 50  0000 C CNN
+	1    1850 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW?
+U 1 1 4DD13ED3
+P 1850 6150
+F 0 "SW?" H 1650 6300 50  0000 C CNN
+F 1 "SWITCH_INV" H 1700 6000 50  0000 C CNN
+	1    1850 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_INV SW?
+U 1 1 4DD13ED0
+P 1850 7100
+F 0 "SW?" H 1650 7250 50  0000 C CNN
+F 1 "SWITCH_INV" H 1700 6950 50  0000 C CNN
+	1    1850 7100
+	1    0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW?
+U 1 1 4DD0087F
+P 1850 6750
+F 0 "SW?" H 1650 6900 50  0000 C CNN
+F 1 "SWITCH_INV" H 1700 6600 50  0000 C CNN
+	1    1850 6750
+	1    0    0    1   
+$EndComp
+Text Label 7100 6250 0    60   ~ 0
+41
+Text Label 4625 6575 0    60   ~ 0
 27
-Text Label 4675 4375 1    60   ~
+Text Label 4675 4375 1    60   ~ 0
 26
 $Comp
 L GND #PWR?
 U 1 1 4DCFFEB2
 P 4675 6825
-F 0 "#PWR?" H 4675 6825 30  0001 C C
-F 1 "GND" H 4675 6755 30  0001 C C
+F 0 "#PWR?" H 4675 6825 30  0001 C CNN
+F 1 "GND" H 4675 6755 30  0001 C CNN
 	1    4675 6825
 	1    0    0    -1  
 $EndComp
-Text Label 7100 4700 0    60   ~
+Text Label 7100 4700 0    60   ~ 0
 28
-Text Label 7100 4600 0    60   ~
+Text Label 7100 4600 0    60   ~ 0
 26
-Text Label 7100 4800 0    60   ~
+Text Label 7100 4800 0    60   ~ 0
 27
 Entry Bus Bus
 	6400 3800 6500 3900
@@ -382,26 +576,27 @@ Entry Wire Line
 	6400 4550 6500 4450
 Entry Wire Line
 	6400 4450 6500 4350
-Text Label 6200 5150 0    60   ~
+Text Label 6200 5150 0    60   ~ 0
 16
-Text Label 6200 5050 0    60   ~
+Text Label 6200 5050 0    60   ~ 0
 15
-Text Label 6200 4950 0    60   ~
+Text Label 6200 4950 0    60   ~ 0
 14
-Text Label 6200 4850 0    60   ~
+Text Label 6200 4850 0    60   ~ 0
 13
-Text Label 6200 4750 0    60   ~
+Text Label 6200 4750 0    60   ~ 0
 12
-Text Label 6200 4650 0    60   ~
+Text Label 6200 4650 0    60   ~ 0
 11
-Text Label 6200 4550 0    60   ~
+Text Label 6200 4550 0    60   ~ 0
 10
-Text Label 6200 4450 0    60   ~
+Text Label 6200 4450 0    60   ~ 0
 09
 Entry Bus Bus
 	2750 3800 2850 3900
 $Sheet
 S 7300 4350 1300 2350
+U 4DD13EA8
 F0 "CTT/PS1" 60
 F1 "ctt_ps/ctt_ps1.sch" 60
 F2 "+Um1" O L 7300 6600 60 
@@ -415,11 +610,12 @@ F9 "8V 0.5A AC" I R 8600 4800 60
 F10 "18V 10mA AC" I R 8600 4950 60 
 F11 "18V 10mA AC" I R 8600 5050 60 
 F12 "-Um1" O L 7300 6500 60 
-F13 "-NPN/PNPú" I L 7300 6250 60 
+F13 "-NPN/PNP" I L 7300 6250 60 
 F14 "POL" O L 7300 6350 60 
 $EndSheet
 $Sheet
 S 3250 4350 1300 2350
+U 4DD13EAA
 F0 "CTT/PS2" 60
 F1 "ctt_ps/ctt_ps2.sch" 60
 F2 "DO0" I L 3250 4450 60 
@@ -437,6 +633,7 @@ F13 "-Um3" O L 3250 6500 60
 $EndSheet
 $Sheet
 S 4800 4350 1300 2350
+U 4DD13EAC
 F0 "CTT/PS3" 60
 F1 "ctt_ps/ctt_ps3.sch" 60
 F2 "DO0" I R 6100 4450 60 
@@ -452,79 +649,80 @@ F11 "GND" U L 4800 6600 60
 F12 "-Um2" O R 6100 6500 60 
 F13 "+Um2" O R 6100 6600 60 
 $EndSheet
-Text Notes 4000 3440 0    60   ~
+Text Notes 4000 3440 0    60   ~ 0
 CN5
-Text Notes 4050 2780 0    60   ~
+Text Notes 4050 2780 0    60   ~ 0
 CN4
-Text Notes 4090 1950 0    60   ~
+Text Notes 4090 1950 0    60   ~ 0
 CN1
-Text Notes 3630 1290 0    60   ~
+Text Notes 3630 1290 0    60   ~ 0
 CN5
-Text Notes 3575 2200 0    60   ~
+Text Notes 3575 2200 0    60   ~ 0
 CN2
-Text Notes 3575 3100 0    60   ~
+Text Notes 3575 3100 0    60   ~ 0
 CN1
-Text Label 6150 2350 0    60   ~
+Text Label 6150 2350 0    60   ~ 0
 27
-Text Label 4600 2800 0    60   ~
+Text Label 4600 2800 0    60   ~ 0
 57
-Text Label 4600 2700 0    60   ~
+Text Label 4600 2700 0    60   ~ 0
 56
-Text Label 4600 2550 0    60   ~
+Text Label 4600 2550 0    60   ~ 0
 55
-Text Label 4600 2450 0    60   ~
+Text Label 4600 2450 0    60   ~ 0
 54
-Text Label 4600 2350 0    60   ~
+Text Label 4600 2350 0    60   ~ 0
 53
-Text Label 4600 2250 0    60   ~
+Text Label 4600 2250 0    60   ~ 0
 52
-Text Label 4600 2150 0    60   ~
+Text Label 4600 2150 0    60   ~ 0
 51
-Text Label 4600 2050 0    60   ~
+Text Label 4600 2050 0    60   ~ 0
 50
-Text Label 4600 1950 0    60   ~
+Text Label 4600 1950 0    60   ~ 0
 49
-Text Label 4600 1850 0    60   ~
+Text Label 4600 1850 0    60   ~ 0
 48
-Text Label 4600 1750 0    60   ~
+Text Label 4600 1750 0    60   ~ 0
 47
-Text Label 4600 1650 0    60   ~
+Text Label 4600 1650 0    60   ~ 0
 46
-Text Label 4600 1550 0    60   ~
+Text Label 4600 1550 0    60   ~ 0
 45
-Text Label 4600 1450 0    60   ~
+Text Label 4600 1450 0    60   ~ 0
 44
-Text Label 4600 1350 0    60   ~
+Text Label 4600 1350 0    60   ~ 0
 43
-Text Label 4600 1250 0    60   ~
+Text Label 4600 1250 0    60   ~ 0
 42
 $Comp
 L GND #PWR?
 U 1 1 4D8F561A
 P 6250 2450
-F 0 "#PWR?" H 6250 2450 30  0001 C C
-F 1 "GND" H 6250 2380 30  0001 C C
+F 0 "#PWR?" H 6250 2450 30  0001 C CNN
+F 1 "GND" H 6250 2380 30  0001 C CNN
 	1    6250 2450
 	1    0    0    -1  
 $EndComp
-Text Label 6200 3400 0    60   ~
+Text Label 6200 3400 0    60   ~ 0
 29
-Text Label 6200 3300 0    60   ~
+Text Label 6200 3300 0    60   ~ 0
 30
-Text Label 6200 3200 0    60   ~
+Text Label 6200 3200 0    60   ~ 0
 31
-Text Notes 5100 2800 0    60   ~
+Text Notes 5100 2800 0    60   ~ 0
 CN2
-Text Notes 5600 1900 0    60   ~
+Text Notes 5600 1900 0    60   ~ 0
 CN3
-Text Label 4650 3700 0    60   ~
+Text Label 4650 3700 0    60   ~ 0
 41
-Text Label 6200 1600 0    60   ~
+Text Label 6200 1600 0    60   ~ 0
 25
-Text Notes 5100 1900 0    60   ~
+Text Notes 5100 1900 0    60   ~ 0
 CN1
 $Sheet
 S 4800 1150 1300 2350
+U 4DD13EAE
 F0 "CTT/SW2" 60
 F1 "ctt_sw/ctt_sw2.sch" 60
 F2 "J1" I L 4800 1250 60 
@@ -551,112 +749,61 @@ F22 "Um3" I R 6100 3400 60
 F23 "+5V" I L 4800 2700 60 
 F24 "GND" U L 4800 2800 60 
 F25 "GND" U R 6100 2350 60 
+F26 "COM" U R 6100 3100 60 
 $EndSheet
-Text Label 13950 6550 0    60   ~
-40
-Text Label 13950 6350 0    60   ~
-39
-Text Label 6200 2000 0    60   ~
+Text Label 6200 2000 0    60   ~ 0
 38
-Text Label 6200 1900 0    60   ~
+Text Label 6200 1900 0    60   ~ 0
 37ú
-Text Label 6200 1800 0    60   ~
+Text Label 6200 1800 0    60   ~ 0
 36ú
-Text Notes 6400 2300 0    60   ~
+Text Notes 6400 2300 0    60   ~ 0
 cable
-Text Notes 6250 2200 0    60   ~
+Text Notes 6250 2200 0    60   ~ 0
 Measuring
 $Comp
 L CONN_3 CN2
 U 1 1 4D35E5F7
 P 6700 1900
-F 0 "CN2" V 6650 1900 50  0000 C C
-F 1 "CONN_3" V 6750 1900 40  0001 C C
+F 0 "CN2" V 6650 1900 50  0000 C CNN
+F 1 "CONN_3" V 6750 1900 40  0001 C CNN
 	1    6700 1900
 	1    0    0    -1  
 $EndComp
-Text Notes 8000 2150 0    60   ~
+Text Notes 8000 2150 0    60   ~ 0
 CN4
-Text Notes 7650 3100 0    60   ~
+Text Notes 7650 3100 0    60   ~ 0
 CN2
-Text Notes 7650 1650 0    60   ~
+Text Notes 7650 1650 0    60   ~ 0
 CN1
-Text Notes 7650 1400 0    60   ~
+Text Notes 7650 1400 0    60   ~ 0
 CN3
-Text Notes 9950 2200 0    60   ~
+Text Notes 9950 2200 0    60   ~ 0
 CN2
-Text Notes 9550 1300 0    60   ~
+Text Notes 9550 1300 0    60   ~ 0
 CN1
-Text Notes 9450 3050 0    60   ~
+Text Notes 9450 3050 0    60   ~ 0
 CN1
-Text Notes 2000 2200 0    60   ~
+Text Notes 2000 2200 0    60   ~ 0
 CN5
-Text Label 14150 4900 1    60   ~
-35
-Text Label 13100 6900 0    60   ~
-27
-Text Label 13100 4950 0    60   ~
-34
-Text Label 13100 4850 0    60   ~
-33
-Text Label 13100 4750 0    60   ~
-32
-Text Notes 14000 5900 1    60   ~
-Power
-Text Notes 14650 6200 0    60   ~
+Text Notes 10600 4350 0    60   ~ 0
 230V AC
-$Comp
-L GND #PWR?
-U 1 1 4D1629DE
-P 14650 7050
-F 0 "#PWR?" H 14650 7050 30  0001 C C
-F 1 "GND" H 14650 6980 30  0001 C C
-	1    14650 7050
-	1    0    0    -1  
-$EndComp
 $Comp
 L GNDPWR #PWR?
 U 1 1 4D1629AD
-P 14450 7050
-F 0 "#PWR?" H 14450 7100 40  0001 C C
-F 1 "GNDPWR" V 14450 6850 40  0001 C C
-	1    14450 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L SPST SW1b
-U 1 1 4D16276B
-P 13450 5700
-F 0 "SW1b" H 13450 5800 70  0001 C C
-F 1 "SPST" H 13450 5600 70  0001 C C
-	1    13450 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SPST SW1
-U 1 1 4D162767
-P 13750 5700
-F 0 "SW1" H 13750 6200 70  0000 C C
-F 1 "SPST" H 13750 5600 70  0001 C C
-	1    13750 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L FUSE F1
-U 1 1 4D162714
-P 13850 4750
-F 0 "F1" H 14250 4750 40  0000 C C
-F 1 "000 mA" H 13850 4900 40  0000 C C
-	1    13850 4750
+P 8950 6700
+F 0 "#PWR?" H 8950 6750 40  0001 C CNN
+F 1 "GNDPWR" V 8950 6500 40  0001 C CNN
+	1    8950 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_3 CN1
 U 1 1 4D1626F7
-P 14900 6450
-F 0 "CN1" V 14850 6450 50  0000 C C
-F 1 "CONN_3" V 14950 6450 40  0001 C C
-	1    14900 6450
+P 10850 4550
+F 0 "CN1" V 10800 4550 50  0000 C CNN
+F 1 "CONN_3" V 10900 4550 40  0001 C CNN
+	1    10850 4550
 	1    0    0    -1  
 $EndComp
 Entry Bus Bus
@@ -677,47 +824,47 @@ Entry Wire Line
 	2850 4450 2950 4550
 Entry Wire Line
 	2850 4350 2950 4450
-Text Label 3000 5150 0    60   ~
+Text Label 3000 5150 0    60   ~ 0
 16
-Text Label 3000 5050 0    60   ~
+Text Label 3000 5050 0    60   ~ 0
 15
-Text Label 3000 4950 0    60   ~
+Text Label 3000 4950 0    60   ~ 0
 14
-Text Label 3000 4850 0    60   ~
+Text Label 3000 4850 0    60   ~ 0
 13
-Text Label 3000 4750 0    60   ~
+Text Label 3000 4750 0    60   ~ 0
 12
-Text Label 3000 4650 0    60   ~
+Text Label 3000 4650 0    60   ~ 0
 11
-Text Label 3000 4550 0    60   ~
+Text Label 3000 4550 0    60   ~ 0
 10
-Text Label 3000 4450 0    60   ~
+Text Label 3000 4450 0    60   ~ 0
 09
-Text Label 8550 2000 0    60   ~
+Text Label 8550 2000 0    60   ~ 0
 28
-Text Label 10500 2200 0    60   ~
+Text Label 10500 2200 0    60   ~ 0
 27
-Text Label 10500 2100 0    60   ~
+Text Label 10500 2100 0    60   ~ 0
 26
 $Comp
 L GND #PWR?
 U 1 1 4D1605BF
 P 10750 2250
-F 0 "#PWR?" H 10750 2250 30  0001 C C
-F 1 "GND" H 10750 2180 30  0001 C C
+F 0 "#PWR?" H 10750 2250 30  0001 C CNN
+F 1 "GND" H 10750 2180 30  0001 C CNN
 	1    10750 2250
 	1    0    0    -1  
 $EndComp
-Text Label 8550 2200 0    60   ~
+Text Label 8550 2200 0    60   ~ 0
 27
-Text Label 8550 2100 0    60   ~
+Text Label 8550 2100 0    60   ~ 0
 26
 $Comp
 L GND #PWR?
 U 1 1 4D1605B5
 P 8800 2250
-F 0 "#PWR?" H 8800 2250 30  0001 C C
-F 1 "GND" H 8800 2180 30  0001 C C
+F 0 "#PWR?" H 8800 2250 30  0001 C CNN
+F 1 "GND" H 8800 2180 30  0001 C CNN
 	1    8800 2250
 	1    0    0    -1  
 $EndComp
@@ -725,133 +872,133 @@ $Comp
 L GND #PWR?
 U 1 1 4D1605A3
 P 7050 4900
-F 0 "#PWR?" H 7050 4900 30  0001 C C
-F 1 "GND" H 7050 4830 30  0001 C C
+F 0 "#PWR?" H 7050 4900 30  0001 C CNN
+F 1 "GND" H 7050 4830 30  0001 C CNN
 	1    7050 4900
 	1    0    0    -1  
 $EndComp
-Text Label 2600 2200 0    60   ~
+Text Label 2600 2200 0    60   ~ 0
 27
-Text Label 2600 2100 0    60   ~
+Text Label 2600 2100 0    60   ~ 0
 26
-Text Label 7100 1600 0    60   ~
+Text Label 7100 1600 0    60   ~ 0
 25
-Text Label 7100 1250 0    60   ~
+Text Label 7100 1250 0    60   ~ 0
 19
-Text Label 7100 1350 0    60   ~
+Text Label 7100 1350 0    60   ~ 0
 20
-Text Label 7100 1450 0    60   ~
+Text Label 7100 1450 0    60   ~ 0
 21
-Text Label 8950 1250 0    60   ~
+Text Label 8950 1250 0    60   ~ 0
 24
-Text Label 3050 1250 0    60   ~
+Text Label 3050 1250 0    60   ~ 0
 24
-Text Label 8950 2900 0    60   ~
+Text Label 8950 2900 0    60   ~ 0
 11
-Text Label 8950 2800 0    60   ~
+Text Label 8950 2800 0    60   ~ 0
 10
-Text Label 8950 2700 0    60   ~
+Text Label 8950 2700 0    60   ~ 0
 09
-Text Label 7100 3400 0    60   ~
+Text Label 7100 3400 0    60   ~ 0
 08
-Text Label 7100 3300 0    60   ~
+Text Label 7100 3300 0    60   ~ 0
 07
-Text Label 7100 3200 0    60   ~
+Text Label 7100 3200 0    60   ~ 0
 06
-Text Label 7100 3100 0    60   ~
+Text Label 7100 3100 0    60   ~ 0
 05
-Text Label 7100 3000 0    60   ~
+Text Label 7100 3000 0    60   ~ 0
 04
-Text Label 7100 2900 0    60   ~
+Text Label 7100 2900 0    60   ~ 0
 03
-Text Label 7100 2800 0    60   ~
+Text Label 7100 2800 0    60   ~ 0
 02
-Text Label 3050 3400 0    60   ~
+Text Label 3050 3400 0    60   ~ 0
 16
-Text Label 3050 3300 0    60   ~
+Text Label 3050 3300 0    60   ~ 0
 15
-Text Label 3050 3200 0    60   ~
+Text Label 3050 3200 0    60   ~ 0
 14
-Text Label 3050 3100 0    60   ~
+Text Label 3050 3100 0    60   ~ 0
 13
-Text Label 3050 3000 0    60   ~
+Text Label 3050 3000 0    60   ~ 0
 12
-Text Label 3050 2900 0    60   ~
+Text Label 3050 2900 0    60   ~ 0
 11
-Text Label 3050 2800 0    60   ~
+Text Label 3050 2800 0    60   ~ 0
 10
-Text Label 7100 2700 0    60   ~
+Text Label 7100 2700 0    60   ~ 0
 01
-Text Label 3050 2700 0    60   ~
+Text Label 3050 2700 0    60   ~ 0
 09
-Text Label 8950 3000 0    60   ~
+Text Label 8950 3000 0    60   ~ 0
 12
-Text Label 8950 3100 0    60   ~
+Text Label 8950 3100 0    60   ~ 0
 13
-Text Label 8950 3200 0    60   ~
+Text Label 8950 3200 0    60   ~ 0
 14
-Text Label 8950 3300 0    60   ~
+Text Label 8950 3300 0    60   ~ 0
 15
-Text Label 8950 3400 0    60   ~
+Text Label 8950 3400 0    60   ~ 0
 16
-Text Label 2600 1250 0    60   ~
+Text Label 2600 1250 0    60   ~ 0
 17
-Text Label 2600 1350 0    60   ~
+Text Label 2600 1350 0    60   ~ 0
 18
-Text Label 2600 1450 0    60   ~
+Text Label 2600 1450 0    60   ~ 0
 19
-Text Label 2600 1550 0    60   ~
+Text Label 2600 1550 0    60   ~ 0
 20
-Text Label 2600 1650 0    60   ~
+Text Label 2600 1650 0    60   ~ 0
 21
-Text Label 2600 1950 0    60   ~
+Text Label 2600 1950 0    60   ~ 0
 24
 $Comp
 L GND #PWR?
 U 1 1 4D15FE06
 P 2850 2250
-F 0 "#PWR?" H 2850 2250 30  0001 C C
-F 1 "GND" H 2850 2180 30  0001 C C
+F 0 "#PWR?" H 2850 2250 30  0001 C CNN
+F 1 "GND" H 2850 2180 30  0001 C CNN
 	1    2850 2250
 	1    0    0    -1  
 $EndComp
-Text Notes 2000 1650 0    60   ~
+Text Notes 2000 1650 0    60   ~ 0
 CN4
-Text Notes 1550 2250 0    60   ~
+Text Notes 1550 2250 0    60   ~ 0
 CN3
-Text Notes 1550 3050 0    60   ~
+Text Notes 1550 3050 0    60   ~ 0
 CN2
-Text Label 1050 3400 0    60   ~
+Text Label 1050 3400 0    60   ~ 0
 16
-Text Label 1050 3300 0    60   ~
+Text Label 1050 3300 0    60   ~ 0
 15
-Text Label 1050 3200 0    60   ~
+Text Label 1050 3200 0    60   ~ 0
 14
-Text Label 1050 3100 0    60   ~
+Text Label 1050 3100 0    60   ~ 0
 13
-Text Label 1050 3000 0    60   ~
+Text Label 1050 3000 0    60   ~ 0
 12
-Text Label 1050 2900 0    60   ~
+Text Label 1050 2900 0    60   ~ 0
 11
-Text Label 1050 2800 0    60   ~
+Text Label 1050 2800 0    60   ~ 0
 10
-Text Label 1050 2700 0    60   ~
+Text Label 1050 2700 0    60   ~ 0
 09
-Text Label 1050 2550 0    60   ~
+Text Label 1050 2550 0    60   ~ 0
 08
-Text Label 1050 2450 0    60   ~
+Text Label 1050 2450 0    60   ~ 0
 07
-Text Label 1050 2350 0    60   ~
+Text Label 1050 2350 0    60   ~ 0
 06
-Text Label 1050 2250 0    60   ~
+Text Label 1050 2250 0    60   ~ 0
 05
-Text Label 1050 2150 0    60   ~
+Text Label 1050 2150 0    60   ~ 0
 04
-Text Label 1050 2050 0    60   ~
+Text Label 1050 2050 0    60   ~ 0
 03
-Text Label 1050 1950 0    60   ~
+Text Label 1050 1950 0    60   ~ 0
 02
-Text Label 1050 1850 0    60   ~
+Text Label 1050 1850 0    60   ~ 0
 01
 Entry Bus Bus
 	2750 3800 2850 3700
@@ -963,6 +1110,7 @@ Entry Wire Line
 	850  1950 950  1850
 $Sheet
 S 1250 1150 1300 2350
+U 4DD13EB0
 F0 "CTT/IF" 60
 F1 "ctt_if/ctt_if.sch" 60
 F2 "DO0" O L 1250 3400 60 
@@ -994,6 +1142,7 @@ F27 "GND" U R 2550 2200 60
 $EndSheet
 $Sheet
 S 3250 1150 1300 2350
+U 4DD13EB2
 F0 "CTT/SW1" 60
 F1 "ctt_sw/ctt_sw1.sch" 60
 F2 "-SL0" I L 3250 1250 60 
@@ -1027,6 +1176,7 @@ F29 "GND" U R 4550 2800 60
 $EndSheet
 $Sheet
 S 7300 1150 1200 2350
+U 4DD13EB4
 F0 "CTT/AD" 60
 F1 "ctt_ad/ctt_ad.sch" 60
 F2 "AI" I L 7300 1600 60 
@@ -1047,6 +1197,7 @@ F16 "GND" U R 8500 2200 60
 $EndSheet
 $Sheet
 S 9150 1150 1300 2350
+U 4DD13EB6
 F0 "CTT/DP" 60
 F1 "ctt_dp/ctt_dp.sch" 60
 F2 "DO0" I L 9150 3400 60 

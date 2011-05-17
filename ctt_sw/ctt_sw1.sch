@@ -1,11 +1,38 @@
-EESchema Schematic File Version 1
-LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./ctt.cache
+EESchema Schematic File Version 2  date 2011.05.16. 17:40:14
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:ctt-cache
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 1
+Sheet 1 10
 Title "CTT Transistor tester - CTT/SW1 Switching unit"
-Date "1 apr 2011"
+Date "16 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/14"
@@ -13,123 +40,123 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 725  3850 0    60   ~
+Text Notes 725  3850 0    60   ~ 0
 CN5
-Text Notes 1250 2550 0    60   ~
+Text Notes 1250 2550 0    60   ~ 0
 2
-Text Notes 1250 2425 0    60   ~
+Text Notes 1250 2425 0    60   ~ 0
 2
-Text Notes 1250 2425 0    60   ~
+Text Notes 1250 2425 0    60   ~ 0
 2
-Text Notes 1250 2125 0    60   ~
+Text Notes 1250 2125 0    60   ~ 0
 1
-Text Notes 1250 2000 0    60   ~
+Text Notes 1250 2000 0    60   ~ 0
 1
-Text Notes 1250 3950 0    60   ~
+Text Notes 1250 3950 0    60   ~ 0
 2
-Text Notes 1250 3500 0    60   ~
+Text Notes 1250 3500 0    60   ~ 0
 8
-Text Notes 1250 3400 0    60   ~
+Text Notes 1250 3400 0    60   ~ 0
 5
-Text Notes 1250 3300 0    60   ~
+Text Notes 1250 3300 0    60   ~ 0
 4
-Text Notes 1250 3200 0    60   ~
+Text Notes 1250 3200 0    60   ~ 0
 1
-Text Notes 1250 3100 0    60   ~
+Text Notes 1250 3100 0    60   ~ 0
 2
-Text Notes 1250 3000 0    60   ~
+Text Notes 1250 3000 0    60   ~ 0
 3
-Text Notes 1250 2900 0    60   ~
+Text Notes 1250 2900 0    60   ~ 0
 6
-Text Notes 1250 2800 0    60   ~
+Text Notes 1250 2800 0    60   ~ 0
 7
-Text Notes 7590 5430 0    60   ~
+Text Notes 7590 5430 0    60   ~ 0
 PH
-Text Notes 7200 5430 0    60   ~
+Text Notes 7200 5430 0    60   ~ 0
 PL
-Text Notes 10000 3040 0    60   ~
+Text Notes 10000 3040 0    60   ~ 0
 13
-Text Notes 10020 3540 0    60   ~
+Text Notes 10020 3540 0    60   ~ 0
 9
-Text Notes 10020 4040 0    60   ~
+Text Notes 10020 4040 0    60   ~ 0
 3
-Text Notes 10000 4640 0    60   ~
+Text Notes 10000 4640 0    60   ~ 0
 10
-Text Notes 10020 5140 0    60   ~
+Text Notes 10020 5140 0    60   ~ 0
 7
-Text Notes 9030 5140 0    60   ~
+Text Notes 9030 5140 0    60   ~ 0
 1
-Text Notes 9030 4640 0    60   ~
+Text Notes 9030 4640 0    60   ~ 0
 2
-Text Notes 9030 4040 0    60   ~
+Text Notes 9030 4040 0    60   ~ 0
 4
-Text Notes 9030 3540 0    60   ~
+Text Notes 9030 3540 0    60   ~ 0
 8
-Text Notes 8970 3050 0    60   ~
+Text Notes 8970 3050 0    60   ~ 0
 14
-Text Notes 10020 2540 0    60   ~
+Text Notes 10020 2540 0    60   ~ 0
 6
-Text Notes 9030 2540 0    60   ~
+Text Notes 9030 2540 0    60   ~ 0
 5
-Text Notes 10000 2040 0    60   ~
+Text Notes 10000 2040 0    60   ~ 0
 11
-Text Notes 8970 2040 0    60   ~
+Text Notes 8970 2040 0    60   ~ 0
 12
-Text GLabel 9100 3550 2    60   Input
+Text HLabel 9100 3550 2    60   Input ~ 0
 J7
-Text GLabel 9100 4050 2    60   Input
+Text HLabel 9100 4050 2    60   Input ~ 0
 J11
-Text GLabel 9100 5150 2    60   Input
+Text HLabel 9100 5150 2    60   Input ~ 0
 J8-2
-Text GLabel 9100 4650 2    60   Input
+Text HLabel 9100 4650 2    60   Input ~ 0
 J2-2
-Text GLabel 10000 5150 0    60   Input
+Text HLabel 10000 5150 0    60   Input ~ 0
 J8
-Text GLabel 10000 4650 0    60   Input
+Text HLabel 10000 4650 0    60   Input ~ 0
 J2
-Text GLabel 10000 4050 0    60   Input
+Text HLabel 10000 4050 0    60   Input ~ 0
 J12
-Text GLabel 10000 3550 0    60   Input
+Text HLabel 10000 3550 0    60   Input ~ 0
 J1
-Text GLabel 10000 3050 0    60   Input
+Text HLabel 10000 3050 0    60   Input ~ 0
 J5
-Text GLabel 10000 2550 0    60   Input
+Text HLabel 10000 2550 0    60   Input ~ 0
 J9
-Text GLabel 10000 2050 0    60   Input
+Text HLabel 10000 2050 0    60   Input ~ 0
 J3
-Text GLabel 9100 3050 2    60   Input
+Text HLabel 9100 3050 2    60   Input ~ 0
 J6
-Text GLabel 9100 2550 2    60   Input
+Text HLabel 9100 2550 2    60   Input ~ 0
 J10
-Text GLabel 9100 2050 2    60   Input
+Text HLabel 9100 2050 2    60   Input ~ 0
 J4
-Text GLabel 1200 3950 0    60   Input
+Text HLabel 1200 3950 0    60   Input ~ 0
 -NPN
-Text GLabel 1200 3700 0    60   Input
+Text HLabel 1200 3700 0    60   Input ~ 0
 -SL0
-Text GLabel 1200 3500 0    60   Input
+Text HLabel 1200 3500 0    60   Input ~ 0
 DO7
-Text GLabel 1200 3400 0    60   Input
+Text HLabel 1200 3400 0    60   Input ~ 0
 DO6
-Text GLabel 1200 3300 0    60   Input
+Text HLabel 1200 3300 0    60   Input ~ 0
 DO5
-Text GLabel 1200 3200 0    60   Input
+Text HLabel 1200 3200 0    60   Input ~ 0
 DO4
-Text GLabel 1200 3100 0    60   Input
+Text HLabel 1200 3100 0    60   Input ~ 0
 DO3
-Text GLabel 1200 3000 0    60   Input
+Text HLabel 1200 3000 0    60   Input ~ 0
 DO2
-Text GLabel 1200 2900 0    60   Input
+Text HLabel 1200 2900 0    60   Input ~ 0
 DO1
-Text GLabel 1200 2800 0    60   Input
+Text HLabel 1200 2800 0    60   Input ~ 0
 DO0
-Text GLabel 1200 2550 0    60   Input
+Text HLabel 1200 2550 0    60   Input ~ 0
 GND
-Text GLabel 1200 2425 0    60   Input
+Text HLabel 1200 2425 0    60   Input ~ 0
 GND
-Text GLabel 1200 2125 0    60   Input
+Text HLabel 1200 2125 0    60   Input ~ 0
 +5V
-Text GLabel 1200 2000 0    60   Input
+Text HLabel 1200 2000 0    60   Input ~ 0
 +5V
 Connection ~ 2100 5800
 Wire Wire Line
@@ -660,20 +687,20 @@ Wire Wire Line
 	2100 3850 2100 6550
 Wire Wire Line
 	2100 6550 5150 6550
-Text Notes 9475 2100 0    60   ~
+Text Notes 9475 2100 0    60   ~ 0
 CN3
-Text Notes 725  2175 0    60   ~
+Text Notes 725  2175 0    60   ~ 0
 CN4
-Text Notes 725  2450 0    60   ~
+Text Notes 725  2450 0    60   ~ 0
 CN4
-Text Notes 725  2575 0    60   ~
+Text Notes 725  2575 0    60   ~ 0
 CN2
 $Comp
 L R R19
 U 1 1 4D9347E8
 P 8300 5300
-F 0 "R19" V 8380 5300 50  0000 C C
-F 1 "1k" V 8300 5300 50  0000 C C
+F 0 "R19" V 8380 5300 50  0000 C CNN
+F 1 "1k" V 8300 5300 50  0000 C CNN
 	1    8300 5300
 	1    0    0    -1  
 $EndComp
@@ -681,8 +708,8 @@ $Comp
 L R R21
 U 1 1 4D9347C8
 P 7950 6150
-F 0 "R21" V 8030 6150 50  0000 C C
-F 1 "1k" V 7950 6150 50  0000 C C
+F 0 "R21" V 8030 6150 50  0000 C CNN
+F 1 "1k" V 7950 6150 50  0000 C CNN
 	1    7950 6150
 	0    1    1    0   
 $EndComp
@@ -690,8 +717,8 @@ $Comp
 L R R20
 U 1 1 4D9347C2
 P 7950 6050
-F 0 "R20" V 8030 6050 50  0000 C C
-F 1 "1k" V 7950 6050 50  0000 C C
+F 0 "R20" V 8030 6050 50  0000 C CNN
+F 1 "1k" V 7950 6050 50  0000 C CNN
 	1    7950 6050
 	0    -1   -1   0   
 $EndComp
@@ -699,8 +726,8 @@ $Comp
 L R R18
 U 1 1 4D934793
 P 8200 4000
-F 0 "R18" V 8275 4250 50  0000 C C
-F 1 "1k" V 8200 4000 50  0000 C C
+F 0 "R18" V 8275 4250 50  0000 C CNN
+F 1 "1k" V 8200 4000 50  0000 C CNN
 	1    8200 4000
 	0    -1   -1   0   
 $EndComp
@@ -708,8 +735,8 @@ $Comp
 L R R16
 U 1 1 4D93476F
 P 8300 3700
-F 0 "R16" V 8375 3950 50  0000 C C
-F 1 "1k" V 8300 3700 50  0000 C C
+F 0 "R16" V 8375 3950 50  0000 C CNN
+F 1 "1k" V 8300 3700 50  0000 C CNN
 	1    8300 3700
 	0    -1   -1   0   
 $EndComp
@@ -717,8 +744,8 @@ $Comp
 L R R17
 U 1 1 4D934769
 P 8300 3850
-F 0 "R17" V 8375 4100 50  0000 C C
-F 1 "1k" V 8300 3850 50  0000 C C
+F 0 "R17" V 8375 4100 50  0000 C CNN
+F 1 "1k" V 8300 3850 50  0000 C CNN
 	1    8300 3850
 	0    -1   -1   0   
 $EndComp
@@ -726,8 +753,8 @@ $Comp
 L R R15
 U 1 1 4D934759
 P 8300 3250
-F 0 "R15" V 8380 3250 50  0000 C C
-F 1 "1k" V 8300 3250 50  0000 C C
+F 0 "R15" V 8380 3250 50  0000 C CNN
+F 1 "1k" V 8300 3250 50  0000 C CNN
 	1    8300 3250
 	0    -1   -1   0   
 $EndComp
@@ -735,8 +762,8 @@ $Comp
 L R R14
 U 1 1 4D93471A
 P 8300 2950
-F 0 "R14" V 8380 2950 50  0000 C C
-F 1 "1k" V 8300 2950 50  0000 C C
+F 0 "R14" V 8380 2950 50  0000 C CNN
+F 1 "1k" V 8300 2950 50  0000 C CNN
 	1    8300 2950
 	0    1    1    0   
 $EndComp
@@ -744,8 +771,8 @@ $Comp
 L R R13
 U 1 1 4D934716
 P 8250 2800
-F 0 "R13" V 8330 2800 50  0000 C C
-F 1 "1k" V 8250 2800 50  0000 C C
+F 0 "R13" V 8330 2800 50  0000 C CNN
+F 1 "1k" V 8250 2800 50  0000 C CNN
 	1    8250 2800
 	0    -1   -1   0   
 $EndComp
@@ -753,8 +780,8 @@ $Comp
 L R R12
 U 1 1 4D9346F4
 P 8250 2200
-F 0 "R12" V 8325 2500 50  0000 C C
-F 1 "1k" V 8250 2200 50  0000 C C
+F 0 "R12" V 8325 2500 50  0000 C CNN
+F 1 "1k" V 8250 2200 50  0000 C CNN
 	1    8250 2200
 	0    -1   -1   0   
 $EndComp
@@ -762,8 +789,8 @@ $Comp
 L R R11
 U 1 1 4D9346EF
 P 8200 2050
-F 0 "R11" V 8275 2350 50  0000 C C
-F 1 "1k" V 8200 2050 50  0000 C C
+F 0 "R11" V 8275 2350 50  0000 C CNN
+F 1 "1k" V 8200 2050 50  0000 C CNN
 	1    8200 2050
 	0    -1   -1   0   
 $EndComp
@@ -771,8 +798,8 @@ $Comp
 L R R10
 U 1 1 4D9346E6
 P 8150 1900
-F 0 "R10" V 8225 2200 50  0000 C C
-F 1 "1k" V 8150 1900 50  0000 C C
+F 0 "R10" V 8225 2200 50  0000 C CNN
+F 1 "1k" V 8150 1900 50  0000 C CNN
 	1    8150 1900
 	0    -1   -1   0   
 $EndComp
@@ -780,8 +807,8 @@ $Comp
 L R R9
 U 1 1 4D9346DA
 P 8100 1750
-F 0 "R9" V 8175 2075 50  0000 C C
-F 1 "1k" V 8100 1750 50  0000 C C
+F 0 "R9" V 8175 2075 50  0000 C CNN
+F 1 "1k" V 8100 1750 50  0000 C CNN
 	1    8100 1750
 	0    -1   -1   0   
 $EndComp
@@ -789,8 +816,8 @@ $Comp
 L GND #PWR01
 U 1 1 4D92BC3F
 P 2700 2400
-F 0 "#PWR01" H 2700 2400 30  0001 C C
-F 1 "GND" H 2700 2330 30  0001 C C
+F 0 "#PWR01" H 2700 2400 30  0001 C CNN
+F 1 "GND" H 2700 2330 30  0001 C CNN
 	1    2700 2400
 	1    0    0    -1  
 $EndComp
@@ -798,8 +825,8 @@ $Comp
 L GND #PWR02
 U 1 1 4D92BC3A
 P 4950 2400
-F 0 "#PWR02" H 4950 2400 30  0001 C C
-F 1 "GND" H 4950 2330 30  0001 C C
+F 0 "#PWR02" H 4950 2400 30  0001 C CNN
+F 1 "GND" H 4950 2330 30  0001 C CNN
 	1    4950 2400
 	1    0    0    -1  
 $EndComp
@@ -807,8 +834,8 @@ $Comp
 L GND #PWR03
 U 1 1 4D92BC36
 P 6350 2400
-F 0 "#PWR03" H 6350 2400 30  0001 C C
-F 1 "GND" H 6350 2330 30  0001 C C
+F 0 "#PWR03" H 6350 2400 30  0001 C CNN
+F 1 "GND" H 6350 2330 30  0001 C CNN
 	1    6350 2400
 	1    0    0    -1  
 $EndComp
@@ -816,8 +843,8 @@ $Comp
 L C C4
 U 1 1 4D92BC0A
 P 6050 2350
-F 0 "C4" H 6100 2450 50  0000 L C
-F 1 "100n" H 5800 2250 50  0000 L C
+F 0 "C4" H 6100 2450 50  0000 L CNN
+F 1 "100n" H 5800 2250 50  0000 L CNN
 	1    6050 2350
 	0    1    1    0   
 $EndComp
@@ -825,8 +852,8 @@ $Comp
 L C C3
 U 1 1 4D92BC01
 P 4650 2350
-F 0 "C3" H 4700 2450 50  0000 L C
-F 1 "100n" H 4400 2250 50  0000 L C
+F 0 "C3" H 4700 2450 50  0000 L CNN
+F 1 "100n" H 4400 2250 50  0000 L CNN
 	1    4650 2350
 	0    1    1    0   
 $EndComp
@@ -834,8 +861,8 @@ $Comp
 L C C2
 U 1 1 4D92BBF4
 P 2400 2350
-F 0 "C2" H 2450 2450 50  0000 L C
-F 1 "100n" H 2150 2250 50  0000 L C
+F 0 "C2" H 2450 2450 50  0000 L CNN
+F 1 "100n" H 2150 2250 50  0000 L CNN
 	1    2400 2350
 	0    1    1    0   
 $EndComp
@@ -843,8 +870,8 @@ $Comp
 L R R2
 U 1 1 4D90AD10
 P 3250 4950
-F 0 "R2" V 3330 4950 50  0000 C C
-F 1 "1k" V 3250 4950 50  0000 C C
+F 0 "R2" V 3330 4950 50  0000 C CNN
+F 1 "1k" V 3250 4950 50  0000 C CNN
 	1    3250 4950
 	-1   0    0    -1  
 $EndComp
@@ -852,8 +879,8 @@ $Comp
 L R R8
 U 1 1 4D90ACE3
 P 5750 5800
-F 0 "R8" V 5830 5800 50  0000 C C
-F 1 "1k" V 5750 5800 50  0000 C C
+F 0 "R8" V 5830 5800 50  0000 C CNN
+F 1 "1k" V 5750 5800 50  0000 C CNN
 	1    5750 5800
 	0    1    -1   0   
 $EndComp
@@ -861,8 +888,8 @@ $Comp
 L R R6
 U 1 1 4D90ACCE
 P 4950 6300
-F 0 "R6" V 5030 6300 50  0000 C C
-F 1 "1k" V 4950 6300 50  0000 C C
+F 0 "R6" V 5030 6300 50  0000 C CNN
+F 1 "1k" V 4950 6300 50  0000 C CNN
 	1    4950 6300
 	0    1    -1   0   
 $EndComp
@@ -870,8 +897,8 @@ $Comp
 L R R5
 U 1 1 4D90AC85
 P 4850 5550
-F 0 "R5" V 4930 5550 50  0000 C C
-F 1 "1k" V 4850 5550 50  0000 C C
+F 0 "R5" V 4930 5550 50  0000 C CNN
+F 1 "1k" V 4850 5550 50  0000 C CNN
 	1    4850 5550
 	0    1    -1   0   
 $EndComp
@@ -879,8 +906,8 @@ $Comp
 L R R7
 U 1 1 4D90AC7B
 P 5150 4950
-F 0 "R7" V 5230 4950 50  0000 C C
-F 1 "1k" V 5150 4950 50  0000 C C
+F 0 "R7" V 5230 4950 50  0000 C CNN
+F 1 "1k" V 5150 4950 50  0000 C CNN
 	1    5150 4950
 	-1   0    0    -1  
 $EndComp
@@ -888,8 +915,8 @@ $Comp
 L R R3
 U 1 1 4D90AC6C
 P 3650 4950
-F 0 "R3" V 3730 4950 50  0000 C C
-F 1 "1k" V 3650 4950 50  0000 C C
+F 0 "R3" V 3730 4950 50  0000 C CNN
+F 1 "1k" V 3650 4950 50  0000 C CNN
 	1    3650 4950
 	-1   0    0    -1  
 $EndComp
@@ -897,8 +924,8 @@ $Comp
 L R R4
 U 1 1 4D90AC5C
 P 3900 4950
-F 0 "R4" V 3980 4950 50  0000 C C
-F 1 "1k" V 3900 4950 50  0000 C C
+F 0 "R4" V 3980 4950 50  0000 C CNN
+F 1 "1k" V 3900 4950 50  0000 C CNN
 	1    3900 4950
 	-1   0    0    -1  
 $EndComp
@@ -906,8 +933,8 @@ $Comp
 L NPN T20
 U 1 1 4D90AC4F
 P 5250 5800
-F 0 "T20" H 5500 5800 50  0000 C C
-F 1 "BC182" H 5300 4950 50  0000 C C
+F 0 "T20" H 5500 5800 50  0000 C CNN
+F 1 "BC182" H 5300 4950 50  0000 C CNN
 	1    5250 5800
 	-1   0    0    -1  
 $EndComp
@@ -915,8 +942,8 @@ $Comp
 L NPN T16
 U 1 1 4D90AC3A
 P 4350 5550
-F 0 "T16" H 4600 5450 50  0000 C C
-F 1 "BC182" H 4252 5700 50  0001 C C
+F 0 "T16" H 4600 5450 50  0000 C CNN
+F 1 "BC182" H 4252 5700 50  0001 C CNN
 	1    4350 5550
 	-1   0    0    -1  
 $EndComp
@@ -924,8 +951,8 @@ $Comp
 L NPN T18
 U 1 1 4D90AC39
 P 4400 6300
-F 0 "T18" H 4650 6200 50  0000 C C
-F 1 "BC182" H 4302 6450 50  0001 C C
+F 0 "T18" H 4650 6200 50  0000 C CNN
+F 1 "BC182" H 4302 6450 50  0001 C CNN
 	1    4400 6300
 	-1   0    0    -1  
 $EndComp
@@ -933,8 +960,8 @@ $Comp
 L NPN T19
 U 1 1 4D90AC21
 P 3800 6300
-F 0 "T19" H 4050 6350 50  0000 C C
-F 1 "BC182" H 4100 5950 50  0000 C C
+F 0 "T19" H 4050 6350 50  0000 C CNN
+F 1 "BC182" H 4100 5950 50  0000 C CNN
 	1    3800 6300
 	1    0    0    -1  
 $EndComp
@@ -942,35 +969,35 @@ $Comp
 L NPN T17
 U 1 1 4D90AC0F
 P 3800 5550
-F 0 "T17" H 4050 5600 50  0000 C C
-F 1 "BC182" H 4100 5900 50  0000 C C
+F 0 "T17" H 4050 5600 50  0000 C CNN
+F 1 "BC182" H 4100 5900 50  0000 C CNN
 	1    3800 5550
 	1    0    0    -1  
 $EndComp
-Text Notes 830  6330 0    60   ~
+Text Notes 830  6330 0    60   ~ 0
 D0: Operation mode
-Text Notes 830  6480 0    60   ~
+Text Notes 830  6480 0    60   ~ 0
 D1: Operation mode
-Text Notes 830  6630 0    60   ~
+Text Notes 830  6630 0    60   ~ 0
 D2: Operation mode
-Text Notes 830  6780 0    60   ~
+Text Notes 830  6780 0    60   ~ 0
 D3: Unused
-Text Notes 830  6930 0    60   ~
+Text Notes 830  6930 0    60   ~ 0
 D4: -Ube/Uce
-Text Notes 830  7080 0    60   ~
+Text Notes 830  7080 0    60   ~ 0
 D5: -EN Uce/Ube
-Text Notes 830  7230 0    60   ~
+Text Notes 830  7230 0    60   ~ 0
 D6: -NPN/PNP
-Text Notes 830  7380 0    60   ~
+Text Notes 830  7380 0    60   ~ 0
 D7: -HP
-Text Notes 830  6130 0    60   ~
+Text Notes 830  6130 0    60   ~ 0
 Input bits
 $Comp
 L NPN T12
 U 1 1 4D90A2E4
 P 8850 5350
-F 0 "T12" H 9150 5350 50  0000 C C
-F 1 "BC109C" H 8752 5500 50  0001 C C
+F 0 "T12" H 9150 5350 50  0000 C CNN
+F 1 "BC109C" H 8752 5500 50  0001 C CNN
 	1    8850 5350
 	1    0    0    -1  
 $EndComp
@@ -978,8 +1005,8 @@ $Comp
 L NPN T11
 U 1 1 4D90A02B
 P 8850 4850
-F 0 "T11" H 9150 4850 50  0000 C C
-F 1 "BC109C" H 8752 5000 50  0001 C C
+F 0 "T11" H 9150 4850 50  0000 C CNN
+F 1 "BC109C" H 8752 5000 50  0001 C CNN
 	1    8850 4850
 	1    0    0    -1  
 $EndComp
@@ -987,8 +1014,8 @@ $Comp
 L DIODE D1
 U 1 1 4D90A046
 P 7300 1750
-F 0 "D1" H 7450 1700 40  0000 C C
-F 1 "1N4148" H 7300 1900 40  0000 C C
+F 0 "D1" H 7450 1700 40  0000 C CNN
+F 1 "1N4148" H 7300 1900 40  0000 C CNN
 	1    7300 1750
 	1    0    0    -1  
 $EndComp
@@ -996,8 +1023,8 @@ $Comp
 L DIODE D2
 U 1 1 4D90A045
 P 7300 1900
-F 0 "D2" H 7450 1850 40  0000 C C
-F 1 "1N4148" H 7300 1800 40  0001 C C
+F 0 "D2" H 7450 1850 40  0000 C CNN
+F 1 "1N4148" H 7300 1800 40  0001 C CNN
 	1    7300 1900
 	1    0    0    -1  
 $EndComp
@@ -1005,8 +1032,8 @@ $Comp
 L DIODE D3
 U 1 1 4D90A044
 P 7300 2050
-F 0 "D3" H 7450 2000 40  0000 C C
-F 1 "1N4148" H 7300 1950 40  0001 C C
+F 0 "D3" H 7450 2000 40  0000 C CNN
+F 1 "1N4148" H 7300 1950 40  0001 C CNN
 	1    7300 2050
 	1    0    0    -1  
 $EndComp
@@ -1014,8 +1041,8 @@ $Comp
 L DIODE D4
 U 1 1 4D90A043
 P 7300 2200
-F 0 "D4" H 7450 2150 40  0000 C C
-F 1 "1N4148" H 7300 2100 40  0001 C C
+F 0 "D4" H 7450 2150 40  0000 C CNN
+F 1 "1N4148" H 7300 2100 40  0001 C CNN
 	1    7300 2200
 	1    0    0    -1  
 $EndComp
@@ -1023,8 +1050,8 @@ $Comp
 L DIODE D5
 U 1 1 4D90A042
 P 7300 2350
-F 0 "D5" H 7450 2300 40  0000 C C
-F 1 "1N4148" H 7300 2250 40  0001 C C
+F 0 "D5" H 7450 2300 40  0000 C CNN
+F 1 "1N4148" H 7300 2250 40  0001 C CNN
 	1    7300 2350
 	1    0    0    -1  
 $EndComp
@@ -1032,8 +1059,8 @@ $Comp
 L DIODE D6
 U 1 1 4D90A041
 P 7300 2500
-F 0 "D6" H 7450 2450 40  0000 C C
-F 1 "1N4148" H 7300 2400 40  0001 C C
+F 0 "D6" H 7450 2450 40  0000 C CNN
+F 1 "1N4148" H 7300 2400 40  0001 C CNN
 	1    7300 2500
 	1    0    0    -1  
 $EndComp
@@ -1041,8 +1068,8 @@ $Comp
 L DIODE D7
 U 1 1 4D90A040
 P 7300 2650
-F 0 "D7" H 7450 2600 40  0000 C C
-F 1 "1N4148" H 7300 2550 40  0001 C C
+F 0 "D7" H 7450 2600 40  0000 C CNN
+F 1 "1N4148" H 7300 2550 40  0001 C CNN
 	1    7300 2650
 	1    0    0    -1  
 $EndComp
@@ -1050,8 +1077,8 @@ $Comp
 L DIODE D8
 U 1 1 4D90A03F
 P 7300 2950
-F 0 "D8" H 7450 2900 40  0000 C C
-F 1 "1N4148" H 7300 2850 40  0001 C C
+F 0 "D8" H 7450 2900 40  0000 C CNN
+F 1 "1N4148" H 7300 2850 40  0001 C CNN
 	1    7300 2950
 	1    0    0    -1  
 $EndComp
@@ -1059,8 +1086,8 @@ $Comp
 L DIODE D9
 U 1 1 4D90A03E
 P 7300 3100
-F 0 "D9" H 7450 3050 40  0000 C C
-F 1 "1N4148" H 7300 3000 40  0001 C C
+F 0 "D9" H 7450 3050 40  0000 C CNN
+F 1 "1N4148" H 7300 3000 40  0001 C CNN
 	1    7300 3100
 	1    0    0    -1  
 $EndComp
@@ -1068,8 +1095,8 @@ $Comp
 L DIODE D10
 U 1 1 4D90A03D
 P 7300 3400
-F 0 "D10" H 7450 3350 40  0000 C C
-F 1 "1N4148" H 7300 3300 40  0001 C C
+F 0 "D10" H 7450 3350 40  0000 C CNN
+F 1 "1N4148" H 7300 3300 40  0001 C CNN
 	1    7300 3400
 	1    0    0    -1  
 $EndComp
@@ -1077,8 +1104,8 @@ $Comp
 L DIODE D11
 U 1 1 4D90A03C
 P 7300 3550
-F 0 "D11" H 7450 3500 40  0000 C C
-F 1 "1N4148" H 7300 3450 40  0001 C C
+F 0 "D11" H 7450 3500 40  0000 C CNN
+F 1 "1N4148" H 7300 3450 40  0001 C CNN
 	1    7300 3550
 	1    0    0    -1  
 $EndComp
@@ -1086,8 +1113,8 @@ $Comp
 L DIODE D12
 U 1 1 4D90A03B
 P 7300 3850
-F 0 "D12" H 7450 3800 40  0000 C C
-F 1 "1N4148" H 7300 3750 40  0001 C C
+F 0 "D12" H 7450 3800 40  0000 C CNN
+F 1 "1N4148" H 7300 3750 40  0001 C CNN
 	1    7300 3850
 	1    0    0    -1  
 $EndComp
@@ -1095,8 +1122,8 @@ $Comp
 L DIODE D13
 U 1 1 4D90A03A
 P 7300 4150
-F 0 "D13" H 7450 4100 40  0000 C C
-F 1 "1N4148" H 7300 4050 40  0001 C C
+F 0 "D13" H 7450 4100 40  0000 C CNN
+F 1 "1N4148" H 7300 4050 40  0001 C CNN
 	1    7300 4150
 	1    0    0    -1  
 $EndComp
@@ -1104,8 +1131,8 @@ $Comp
 L DIODE D14
 U 1 1 4D90A039
 P 7300 4300
-F 0 "D14" H 7450 4250 40  0000 C C
-F 1 "1N4148" H 7300 4200 40  0001 C C
+F 0 "D14" H 7450 4250 40  0000 C CNN
+F 1 "1N4148" H 7300 4200 40  0001 C CNN
 	1    7300 4300
 	1    0    0    -1  
 $EndComp
@@ -1113,8 +1140,8 @@ $Comp
 L NPN T1
 U 1 1 4D90A038
 P 8850 2250
-F 0 "T1" H 9100 2250 50  0000 C C
-F 1 "BC109C" H 8900 2900 50  0000 C C
+F 0 "T1" H 9100 2250 50  0000 C CNN
+F 1 "BC109C" H 8900 2900 50  0000 C CNN
 	1    8850 2250
 	1    0    0    -1  
 $EndComp
@@ -1122,8 +1149,8 @@ $Comp
 L NPN T6
 U 1 1 4D90A037
 P 10250 2250
-F 0 "T6" H 10550 2250 50  0000 C C
-F 1 "BC109C" H 10300 2900 50  0000 C C
+F 0 "T6" H 10550 2250 50  0000 C CNN
+F 1 "BC109C" H 10300 2900 50  0000 C CNN
 	1    10250 2250
 	-1   0    0    -1  
 $EndComp
@@ -1131,8 +1158,8 @@ $Comp
 L NPN T2
 U 1 1 4D90A036
 P 8850 2750
-F 0 "T2" H 9100 2750 50  0000 C C
-F 1 "BC109C" H 8752 2900 50  0001 C C
+F 0 "T2" H 9100 2750 50  0000 C CNN
+F 1 "BC109C" H 8752 2900 50  0001 C CNN
 	1    8850 2750
 	1    0    0    -1  
 $EndComp
@@ -1140,8 +1167,8 @@ $Comp
 L NPN T7
 U 1 1 4D90A033
 P 10250 2750
-F 0 "T7" H 10550 2750 50  0000 C C
-F 1 "BC109C" H 10152 2900 50  0001 C C
+F 0 "T7" H 10550 2750 50  0000 C CNN
+F 1 "BC109C" H 10152 2900 50  0001 C CNN
 	1    10250 2750
 	-1   0    0    -1  
 $EndComp
@@ -1149,8 +1176,8 @@ $Comp
 L NPN T3
 U 1 1 4D90A032
 P 8850 3250
-F 0 "T3" H 9100 3250 50  0000 C C
-F 1 "BC109C" H 8752 3400 50  0001 C C
+F 0 "T3" H 9100 3250 50  0000 C CNN
+F 1 "BC109C" H 8752 3400 50  0001 C CNN
 	1    8850 3250
 	1    0    0    -1  
 $EndComp
@@ -1158,8 +1185,8 @@ $Comp
 L NPN T8
 U 1 1 4D90A031
 P 10250 3250
-F 0 "T8" H 10550 3250 50  0000 C C
-F 1 "BC109C" H 10152 3400 50  0001 C C
+F 0 "T8" H 10550 3250 50  0000 C CNN
+F 1 "BC109C" H 10152 3400 50  0001 C CNN
 	1    10250 3250
 	-1   0    0    -1  
 $EndComp
@@ -1167,8 +1194,8 @@ $Comp
 L NPN T4
 U 1 1 4D90A030
 P 8850 3750
-F 0 "T4" H 9100 3750 50  0000 C C
-F 1 "BC109C" H 8752 3900 50  0001 C C
+F 0 "T4" H 9100 3750 50  0000 C CNN
+F 1 "BC109C" H 8752 3900 50  0001 C CNN
 	1    8850 3750
 	1    0    0    -1  
 $EndComp
@@ -1176,8 +1203,8 @@ $Comp
 L NPN T9
 U 1 1 4D90A02F
 P 10250 3750
-F 0 "T9" H 10550 3750 50  0000 C C
-F 1 "BC109C" H 10152 3900 50  0001 C C
+F 0 "T9" H 10550 3750 50  0000 C CNN
+F 1 "BC109C" H 10152 3900 50  0001 C CNN
 	1    10250 3750
 	-1   0    0    -1  
 $EndComp
@@ -1185,8 +1212,8 @@ $Comp
 L NPN T5
 U 1 1 4D90A02E
 P 8850 4250
-F 0 "T5" H 9100 4250 50  0000 C C
-F 1 "BC109C" H 8752 4400 50  0001 C C
+F 0 "T5" H 9100 4250 50  0000 C CNN
+F 1 "BC109C" H 8752 4400 50  0001 C CNN
 	1    8850 4250
 	1    0    0    -1  
 $EndComp
@@ -1194,8 +1221,8 @@ $Comp
 L NPN T10
 U 1 1 4D90A02D
 P 10250 4250
-F 0 "T10" H 10550 4250 50  0000 C C
-F 1 "BC109C" H 10152 4400 50  0001 C C
+F 0 "T10" H 10550 4250 50  0000 C CNN
+F 1 "BC109C" H 10152 4400 50  0001 C CNN
 	1    10250 4250
 	-1   0    0    -1  
 $EndComp
@@ -1203,8 +1230,8 @@ $Comp
 L NPN T14
 U 1 1 4D90A02A
 P 10250 4850
-F 0 "T14" H 10550 4850 50  0000 C C
-F 1 "BC109C" H 10152 5000 50  0001 C C
+F 0 "T14" H 10550 4850 50  0000 C CNN
+F 1 "BC109C" H 10152 5000 50  0001 C CNN
 	1    10250 4850
 	-1   0    0    -1  
 $EndComp
@@ -1212,8 +1239,8 @@ $Comp
 L NPN T13
 U 1 1 4D90A028
 P 8850 5850
-F 0 "T13" H 8750 6000 50  0000 C C
-F 1 "BC109C" H 8950 5350 50  0000 C C
+F 0 "T13" H 8750 6000 50  0000 C CNN
+F 1 "BC109C" H 8950 5350 50  0000 C CNN
 	1    8850 5850
 	1    0    0    -1  
 $EndComp
@@ -1221,8 +1248,8 @@ $Comp
 L NPN T15
 U 1 1 4D90A027
 P 10250 5350
-F 0 "T15" H 10550 5350 50  0000 C C
-F 1 "BC109C" H 10300 4350 50  0000 C C
+F 0 "T15" H 10550 5350 50  0000 C CNN
+F 1 "BC109C" H 10300 4350 50  0000 C CNN
 	1    10250 5350
 	-1   0    0    -1  
 $EndComp
@@ -1230,8 +1257,8 @@ $Comp
 L SWITCH_INV JC1
 U 1 1 4D90A026
 P 7450 5550
-F 0 "JC1" V 7450 5750 50  0000 C C
-F 1 "SWITCH_INV" H 7300 5400 50  0001 C C
+F 0 "JC1" V 7450 5750 50  0000 C CNN
+F 1 "SWITCH_INV" H 7300 5400 50  0001 C CNN
 	1    7450 5550
 	0    -1   1    0   
 $EndComp
@@ -1239,8 +1266,8 @@ $Comp
 L DIODE D15
 U 1 1 4D90A017
 P 9400 5800
-F 0 "D15" H 9550 5750 40  0000 C C
-F 1 "1N4148" H 9400 5650 40  0000 C C
+F 0 "D15" H 9550 5750 40  0000 C CNN
+F 1 "1N4148" H 9400 5650 40  0000 C CNN
 	1    9400 5800
 	1    0    0    -1  
 $EndComp
@@ -1248,8 +1275,8 @@ $Comp
 L INDUCTOR J1
 U 1 1 4D90A016
 P 9400 5650
-F 0 "J1" V 9400 5250 40  0000 C C
-F 1 "Reed relay" V 9500 5650 40  0001 C C
+F 0 "J1" V 9400 5250 40  0000 C CNN
+F 1 "Reed relay" V 9500 5650 40  0001 C CNN
 	1    9400 5650
 	0    -1   -1   0   
 $EndComp
@@ -1257,8 +1284,8 @@ $Comp
 L 74LS374 IC1
 U 1 1 4D909D75
 P 2400 3300
-F 0 "IC1" H 2400 3300 60  0000 C C
-F 1 "74LS374" H 2400 4750 60  0000 C C
+F 0 "IC1" H 2400 3300 60  0000 C CNN
+F 1 "74LS374" H 2400 4750 60  0000 C CNN
 	1    2400 3300
 	1    0    0    -1  
 $EndComp
@@ -1266,8 +1293,8 @@ $Comp
 L 74LS138 IC2
 U 1 1 4D909D74
 P 4400 3150
-F 0 "IC2" H 4400 3150 60  0000 C C
-F 1 "74LS138" H 4350 4450 60  0000 C C
+F 0 "IC2" H 4400 3150 60  0000 C CNN
+F 1 "74LS138" H 4350 4450 60  0000 C CNN
 	1    4400 3150
 	1    0    0    -1  
 $EndComp
@@ -1275,8 +1302,8 @@ $Comp
 L R R1
 U 1 1 4D909D73
 P 3700 2400
-F 0 "R1" V 3780 2400 50  0000 C C
-F 1 "1k" V 3700 2400 50  0000 C C
+F 0 "R1" V 3780 2400 50  0000 C CNN
+F 1 "1k" V 3700 2400 50  0000 C CNN
 	1    3700 2400
 	-1   0    0    -1  
 $EndComp
@@ -1285,8 +1312,8 @@ $Comp
 L CP C1
 U 1 1 4D909D71
 P 1600 2350
-F 0 "C1" H 1650 2450 50  0000 L C
-F 1 "220u" H 1650 2250 50  0000 L C
+F 0 "C1" H 1650 2450 50  0000 L CNN
+F 1 "220u" H 1650 2250 50  0000 L CNN
 	1    1600 2350
 	1    0    0    -1  
 $EndComp
@@ -1294,21 +1321,21 @@ $Comp
 L GND #PWR04
 U 1 1 4D909D70
 P 1600 4250
-F 0 "#PWR04" H 1600 4250 30  0001 C C
-F 1 "GND" H 1600 4180 30  0001 C C
+F 0 "#PWR04" H 1600 4250 30  0001 C CNN
+F 1 "GND" H 1600 4180 30  0001 C CNN
 	1    1600 4250
 	1    0    0    -1  
 $EndComp
-Text Notes 725  2825 0    60   ~
+Text Notes 725  2825 0    60   ~ 0
 CN1
-Text Notes 1250 3700 0    60   ~
+Text Notes 1250 3700 0    60   ~ 0
 1
 $Comp
 L 74LS04 IC3
 U 1 1 4D909D6D
 P 5850 2750
-F 0 "IC3" H 6045 2865 60  0000 C C
-F 1 "74LS04" H 6000 3650 60  0000 C C
+F 0 "IC3" H 6045 2865 60  0000 C CNN
+F 1 "74LS04" H 6000 3650 60  0000 C CNN
 	1    5850 2750
 	1    0    0    -1  
 $EndComp
@@ -1316,8 +1343,8 @@ $Comp
 L 74LS04 IC3
 U 6 1 4D909D6C
 P 6300 2950
-F 0 "IC3" H 6495 3065 60  0000 C C
-F 1 "74LS04" H 6490 2825 60  0001 C C
+F 0 "IC3" H 6495 3065 60  0000 C CNN
+F 1 "74LS04" H 6490 2825 60  0001 C CNN
 	6    6300 2950
 	1    0    0    -1  
 $EndComp
@@ -1325,8 +1352,8 @@ $Comp
 L 74LS04 IC3
 U 2 1 4D909D6B
 P 5850 3150
-F 0 "IC3" H 6000 3250 60  0000 C C
-F 1 "74LS04" H 6040 3025 60  0001 C C
+F 0 "IC3" H 6000 3250 60  0000 C CNN
+F 1 "74LS04" H 6040 3025 60  0001 C CNN
 	2    5850 3150
 	1    0    0    -1  
 $EndComp
@@ -1334,8 +1361,8 @@ $Comp
 L 74LS04 IC3
 U 5 1 4D909D6A
 P 6300 3350
-F 0 "IC3" H 6495 3465 60  0000 C C
-F 1 "74LS04" H 6490 3225 60  0001 C C
+F 0 "IC3" H 6495 3465 60  0000 C CNN
+F 1 "74LS04" H 6490 3225 60  0001 C CNN
 	5    6300 3350
 	1    0    0    -1  
 $EndComp
@@ -1343,20 +1370,20 @@ $Comp
 L 74LS04 IC3
 U 3 1 4D909D69
 P 5850 3550
-F 0 "IC3" H 6000 3650 60  0000 C C
-F 1 "74LS04" H 6040 3425 60  0001 C C
+F 0 "IC3" H 6000 3650 60  0000 C CNN
+F 1 "74LS04" H 6040 3425 60  0001 C CNN
 	3    5850 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 725  2050 0    60   ~
+Text Notes 725  2050 0    60   ~ 0
 CN2
 NoConn ~ 5000 2800
 $Comp
 L 74LS04 IC3
 U 4 1 4D909D68
 P 6300 3750
-F 0 "IC3" H 6495 3865 60  0000 C C
-F 1 "74LS04" H 6490 3625 60  0001 C C
+F 0 "IC3" H 6495 3865 60  0000 C CNN
+F 1 "74LS04" H 6490 3625 60  0001 C CNN
 	4    6300 3750
 	1    0    0    -1  
 $EndComp
