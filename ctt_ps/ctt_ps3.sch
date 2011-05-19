@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.17. 21:59:39
+EESchema Schematic File Version 2  date 2011.05.19. 22:00:07
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -31,11 +31,11 @@ EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 10
-Title ""
-Date "17 may 2011"
-Rev ""
-Comp ""
-Comment1 ""
+Title "CTT Transistor tester - CTT/PS3 power supply unit"
+Date "19 may 2011"
+Rev "1.0"
+Comp "Pozsar Zsolt"
+Comment1 "Draw number: CTT/39"
 Comment2 ""
 Comment3 ""
 Comment4 ""
