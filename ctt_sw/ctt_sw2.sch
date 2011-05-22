@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.19. 22:00:07
+EESchema Schematic File Version 2  date 2011.05.22. 19:49:18
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,9 +30,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 10
+Sheet 2 10
 Title "CTT Transistor tester - CTT/SW2 Switching unit"
-Date "19 may 2011"
+Date "22 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/34"
@@ -48,33 +48,33 @@ Text Notes 900  7300 0    60   ~ 0
 n=600 0.15 CuZ l=15 mm
 Text Notes 800  7150 0    60   ~ 0
 Inductors:
-Text HLabel 3400 1550 3    60   Input ~ 0
+Text HLabel 3400 1550 1    60   Input ~ 0
 J8-2
-Text HLabel 3300 1550 3    60   Input ~ 0
+Text HLabel 3300 1550 1    60   Input ~ 0
 J2-2
-Text HLabel 3200 1550 3    60   Input ~ 0
+Text HLabel 3200 1550 1    60   Input ~ 0
 J12
-Text HLabel 3100 1550 3    60   Input ~ 0
+Text HLabel 3100 1550 1    60   Input ~ 0
 J11
-Text HLabel 3000 1550 3    60   Input ~ 0
+Text HLabel 3000 1550 1    60   Input ~ 0
 J10
-Text HLabel 2900 1550 3    60   Input ~ 0
+Text HLabel 2900 1550 1    60   Input ~ 0
 J9
-Text HLabel 2800 1550 3    60   Input ~ 0
+Text HLabel 2800 1550 1    60   Input ~ 0
 J8
-Text HLabel 2700 1550 3    60   Input ~ 0
+Text HLabel 2700 1550 1    60   Input ~ 0
 J7
-Text HLabel 2600 1550 3    60   Input ~ 0
+Text HLabel 2600 1550 1    60   Input ~ 0
 J6
-Text HLabel 2500 1550 3    60   Input ~ 0
+Text HLabel 2500 1550 1    60   Input ~ 0
 J5
-Text HLabel 2400 1550 3    60   Input ~ 0
+Text HLabel 2400 1550 1    60   Input ~ 0
 J4
-Text HLabel 2300 1550 3    60   Input ~ 0
+Text HLabel 2300 1550 1    60   Input ~ 0
 J3
-Text HLabel 2200 1550 3    60   Input ~ 0
+Text HLabel 2200 1550 1    60   Input ~ 0
 J2
-Text HLabel 2100 1550 3    60   Input ~ 0
+Text HLabel 2100 1550 1    60   Input ~ 0
 J1
 Text HLabel 9850 2050 2    60   Input ~ 0
 Um3

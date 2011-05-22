@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.19. 22:00:07
+EESchema Schematic File Version 2  date 2011.05.22. 19:49:18
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 10
 Title "CTT Transistor tester"
-Date "19 may 2011"
+Date "22 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/2"
@@ -40,18 +40,48 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7700 6600 0    60   ~ 0
-CN2
-Text Notes 7900 6300 0    60   ~ 0
-CN3
-Text Notes 7600 4750 0    60   ~ 0
-CN2
-Text Notes 8200 5250 0    60   ~ 0
-CN1
-Text Notes 9450 5950 0    60   ~ 0
-CN2
-Text Notes 10100 4850 0    60   ~ 0
-CN1
+Text Label 6200 3100 0    60   ~ 0
+27
+Text Label 1400 5350 0    60   ~ 0
+26
+$Sheet
+S 4800 1150 1300 2350
+U 4DD13EAE
+F0 "CTT/SW2" 60
+F1 "ctt_sw/ctt_sw2.sch" 60
+F2 "J1" I L 4800 1250 60 
+F3 "J2" I L 4800 1350 60 
+F4 "J3" I L 4800 1450 60 
+F5 "J4" I L 4800 1550 60 
+F6 "J5" I L 4800 1650 60 
+F7 "J6" I L 4800 1750 60 
+F8 "J7" I L 4800 1850 60 
+F9 "J8" I L 4800 1950 60 
+F10 "J9" I L 4800 2050 60 
+F11 "J10" I L 4800 2150 60 
+F12 "J11" I L 4800 2250 60 
+F13 "J12" I L 4800 2350 60 
+F14 "J2-2" I L 4800 2450 60 
+F15 "J8-2" I L 4800 2550 60 
+F16 "AO" O R 6100 1600 60 
+F17 "C" U R 6100 1800 60 
+F18 "B" U R 6100 1900 60 
+F19 "E" U R 6100 2000 60 
+F20 "Um1" I R 6100 3200 60 
+F21 "Um2" I R 6100 3300 60 
+F22 "Um3" I R 6100 3400 60 
+F23 "+5V" I L 4800 2700 60 
+F24 "GND" U L 4800 2800 60 
+F25 "COM" U R 6100 3100 60 
+$EndSheet
+Text Label 8950 6600 0    60   ~ 0
+27
+Text Label 2600 1850 0    60   ~ 0
+23
+Text Label 2600 1750 0    60   ~ 0
+22
+Wire Wire Line
+	2550 1850 2850 1850
 Connection ~ 8950 6600
 Wire Wire Line
 	8950 6700 8950 6600
@@ -144,10 +174,6 @@ Wire Wire Line
 Connection ~ 2850 2200
 Wire Wire Line
 	2550 2200 3250 2200
-Wire Wire Line
-	6100 2350 6250 2350
-Wire Wire Line
-	6250 2350 6250 2450
 Wire Wire Line
 	4550 2700 4800 2700
 Wire Wire Line
@@ -457,6 +483,28 @@ Wire Wire Line
 	8750 6700 8750 6600
 Wire Wire Line
 	8750 6600 9100 6600
+Wire Wire Line
+	2850 1750 2550 1750
+Entry Wire Line
+	2850 1850 2950 1750
+Entry Wire Line
+	2850 1750 2950 1650
+Text Notes 5550 4850 0    60   ~ 0
+CN1
+Text Notes 3600 4850 0    60   ~ 0
+CN1
+Text Notes 7700 6600 0    60   ~ 0
+CN2
+Text Notes 7900 6300 0    60   ~ 0
+CN3
+Text Notes 7600 4750 0    60   ~ 0
+CN2
+Text Notes 8200 5250 0    60   ~ 0
+CN1
+Text Notes 9450 5950 0    60   ~ 0
+CN2
+Text Notes 10100 4850 0    60   ~ 0
+CN1
 $Comp
 L GND #PWR?
 U 1 1 4DD14509
@@ -673,8 +721,6 @@ Text Notes 3575 2200 0    60   ~ 0
 CN2
 Text Notes 3575 3100 0    60   ~ 0
 CN1
-Text Label 6150 2350 0    60   ~ 0
-27
 Text Label 4600 2800 0    60   ~ 0
 57
 Text Label 4600 2700 0    60   ~ 0
@@ -707,15 +753,6 @@ Text Label 4600 1350 0    60   ~ 0
 43
 Text Label 4600 1250 0    60   ~ 0
 42
-$Comp
-L GND #PWR?
-U 1 1 4D8F561A
-P 6250 2450
-F 0 "#PWR?" H 6250 2450 30  0001 C CNN
-F 1 "GND" H 6250 2380 30  0001 C CNN
-	1    6250 2450
-	1    0    0    -1  
-$EndComp
 Text Label 6200 3400 0    60   ~ 0
 29
 Text Label 6200 3300 0    60   ~ 0
@@ -732,37 +769,6 @@ Text Label 6200 1600 0    60   ~ 0
 25
 Text Notes 5100 1900 0    60   ~ 0
 CN1
-$Sheet
-S 4800 1150 1300 2350
-U 4DD13EAE
-F0 "CTT/SW2" 60
-F1 "ctt_sw/ctt_sw2.sch" 60
-F2 "J1" I L 4800 1250 60 
-F3 "J2" I L 4800 1350 60 
-F4 "J3" I L 4800 1450 60 
-F5 "J4" I L 4800 1550 60 
-F6 "J5" I L 4800 1650 60 
-F7 "J6" I L 4800 1750 60 
-F8 "J7" I L 4800 1850 60 
-F9 "J8" I L 4800 1950 60 
-F10 "J9" I L 4800 2050 60 
-F11 "J10" I L 4800 2150 60 
-F12 "J11" I L 4800 2250 60 
-F13 "J12" I L 4800 2350 60 
-F14 "J2-2" I L 4800 2450 60 
-F15 "J8-2" I L 4800 2550 60 
-F16 "AO" O R 6100 1600 60 
-F17 "C" U R 6100 1800 60 
-F18 "B" U R 6100 1900 60 
-F19 "E" U R 6100 2000 60 
-F20 "Um1" I R 6100 3200 60 
-F21 "Um2" I R 6100 3300 60 
-F22 "Um3" I R 6100 3400 60 
-F23 "+5V" I L 4800 2700 60 
-F24 "GND" U L 4800 2800 60 
-F25 "GND" U R 6100 2350 60 
-F26 "COM" U R 6100 3100 60 
-$EndSheet
 Text Label 6200 2000 0    60   ~ 0
 38
 Text Label 6200 1900 0    60   ~ 0
