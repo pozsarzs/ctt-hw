@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.22. 21:21:49
+EESchema Schematic File Version 2  date 2011.05.26. 15:15:23
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,32 +30,45 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 10
+Sheet 4 10
 Title "CTT Transistor tester - CTT/PS1 power supply unit"
-Date "22 may 2011"
+Date "26 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
-Comment1 "Draw number: CTT/??"
+Comment1 "Draw number: CTT/21"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3230 5390 0    60   ~ 0
-CN3
-Text Notes 7800 5590 0    60   ~ 0
-CN3
-Text Notes 3225 3700 0    60   ~ 0
-CN2\n
-Text Notes 8110 3550 0    60   ~ 0
-CN1
+Text Notes 7550 4300 0    60   ~ 0
+6
+Text Notes 7550 5400 0    60   ~ 0
+5
+Text Notes 7550 3500 0    60   ~ 0
+4
+Text Notes 7550 3350 0    60   ~ 0
+3
+Text Notes 7550 2300 0    60   ~ 0
+2
+Text Notes 7550 2150 0    60   ~ 0
+1
 Wire Wire Line
-	5000 6000 5000 6050
+	7150 2300 7650 2300
 Wire Wire Line
-	4100 6050 5000 6050
+	7150 3500 7650 3500
 Wire Wire Line
-	4100 6050 4100 2650
+	7150 4300 7650 4300
 Wire Wire Line
-	7350 5000 3850 5000
+	3850 5400 7650 5400
+Connection ~ 4200 5400
+Wire Wire Line
+	4200 5300 4200 5400
+Connection ~ 4700 4800
+Connection ~ 5700 4800
+Wire Wire Line
+	5000 6600 5000 6650
+Wire Wire Line
+	5000 6650 4050 6650
 Connection ~ 4200 4800
 Wire Wire Line
 	4700 4800 4700 4750
@@ -64,18 +77,16 @@ Wire Wire Line
 Wire Wire Line
 	4700 4300 4700 4350
 Connection ~ 4700 4300
-Wire Wire Line
-	4200 4800 4200 4750
 Connection ~ 5200 4800
 Wire Wire Line
-	5250 4800 4650 4800
+	4650 4800 5250 4800
 Wire Wire Line
 	5700 4800 5700 4750
 Connection ~ 5200 4300
 Wire Wire Line
 	5200 4350 5200 4300
 Wire Wire Line
-	5750 4300 5150 4300
+	5150 4300 5750 4300
 Wire Wire Line
 	5700 4300 5700 4350
 Connection ~ 5700 4300
@@ -87,28 +98,24 @@ Connection ~ 6700 4300
 Wire Wire Line
 	6700 4300 6700 4350
 Wire Wire Line
-	6750 4300 6150 4300
+	6150 4300 6750 4300
 Wire Wire Line
-	7350 5550 6250 5550
+	5300 6400 5350 6400
 Wire Wire Line
-	5300 5800 5350 5800
-Wire Wire Line
-	5350 5800 5350 5750
-Connection ~ 4100 3850
+	5350 6400 5350 6350
+Connection ~ 4050 3850
 Wire Wire Line
 	3850 3850 6650 3850
 Wire Wire Line
-	3850 3300 5150 3300
+	5150 3300 3850 3300
 Connection ~ 4450 3300
 Wire Wire Line
-	4450 3400 4450 3300
+	4450 3300 4450 3400
 Wire Wire Line
 	6650 3850 6650 3500
 Wire Wire Line
 	6700 3350 6750 3350
 Connection ~ 7250 3350
-Wire Wire Line
-	7350 3350 7150 3350
 Connection ~ 5050 3850
 Wire Wire Line
 	4750 3850 4750 3800
@@ -118,9 +125,9 @@ Wire Wire Line
 	5050 2950 5050 3400
 Connection ~ 5550 3850
 Wire Wire Line
-	5550 3600 5550 3850
+	5550 3850 5550 3600
 Wire Wire Line
-	6400 3850 6400 3800
+	6400 3800 6400 3850
 Wire Wire Line
 	5050 3850 5050 3800
 Connection ~ 6400 3300
@@ -140,10 +147,10 @@ Wire Wire Line
 Wire Wire Line
 	6650 3500 6750 3500
 Wire Wire Line
-	6650 3800 6750 3800
+	6750 3800 6650 3800
 Connection ~ 6050 3300
 Wire Wire Line
-	6050 3800 6050 3850
+	6050 3850 6050 3800
 Connection ~ 6050 3850
 Wire Wire Line
 	4750 3300 4750 3400
@@ -154,8 +161,6 @@ Wire Wire Line
 	6050 2950 6050 3400
 Connection ~ 6400 3850
 Connection ~ 6650 3800
-Wire Wire Line
-	7350 3500 7150 3500
 Connection ~ 7200 3500
 Wire Wire Line
 	5950 3300 6700 3300
@@ -174,8 +179,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 2100 5950 2100
 Connection ~ 7200 2300
-Wire Wire Line
-	7350 2300 7150 2300
 Connection ~ 6650 2600
 Connection ~ 6400 2650
 Wire Wire Line
@@ -221,29 +224,27 @@ Wire Wire Line
 Wire Wire Line
 	4750 2650 4750 2600
 Connection ~ 5050 2650
-Wire Wire Line
-	7350 2150 7150 2150
 Connection ~ 7250 2150
 Wire Wire Line
-	6700 2150 6750 2150
+	6750 2150 6700 2150
 Wire Wire Line
 	6650 2300 6650 2650
 Wire Wire Line
 	4450 2200 4450 2100
 Connection ~ 4450 2100
 Wire Wire Line
-	3850 2100 5150 2100
+	5150 2100 3850 2100
 Wire Wire Line
-	6650 2650 4100 2650
+	6650 2650 4050 2650
 Connection ~ 4450 3850
 Connection ~ 4450 2650
 Wire Wire Line
-	5650 5550 5750 5550
+	5650 6150 5750 6150
 Wire Wire Line
-	5000 5350 5000 5600
+	5000 5950 5000 6200
 Wire Wire Line
-	3850 5350 5350 5350
-Connection ~ 5000 5350
+	5350 5950 3850 5950
+Connection ~ 5000 5950
 Wire Wire Line
 	6200 4350 6200 4300
 Connection ~ 6200 4300
@@ -252,28 +253,69 @@ Wire Wire Line
 Wire Wire Line
 	6700 4800 6650 4800
 Wire Wire Line
-	6250 4800 5650 4800
+	5650 4800 6250 4800
 Connection ~ 6200 4800
 Wire Wire Line
 	4200 4300 4750 4300
 Wire Wire Line
-	7350 4300 7150 4300
+	4250 4800 3850 4800
 Wire Wire Line
-	3850 4800 4250 4800
+	4050 2650 4050 6650
+Wire Wire Line
+	4200 4900 4200 4750
+Wire Wire Line
+	6250 6150 7650 6150
+Wire Wire Line
+	7150 3350 7650 3350
+Wire Wire Line
+	7150 2150 7650 2150
+Text Notes 3900 5950 0    60   ~ 0
+2
+Text Notes 7550 6150 0    60   ~ 0
+1
+Text Notes 3900 5400 0    60   ~ 0
+2
+Text Notes 3900 4800 0    60   ~ 0
+1
+Text Notes 3900 3850 0    60   ~ 0
+3
+Text Notes 3900 3300 0    60   ~ 0
+2
+Text Notes 3900 2100 0    60   ~ 0
+1
+Text Notes 3350 5700 0    60   ~ 0
+CN4
 $Comp
-L DIODE D15
+L CP C15
+U 1 1 4DDD087E
+P 4200 5100
+F 0 "C15" H 4150 4700 50  0000 L CNN
+F 1 "22u 200V" H 4350 5100 50  0000 L CNN
+	1    4200 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 5100 0    60   ~ 0
+CN3
+Text Notes 8100 6190 0    60   ~ 0
+CN4
+Text Notes 3350 3000 0    60   ~ 0
+CN2\n
+Text Notes 8410 3550 0    60   ~ 0
+CN1
+$Comp
+L DIODE D17
 U 1 1 4DD56AE6
 P 4700 4550
-F 0 "D15" H 4850 4600 40  0000 C CNN
+F 0 "D17" H 4850 4600 40  0000 C CNN
 F 1 "1N4001" H 4600 4450 40  0000 C CNN
 	1    4700 4550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODE D16
+L DIODE D18
 U 1 1 4DD56AE5
 P 4200 4550
-F 0 "D16" H 4050 4600 40  0000 C CNN
+F 0 "D18" H 4050 4600 40  0000 C CNN
 F 1 "1N4001" H 4300 4450 40  0000 C CNN
 	1    4200 4550
 	0    -1   1    0   
@@ -288,19 +330,19 @@ F 1 "10u" H 4275 4675 50  0000 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L DIODE D13
+L DIODE D15
 U 1 1 4DD56ADB
 P 5700 4550
-F 0 "D13" H 5850 4600 40  0000 C CNN
+F 0 "D15" H 5850 4600 40  0000 C CNN
 F 1 "1N4001" H 5600 4450 40  0000 C CNN
 	1    5700 4550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODE D14
+L DIODE D16
 U 1 1 4DD56ADA
 P 5200 4550
-F 0 "D14" H 5050 4600 40  0000 C CNN
+F 0 "D16" H 5050 4600 40  0000 C CNN
 F 1 "1N4001" H 5300 4450 40  0000 C CNN
 	1    5200 4550
 	0    -1   1    0   
@@ -351,34 +393,34 @@ F 1 "10u" H 6775 4175 50  0000 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L DIODE D12
+L DIODE D14
 U 1 1 4DD3EAD7
 P 6200 4550
-F 0 "D12" H 6050 4600 40  0000 C CNN
+F 0 "D14" H 6050 4600 40  0000 C CNN
 F 1 "1N4001" H 6300 4450 40  0000 C CNN
 	1    6200 4550
 	0    -1   1    0   
 $EndComp
 $Comp
-L DIODE D11
+L DIODE D13
 U 1 1 4DD3EAC3
 P 6700 4550
-F 0 "D11" H 6850 4600 40  0000 C CNN
+F 0 "D13" H 6850 4600 40  0000 C CNN
 F 1 "1N4001" H 6600 4450 40  0000 C CNN
 	1    6700 4550
 	0    -1   -1   0   
 $EndComp
-Text HLabel 3850 5350 0    60   Output ~ 0
+Text HLabel 3850 5950 0    60   Output ~ 0
 POL
-Text HLabel 7350 5550 2    60   Input ~ 0
+Text HLabel 7650 6150 2    60   Input ~ 0
 -NPN
 Text HLabel 3850 4800 0    60   Output ~ 0
 +Um1
-Text HLabel 3850 5000 0    60   Output ~ 0
+Text HLabel 3850 5400 0    60   Output ~ 0
 -Um1
-Text HLabel 7350 5000 2    60   Input ~ 0
+Text HLabel 7650 5400 2    60   Input ~ 0
 18V 10mA AC
-Text HLabel 7350 4300 2    60   Input ~ 0
+Text HLabel 7650 4300 2    60   Input ~ 0
 18V 10mA AC
 Text HLabel 3850 3850 0    60   UnSpc ~ 0
 GND
@@ -422,7 +464,7 @@ $Comp
 L DIODE D8
 U 1 1 4DD3E622
 P 6950 3650
-F 0 "D8" H 7100 3850 40  0000 C CNN
+F 0 "D8" H 7100 3700 40  0000 C CNN
 F 1 "1N4001" H 6750 3550 40  0001 C CNN
 	1    6950 3650
 	-1   0    0    -1  
@@ -449,7 +491,7 @@ $Comp
 L DIODE D9
 U 1 1 4DD3E61F
 P 6950 3500
-F 0 "D9" H 6800 3600 40  0000 C CNN
+F 0 "D9" H 6800 3450 40  0000 C CNN
 F 1 "1N4001" H 6950 3200 40  0001 C CNN
 	1    6950 3500
 	1    0    0    1   
@@ -472,9 +514,9 @@ F 1 "1N4001" V 4400 3600 40  0000 C CNN
 	1    4750 3600
 	0    1    -1   0   
 $EndComp
-Text HLabel 7350 3350 2    60   Input ~ 0
+Text HLabel 7650 3350 2    60   Input ~ 0
 8V 2A AC
-Text HLabel 7350 3500 2    60   Input ~ 0
+Text HLabel 7650 3500 2    60   Input ~ 0
 8V 2A AC
 Text HLabel 3850 3300 0    60   Output ~ 0
 +5V
@@ -489,9 +531,9 @@ F 1 "7905" H 5550 1550 60  0000 C CNN
 $EndComp
 Text HLabel 3850 2100 0    60   Output ~ 0
 -5V
-Text HLabel 7350 2300 2    60   Input ~ 0
+Text HLabel 7650 2300 2    60   Input ~ 0
 8V 0.5A AC
-Text HLabel 7350 2150 2    60   Input ~ 0
+Text HLabel 7650 2150 2    60   Input ~ 0
 8V 0.5A AC
 $Comp
 L DIODE D6
@@ -515,7 +557,7 @@ $Comp
 L DIODE D3
 U 1 1 4DD3E28F
 P 6950 2300
-F 0 "D3" H 6800 2400 40  0000 C CNN
+F 0 "D3" H 6800 2250 40  0000 C CNN
 F 1 "1N4001" H 6950 2000 40  0001 C CNN
 	1    6950 2300
 	-1   0    0    1   
@@ -542,7 +584,7 @@ $Comp
 L DIODE D2
 U 1 1 4DD3E28D
 P 6950 2450
-F 0 "D2" H 7100 2650 40  0000 C CNN
+F 0 "D2" H 7100 2500 40  0000 C CNN
 F 1 "1N4001" H 6750 2350 40  0001 C CNN
 	1    6950 2450
 	1    0    0    -1  
@@ -586,10 +628,10 @@ $EndComp
 $Comp
 L R R1
 U 1 1 4DD3E1B5
-P 6000 5550
-F 0 "R1" V 5875 5475 50  0000 C CNN
-F 1 "470" V 6125 5600 50  0000 C CNN
-	1    6000 5550
+P 6000 6150
+F 0 "R1" V 5875 6075 50  0000 C CNN
+F 1 "470" V 6125 6200 50  0000 C CNN
+	1    6000 6150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -604,19 +646,19 @@ $EndComp
 $Comp
 L NPN T1
 U 1 1 4DD3E196
-P 5450 5550
-F 0 "T1" H 5425 5375 50  0000 R CNN
-F 1 "BC182" H 5650 5850 50  0000 R CNN
-	1    5450 5550
+P 5450 6150
+F 0 "T1" H 5425 5975 50  0000 R CNN
+F 1 "BC182" H 5650 6450 50  0000 R CNN
+	1    5450 6150
 	-1   0    0    -1  
 $EndComp
 $Comp
 L NPN T2
 U 1 1 4DD3E191
-P 5100 5800
-F 0 "T2" H 5075 5625 50  0000 R CNN
-F 1 "BC301" H 5300 6350 50  0000 R CNN
-	1    5100 5800
+P 5100 6400
+F 0 "T2" H 5075 6225 50  0000 R CNN
+F 1 "BC301" H 5300 6950 50  0000 R CNN
+	1    5100 6400
 	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
