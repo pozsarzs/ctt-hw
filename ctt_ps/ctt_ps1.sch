@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.26. 15:15:23
+EESchema Schematic File Version 2  date 2011.05.28. 16:56:09
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 10
 Title "CTT Transistor tester - CTT/PS1 power supply unit"
-Date "26 may 2011"
+Date "28 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/21"
@@ -483,7 +483,7 @@ L DIODE D7
 U 1 1 4DD3E620
 P 6950 3350
 F 0 "D7" H 7100 3400 40  0000 C CNN
-F 1 "1N4001" H 6950 2750 40  0000 C CNN
+F 1 "BY399" H 6950 2750 40  0000 C CNN
 	1    6950 3350
 	-1   0    0    -1  
 $EndComp
@@ -501,7 +501,7 @@ L DIODE D11
 U 1 1 4DD3E61E
 P 5550 2950
 F 0 "D11" H 5450 3050 40  0000 C CNN
-F 1 "1N4001" H 5750 2900 40  0000 C CNN
+F 1 "BY399" H 5750 2900 40  0000 C CNN
 	1    5550 2950
 	1    0    0    1   
 $EndComp
@@ -510,7 +510,7 @@ L DIODE D12
 U 1 1 4DD3E61D
 P 4750 3600
 F 0 "D12" H 4850 3700 40  0000 C CNN
-F 1 "1N4001" V 4400 3600 40  0000 C CNN
+F 1 "BY399" V 4400 3600 40  0000 C CNN
 	1    4750 3600
 	0    1    -1   0   
 $EndComp
