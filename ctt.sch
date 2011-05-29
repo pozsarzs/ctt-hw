@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.28. 16:56:09
+EESchema Schematic File Version 2  date 2011.05.29. 17:53:03
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 10
 Title "CTT Transistor tester"
-Date "28 may 2011"
+Date "29 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/2"
@@ -40,63 +40,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1200 6050 0    60   ~ 0
-71
-Text Label 1200 5850 0    60   ~ 0
-70
-Connection ~ 1150 6250
-Text Label 8800 5750 0    60   ~ 0
-75
-Text Label 8800 5650 0    60   ~ 0
-74
-Text Label 8800 5550 0    60   ~ 0
-73
-Text Label 8800 5400 0    60   ~ 0
-72
-Text Label 8800 5300 0    60   ~ 0
-71
-Text Label 8800 5200 0    60   ~ 0
-70
-Text Label 1200 5650 0    60   ~ 0
-27
-Text Label 1200 6250 0    60   ~ 0
-31
-Text Label 1000 7100 0    60   ~ 0
-30
-Text Label 1000 6750 0    60   ~ 0
-29
-Text Label 2400 7000 0    60   ~ 0
-62
-Text Label 2400 7200 0    60   ~ 0
-63
-Text Label 6200 6850 1    60   ~ 0
-63
-Text Label 6200 6500 0    60   ~ 0
-62
-Text Label 2400 6850 0    60   ~ 0
-61
-Text Label 2400 6650 0    60   ~ 0
-60
-Text Label 3050 6600 0    60   ~ 0
-61
-Text Label 3050 6500 0    60   ~ 0
-60
-Text Label 2400 5750 0    60   ~ 0
-59
-Text Label 2400 6150 0    60   ~ 0
-58
-Text Label 7100 6600 0    60   ~ 0
-59
-Text Label 7100 6500 0    60   ~ 0
-58
 Wire Notes Line
-	1850 7100 1850 5450
+	1850 5550 1850 7100
+Connection ~ 1150 6250
 Wire Wire Line
 	2850 1750 2550 1750
 Wire Wire Line
-	9100 6600 8950 6600
-Wire Wire Line
-	8950 6600 8750 6600
+	9100 6600 8750 6600
 Wire Wire Line
 	8750 6600 8750 6700
 Wire Wire Line
@@ -117,19 +67,11 @@ Connection ~ 3000 3950
 Wire Wire Line
 	1350 6750 950  6750
 Wire Wire Line
-	950  6250 1150 6250
-Wire Wire Line
-	1150 6250 1350 6250
+	950  6250 1350 6250
 Wire Wire Line
 	6350 3100 6100 3100
 Wire Bus Line
-	850  7000 850  6650
-Wire Bus Line
-	850  6650 850  6150
-Wire Bus Line
-	850  6150 850  5550
-Wire Bus Line
-	850  5550 850  4200
+	850  7000 850  4200
 Wire Bus Line
 	850  4200 6150 4200
 Wire Bus Line
@@ -222,21 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 5050 6400 5050
 Wire Bus Line
-	6500 5050 6500 4950
-Wire Bus Line
-	6500 4950 6500 4850
-Wire Bus Line
-	6500 4850 6500 4750
-Wire Bus Line
-	6500 4750 6500 4650
-Wire Bus Line
-	6500 4650 6500 4550
-Wire Bus Line
-	6500 4550 6500 4450
-Wire Bus Line
-	6500 4450 6500 4350
-Wire Bus Line
-	6500 4350 6500 3900
+	6500 5050 6500 3900
 Wire Wire Line
 	4550 2800 4800 2800
 Wire Wire Line
@@ -260,27 +188,11 @@ Wire Wire Line
 Wire Wire Line
 	4550 1250 4800 1250
 Wire Bus Line
-	8750 800  6800 800 
-Wire Bus Line
-	6800 800  2950 800 
+	8750 800  2950 800 
 Wire Bus Line
 	8750 800  8750 1150
 Wire Bus Line
-	2950 800  2950 1150
-Wire Bus Line
-	2950 1150 2950 1250
-Wire Bus Line
-	2950 1250 2950 1350
-Wire Bus Line
-	2950 1350 2950 1450
-Wire Bus Line
-	2950 1450 2950 1550
-Wire Bus Line
-	2950 1550 2950 1650
-Wire Bus Line
-	2950 1650 2950 1750
-Wire Bus Line
-	2950 1750 2950 1850
+	2950 800  2950 1850
 Wire Wire Line
 	2950 5150 3250 5150
 Wire Wire Line
@@ -390,61 +302,11 @@ Wire Wire Line
 Wire Wire Line
 	950  1950 1250 1950
 Wire Bus Line
-	850  1950 850  2050
+	850  1950 850  3800
 Wire Bus Line
-	850  2050 850  2150
+	850  3800 8750 3800
 Wire Bus Line
-	850  2150 850  2250
-Wire Bus Line
-	850  2250 850  2350
-Wire Bus Line
-	850  2350 850  2450
-Wire Bus Line
-	850  2450 850  2550
-Wire Bus Line
-	850  2550 850  2650
-Wire Bus Line
-	850  2650 850  2800
-Wire Bus Line
-	850  2800 850  2900
-Wire Bus Line
-	850  2900 850  3000
-Wire Bus Line
-	850  3000 850  3100
-Wire Bus Line
-	850  3100 850  3200
-Wire Bus Line
-	850  3200 850  3300
-Wire Bus Line
-	850  3300 850  3400
-Wire Bus Line
-	850  3400 850  3500
-Wire Bus Line
-	850  3500 850  3800
-Wire Bus Line
-	850  3800 2750 3800
-Wire Bus Line
-	2750 3800 6400 3800
-Wire Bus Line
-	6400 3800 6800 3800
-Wire Bus Line
-	6800 3800 8750 3800
-Wire Bus Line
-	8750 3800 8750 3500
-Wire Bus Line
-	8750 3500 8750 3400
-Wire Bus Line
-	8750 3400 8750 3300
-Wire Bus Line
-	8750 3300 8750 3200
-Wire Bus Line
-	8750 3200 8750 3100
-Wire Bus Line
-	8750 3100 8750 3000
-Wire Bus Line
-	8750 3000 8750 2900
-Wire Bus Line
-	8750 2900 8750 2800
+	8750 3800 8750 2800
 Wire Wire Line
 	950  1850 1250 1850
 Wire Wire Line
@@ -454,39 +316,11 @@ Wire Wire Line
 Wire Wire Line
 	1250 2450 950  2450
 Wire Bus Line
-	6900 3700 6900 3500
-Wire Bus Line
-	6900 3500 6900 3400
-Wire Bus Line
-	6900 3400 6900 3300
-Wire Bus Line
-	6900 3300 6900 3200
-Wire Bus Line
-	6900 3200 6900 3100
-Wire Bus Line
-	6900 3100 6900 3000
-Wire Bus Line
-	6900 3000 6900 2900
-Wire Bus Line
-	6900 2900 6900 2800
+	6900 3700 6900 2800
 Wire Wire Line
 	950  3400 1250 3400
 Wire Bus Line
-	2850 2800 2850 2900
-Wire Bus Line
-	2850 2900 2850 3000
-Wire Bus Line
-	2850 3000 2850 3100
-Wire Bus Line
-	2850 3100 2850 3200
-Wire Bus Line
-	2850 3200 2850 3300
-Wire Bus Line
-	2850 3300 2850 3400
-Wire Bus Line
-	2850 3400 2850 3500
-Wire Bus Line
-	2850 3500 2850 3700
+	2850 2800 2850 3700
 Wire Wire Line
 	2850 2250 2850 2200
 Wire Wire Line
@@ -498,21 +332,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 2200 10450 2200
 Wire Bus Line
-	2850 5050 2850 4950
-Wire Bus Line
-	2850 4950 2850 4850
-Wire Bus Line
-	2850 4850 2850 4750
-Wire Bus Line
-	2850 4750 2850 4650
-Wire Bus Line
-	2850 4650 2850 4550
-Wire Bus Line
-	2850 4550 2850 4450
-Wire Bus Line
-	2850 4450 2850 4350
-Wire Bus Line
-	2850 4350 2850 3900
+	2850 5050 2850 3900
 Wire Wire Line
 	4550 1350 4800 1350
 Wire Wire Line
@@ -534,14 +354,10 @@ Wire Wire Line
 Wire Wire Line
 	4550 2700 4800 2700
 Wire Wire Line
-	2550 2200 2850 2200
-Wire Wire Line
-	2850 2200 3250 2200
+	2550 2200 3250 2200
 Connection ~ 2850 2200
 Wire Wire Line
-	2550 2100 3000 2100
-Wire Wire Line
-	3000 2100 3250 2100
+	2550 2100 3250 2100
 Wire Wire Line
 	8500 2100 8900 2100
 Wire Wire Line
@@ -552,19 +368,11 @@ Wire Wire Line
 	8650 2400 8650 3950
 Connection ~ 8650 3950
 Wire Bus Line
-	6900 900  6900 1150
-Wire Bus Line
-	6900 1150 6900 1250
-Wire Bus Line
-	6900 1250 6900 1350
+	6900 900  6900 1350
 Wire Wire Line
-	4800 4450 4675 4450
+	4800 4450 4550 4450
 Wire Wire Line
-	4675 4450 4550 4450
-Wire Wire Line
-	4800 6600 4675 6600
-Wire Wire Line
-	4675 6600 4550 6600
+	4800 6600 4550 6600
 Wire Wire Line
 	7300 6250 6600 6250
 Wire Wire Line
@@ -606,40 +414,24 @@ Wire Wire Line
 Wire Wire Line
 	6350 3300 6100 3300
 Wire Bus Line
-	6450 3600 6450 3500
-Wire Bus Line
-	6450 3500 6450 3400
-Wire Bus Line
-	6450 3400 6450 3300
-Wire Bus Line
-	6450 3300 6450 3200
+	6450 3600 6450 3200
 Wire Wire Line
-	950  5650 1100 5650
-Wire Wire Line
-	1100 5650 1350 5650
+	950  5650 1350 5650
 Connection ~ 1100 5650
 Wire Wire Line
 	950  7100 1350 7100
 Wire Wire Line
 	6600 6350 7300 6350
 Wire Wire Line
-	10850 3950 8650 3950
+	10850 3950 1100 3950
 Wire Wire Line
-	8650 3950 6700 3950
+	1100 3950 1100 5450
 Wire Wire Line
-	6700 3950 4675 3950
+	1100 5450 1550 5450
 Wire Wire Line
-	4675 3950 3000 3950
+	2150 5450 2950 5450
 Wire Wire Line
-	3000 3950 1100 3950
-Wire Wire Line
-	1100 3950 1100 5350
-Wire Wire Line
-	1100 5350 1550 5350
-Wire Wire Line
-	2150 5350 2950 5350
-Wire Wire Line
-	2950 5350 2950 7100
+	2950 5450 2950 7100
 Wire Wire Line
 	10500 4450 10400 4450
 Wire Wire Line
@@ -655,7 +447,67 @@ Wire Wire Line
 Connection ~ 8950 6600
 Wire Wire Line
 	2550 1850 2850 1850
-Text Label 2200 5350 0    60   ~ 0
+Wire Wire Line
+	2850 800  750  800 
+Wire Wire Line
+	750  800  750  5300
+Wire Wire Line
+	750  5300 3250 5300
+Text Label 2600 800  0    60   ~ 0
+17
+Text Label 3000 5300 0    60   ~ 0
+17
+Entry Wire Line
+	2850 800  2950 900 
+Text Label 1200 6050 0    60   ~ 0
+71
+Text Label 1200 5850 0    60   ~ 0
+70
+Text Label 8800 5750 0    60   ~ 0
+75
+Text Label 8800 5650 0    60   ~ 0
+74
+Text Label 8800 5550 0    60   ~ 0
+73
+Text Label 8800 5400 0    60   ~ 0
+72
+Text Label 8800 5300 0    60   ~ 0
+71
+Text Label 8800 5200 0    60   ~ 0
+70
+Text Label 1200 5650 0    60   ~ 0
+27
+Text Label 1200 6250 0    60   ~ 0
+31
+Text Label 1000 7100 0    60   ~ 0
+30
+Text Label 1000 6750 0    60   ~ 0
+29
+Text Label 2400 7000 0    60   ~ 0
+62
+Text Label 2400 7200 0    60   ~ 0
+63
+Text Label 6200 6850 1    60   ~ 0
+63
+Text Label 6200 6500 0    60   ~ 0
+62
+Text Label 2400 6850 0    60   ~ 0
+61
+Text Label 2400 6650 0    60   ~ 0
+60
+Text Label 3050 6600 0    60   ~ 0
+61
+Text Label 3050 6500 0    60   ~ 0
+60
+Text Label 2400 5750 0    60   ~ 0
+59
+Text Label 2400 6150 0    60   ~ 0
+58
+Text Label 7100 6600 0    60   ~ 0
+59
+Text Label 7100 6500 0    60   ~ 0
+58
+Text Label 2200 5450 0    60   ~ 0
 33
 Text Label 7100 6350 0    60   ~ 0
 33
@@ -683,7 +535,7 @@ Text Label 3050 2100 0    60   ~ 0
 26
 Text Label 6200 3100 0    60   ~ 0
 27
-Text Label 1400 5350 0    60   ~ 0
+Text Label 1400 5450 0    60   ~ 0
 26
 $Sheet
 S 4800 1150 1300 2350
@@ -775,10 +627,10 @@ $EndSheet
 $Comp
 L INDUCTOR J1
 U 1 1 4DD1415A
-P 1850 5350
-F 0 "J1" V 1700 5350 40  0000 C CNN
-F 1 "INDUCTOR" V 1950 5350 40  0001 C CNN
-	1    1850 5350
+P 1850 5450
+F 0 "J1" V 1800 5450 40  0000 C CNN
+F 1 "INDUCTOR" V 1950 5450 40  0001 C CNN
+	1    1850 5450
 	0    1    1    0   
 $EndComp
 Entry Wire Line
@@ -895,7 +747,7 @@ S 7300 4350 1300 2350
 U 4DD13EA8
 F0 "CTT/PS1" 60
 F1 "ctt_ps/ctt_ps1.sch" 60
-F2 "+Um1" O L 7300 6600 60 
+F2 "+Um2" O L 7300 6600 60 
 F3 "+5V" O L 7300 4600 60 
 F4 "-5V" O L 7300 4700 60 
 F5 "GND" U L 7300 4800 60 
@@ -905,7 +757,7 @@ F8 "8V 0.5A AC" I R 8600 4700 60
 F9 "8V 0.5A AC" I R 8600 4800 60 
 F10 "18V 10mA AC" I R 8600 4950 60 
 F11 "18V 10mA AC" I R 8600 5050 60 
-F12 "-Um1" O L 7300 6500 60 
+F12 "-Um2" O L 7300 6500 60 
 F13 "-NPN/PNP" I L 7300 6250 60 
 F14 "POL" O L 7300 6350 60 
 $EndSheet
@@ -926,6 +778,7 @@ F10 "+5V" I R 4550 4450 60
 F11 "GND" U R 4550 6600 60 
 F12 "+Um3" O L 3250 6600 60 
 F13 "-Um3" O L 3250 6500 60 
+F14 "-SL7" I L 3250 5300 60 
 $EndSheet
 $Sheet
 S 4800 4350 1300 2350
@@ -942,8 +795,9 @@ F8 "DO6" I R 6100 5050 60
 F9 "DO7" I R 6100 5150 60 
 F10 "+5V" I L 4800 4450 60 
 F11 "GND" U L 4800 6600 60 
-F12 "-Um2" O R 6100 6500 60 
-F13 "+Um2" O R 6100 6600 60 
+F12 "-Um1" O R 6100 6500 60 
+F13 "+Um1" O R 6100 6600 60 
+F14 "-SL6" I R 6100 5300 60 
 $EndSheet
 Text Notes 4000 3440 0    60   ~ 0
 CN5
@@ -992,9 +846,9 @@ Text Label 4600 1250 0    60   ~ 0
 Text Label 6200 3400 0    60   ~ 0
 29
 Text Label 6200 3300 0    60   ~ 0
-30
-Text Label 6200 3200 0    60   ~ 0
 31
+Text Label 6200 3200 0    60   ~ 0
+30
 Text Notes 5100 2800 0    60   ~ 0
 CN2
 Text Notes 5600 1900 0    60   ~ 0

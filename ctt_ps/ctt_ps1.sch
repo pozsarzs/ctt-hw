@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.28. 16:56:09
+EESchema Schematic File Version 2  date 2011.05.29. 17:53:03
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 10
 Title "CTT Transistor tester - CTT/PS1 power supply unit"
-Date "28 may 2011"
+Date "29 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/21"
@@ -415,9 +415,9 @@ POL
 Text HLabel 7650 6150 2    60   Input ~ 0
 -NPN
 Text HLabel 3850 4800 0    60   Output ~ 0
-+Um1
++Um2
 Text HLabel 3850 5400 0    60   Output ~ 0
--Um1
+-Um2
 Text HLabel 7650 5400 2    60   Input ~ 0
 18V 10mA AC
 Text HLabel 7650 4300 2    60   Input ~ 0

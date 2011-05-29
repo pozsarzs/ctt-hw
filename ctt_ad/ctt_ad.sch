@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.05.28. 16:56:09
+EESchema Schematic File Version 2  date 2011.05.29. 17:53:03
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 9 10
 Title "CTT transistor tester - CTT/AD A/D converter"
-Date "28 may 2011"
+Date "29 may 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/10"
