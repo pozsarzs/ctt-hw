@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2  date 2011.06.04. 6:59:15
+EESchema Schematic File Version 2  date 2011.06.04. 7:35:00
 LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
 LIBS:linear
 LIBS:regul
@@ -25,14 +24,13 @@ LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
-LIBS:opto
-LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 1
+Sheet 2 10
 Title "CTT Transistor tester - CTT/PS2 power supply unit"
 Date "4 jun 2011"
 Rev "1.0"
