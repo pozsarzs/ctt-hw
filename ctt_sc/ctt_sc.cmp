@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 2011.06.05. 10:19:21
+
+BeginCmp
+TimeStamp = /4DEB19EC;
+Reference = C1;
+ValeurCmp = 4.7u;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEB2A44;
+Reference = IC1;
+ValeurCmp = 74LS244;
+IdModule  = DIP-20__300;
+EndCmp
+
+EndListe

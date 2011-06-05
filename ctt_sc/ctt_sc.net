@@ -1,0 +1,37 @@
+# EESchema Netlist Version 1.1 created  2011.06.05. 10:19:21
+(
+ ( /4DEB19EC C1V5 C1 4.7u
+  ( 1 VCC )
+  ( 2 /GND )
+ )
+ ( /4DEB2A44 DIP-20__300 IC1 74LS244
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 /GND )
+  ( 11 /GND )
+  ( 12 ? )
+  ( 13 /GND )
+  ( 14 ? )
+  ( 15 /GND )
+  ( 16 ? )
+  ( 17 /GND )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}

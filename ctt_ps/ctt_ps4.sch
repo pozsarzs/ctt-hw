@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.06.05. 9:28:49
+EESchema Schematic File Version 2  date 2011.06.05. 11:03:25
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,7 +30,7 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 11
+Sheet 5 11
 Title "CTT Transistor tester - CTT/PS4 power supply unit"
 Date "5 jun 2011"
 Rev "1.0"
