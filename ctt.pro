@@ -1,5 +1,5 @@
-update=18/9/2010-10:13:38
-last_client=kicad
+update=2011.06.05. 7:33:38
+last_client=eeschema
 [general]
 version=1
 RootSch=ctt.sch
@@ -36,6 +36,8 @@ RptLab=1
 SimCmd=
 UseNetN=0
 LabSize=60
+PrintMonochrome=1
+ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=power
 LibName2=device
