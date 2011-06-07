@@ -1,6 +1,7 @@
-EESchema Schematic File Version 2  date 2011.06.05. 11:03:25
+EESchema Schematic File Version 2  date 2011.06.07. 15:31:31
 LIBS:power
 LIBS:device
+LIBS:transistors
 LIBS:conn
 LIBS:linear
 LIBS:regul
@@ -24,15 +25,16 @@ LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
+LIBS:opto
+LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 11
+Sheet 1 1
 Title "CTT Transistor tester - CTT/PS2 power supply unit"
-Date "5 jun 2011"
+Date "7 jun 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/34"
@@ -40,6 +42,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 10350 4550
 Wire Wire Line
 	1900 3600 1350 3600
 Connection ~ 4850 4850
@@ -910,7 +913,7 @@ P 9800 4250
 F 0 "D10" H 9800 4350 40  0000 C CNN
 F 1 "BAT65" H 9800 4450 40  0000 C CNN
 	1    9800 4250
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L R R18

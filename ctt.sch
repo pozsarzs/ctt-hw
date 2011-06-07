@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.06.05. 11:03:24
+EESchema Schematic File Version 2  date 2011.06.06. 16:55:18
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 11
 Title "CTT Transistor tester"
-Date "5 jun 2011"
+Date "6 jun 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/2"
