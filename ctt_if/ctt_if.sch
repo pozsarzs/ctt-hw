@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.06.06. 16:55:18
+EESchema Schematic File Version 2  date 2011. júl. 28., csütörtök, 21.18.03 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,9 +30,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 7 11
+Sheet 8 11
 Title "CTT Transistor tester - CTT/IF Interface unit"
-Date "6 jun 2011"
+Date "28 jul 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/3"
@@ -51,7 +51,7 @@ Text Notes 1550 950  0    60   ~ 0
 Text Notes 10050 3700 0    60   ~ 0
 8
 Text Notes 10050 4100 0    60   ~ 0
-3
+7
 Text Notes 10050 3400 0    60   ~ 0
 6
 Text Notes 10050 3800 0    60   ~ 0
@@ -912,7 +912,7 @@ L 74LS138 IC4
 U 1 1 4BF41A58
 P 8800 2200
 F 0 "IC4" H 8750 2200 60  0000 C CNN
-F 1 "74LS138" H 8950 1651 60  0000 C CNN
+F 1 "74LS138" H 9050 1650 60  0000 C CNN
 	1    8800 2200
 	1    0    0    -1  
 $EndComp

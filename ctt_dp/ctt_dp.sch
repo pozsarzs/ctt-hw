@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.06.06. 16:55:18
+EESchema Schematic File Version 2  date 2011. júl. 28., csütörtök, 21.18.04 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,9 +30,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 10 11
+Sheet 11 11
 Title "CTT Transistor tester - CTT/DP Display unit"
-Date "6 jun 2011"
+Date "28 jul 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/7"
@@ -384,7 +384,7 @@ $Comp
 L NPN T1
 U 1 1 4C94963A
 P 5550 4750
-F 0 "T1" H 5700 4750 50  0000 C CNN
+F 0 "T1" H 5800 4800 50  0000 C CNN
 F 1 "BC182" H 5650 4200 50  0000 C CNN
 	1    5550 4750
 	1    0    0    -1  

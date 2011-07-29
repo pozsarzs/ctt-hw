@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2  date 2011.06.07. 17:39:21
+EESchema Schematic File Version 2  date 2011. júl. 28., csütörtök, 21.18.03 CEST
 LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
 LIBS:linear
 LIBS:regul
@@ -25,17 +24,15 @@ LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
-LIBS:opto
-LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ctt_ps2-cache
+LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 1
+Sheet 1 11
 Title "CTT Transistor tester - CTT/PS2 power supply unit"
-Date "7 jun 2011"
+Date "28 jul 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/34"

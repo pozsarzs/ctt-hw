@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.06.06. 16:55:18
+EESchema Schematic File Version 2  date 2011. júl. 28., csütörtök, 21.18.03 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 11
 Title "CTT Transistor tester - CTT/PS4 power supply unit"
-Date "6 jun 2011"
+Date "28 jul 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/20"
@@ -40,26 +40,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7450 1950 0    60   ~ 0
-3
-Text Notes 7450 1600 0    60   ~ 0
-2
-Text Notes 7450 1250 0    60   ~ 0
-1
-Text Notes 3600 4100 0    60   ~ 0
-CN2
-Text Notes 8300 1650 0    60   ~ 0
-CN1
 Wire Wire Line
-	7400 2400 7400 2250
+	6450 1950 5450 1950
 Wire Wire Line
-	7400 2250 7400 1600
+	7400 2400 7400 1600
 Wire Notes Line
-	6850 1250 6850 1850
+	6900 1250 6900 1850
 Wire Wire Line
 	7600 1950 7350 1950
-Wire Wire Line
-	6350 1250 6200 1250
 Wire Wire Line
 	5700 1250 5450 1250
 Wire Wire Line
@@ -73,9 +61,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5350 5250 5400
 Wire Wire Line
-	5250 6100 5250 6050
-Wire Wire Line
-	5250 6050 5250 6000
+	5250 6000 5250 6100
 Wire Wire Line
 	5250 6700 5250 6750
 Wire Wire Line
@@ -89,9 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3800 4750 3800
 Wire Wire Line
-	5250 4450 5250 4500
-Wire Wire Line
-	5250 4500 5250 4550
+	5250 4550 5250 4450
 Wire Wire Line
 	4750 4500 5250 4500
 Wire Wire Line
@@ -121,9 +105,7 @@ Wire Wire Line
 Wire Notes Line
 	5350 1400 5350 6600
 Wire Wire Line
-	5450 1900 5450 1950
-Wire Wire Line
-	5450 1950 6350 1950
+	5450 1950 5450 1900
 Wire Wire Line
 	7350 1250 7600 1250
 Wire Wire Line
@@ -135,6 +117,18 @@ Wire Wire Line
 Wire Wire Line
 	7400 1600 7600 1600
 Connection ~ 7400 2250
+Wire Wire Line
+	6450 1250 6200 1250
+Text Notes 7450 1950 0    60   ~ 0
+3
+Text Notes 7450 1600 0    60   ~ 0
+2
+Text Notes 7450 1250 0    60   ~ 0
+1
+Text Notes 3600 4100 0    60   ~ 0
+CN2
+Text Notes 8300 1650 0    60   ~ 0
+CN1
 $Comp
 L GND #PWR?
 U 1 1 4DD3D9AA
@@ -147,19 +141,19 @@ $EndComp
 $Comp
 L SPST SW1b
 U 1 1 4DD2D2D7
-P 6850 1950
-F 0 "SW1b" H 6850 1800 70  0000 C CNN
-F 1 "SPST" H 6850 1850 70  0001 C CNN
-	1    6850 1950
+P 6900 1950
+F 0 "SW1b" H 6900 1800 70  0000 C CNN
+F 1 "SPST" H 6900 1850 70  0001 C CNN
+	1    6900 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L SPST SW1a
 U 1 1 4DD2D2CB
-P 6850 1250
-F 0 "SW1a" H 6850 1450 70  0000 C CNN
-F 1 "SPST" H 6850 1150 70  0001 C CNN
-	1    6850 1250
+P 6900 1250
+F 0 "SW1a" H 6900 1450 70  0000 C CNN
+F 1 "SPST" H 6900 1150 70  0001 C CNN
+	1    6900 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -167,7 +161,7 @@ L FUSE-EU F1
 U 1 1 4DD2D28B
 P 5950 1250
 F 0 "F1" V 6050 1250 50  0000 C CNN
-F 1 "? mA T" V 5850 1250 50  0000 C CNN
+F 1 "500 mA T" V 5850 1250 50  0000 C CNN
 	1    5950 1250
 	0    1    1    0   
 $EndComp
@@ -276,11 +270,11 @@ $EndComp
 Text HLabel 4750 6900 0    60   UnSpc ~ 0
 GND
 Text HLabel 4750 6750 0    60   Output ~ 0
-3V 10mA AC
+3V 100mA AC
 Text HLabel 4750 6050 0    60   UnSpc ~ 0
-3V 10mA AC COM
+3V 100mA AC COM
 Text HLabel 4750 5350 0    60   Output ~ 0
-3V 10mA AC
+3V 100mA AC
 Text HLabel 4750 5200 0    60   Output ~ 0
 25V 1A AC
 Text HLabel 4750 4500 0    60   UnSpc ~ 0

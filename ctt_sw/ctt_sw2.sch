@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011.06.06. 16:55:18
+EESchema Schematic File Version 2  date 2011. júl. 28., csütörtök, 21.18.03 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -30,9 +30,9 @@ LIBS:ctt-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 11
+Sheet 4 11
 Title "CTT Transistor tester - CTT/SW2 Switching unit"
-Date "6 jun 2011"
+Date "28 jul 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/34"
@@ -40,114 +40,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 900  7400 0    60   ~ 0
-on 3 x 20 mm impregnated paper tube
-Text Notes 900  7500 0    60   ~ 0
-R=15 ohm
-Text Notes 900  7300 0    60   ~ 0
-n=600 0.15 CuZ l=15 mm
-Text Notes 800  7150 0    60   ~ 0
-Inductors:
-Text HLabel 3400 1550 1    60   Input ~ 0
-J8-2
-Text HLabel 3300 1550 1    60   Input ~ 0
-J2-2
-Text HLabel 3200 1550 1    60   Input ~ 0
-J12
-Text HLabel 3100 1550 1    60   Input ~ 0
-J11
-Text HLabel 3000 1550 1    60   Input ~ 0
-J10
-Text HLabel 2900 1550 1    60   Input ~ 0
-J9
-Text HLabel 2800 1550 1    60   Input ~ 0
-J8
-Text HLabel 2700 1550 1    60   Input ~ 0
-J7
-Text HLabel 2600 1550 1    60   Input ~ 0
-J6
-Text HLabel 2500 1550 1    60   Input ~ 0
-J5
-Text HLabel 2400 1550 1    60   Input ~ 0
-J4
-Text HLabel 2300 1550 1    60   Input ~ 0
-J3
-Text HLabel 2200 1550 1    60   Input ~ 0
-J2
-Text HLabel 2100 1550 1    60   Input ~ 0
-J1
-Text HLabel 9850 2050 2    60   Input ~ 0
-Um3
-Text HLabel 9850 1900 2    60   Input ~ 0
-Um2
-Text HLabel 9850 1750 2    60   Input ~ 0
-Um1
-Text HLabel 9850 1600 2    60   Input ~ 0
-AO
-Text HLabel 9850 1450 2    60   Input ~ 0
-+5V
-Text HLabel 9850 4100 2    60   Input ~ 0
-C
-Text HLabel 9850 4350 2    60   Input ~ 0
-B
-Text HLabel 9850 4600 2    60   Input ~ 0
-E
-Text HLabel 9850 6100 2    60   Input ~ 0
-COM
-Text HLabel 9850 6750 2    60   Input ~ 0
-GND
-Text Notes 9750 1725 0    60   ~ 0
-8
-Text Notes 9750 4575 0    60   ~ 0
-7
-Text Notes 9750 4075 0    60   ~ 0
-6
-Text Notes 9750 2025 0    60   ~ 0
-5
-Text Notes 9750 1575 0    60   ~ 0
-4
-Text Notes 9750 4325 0    60   ~ 0
-3
-Text Notes 9750 1875 0    60   ~ 0
-2
-Text Notes 9750 6050 0    60   ~ 0
-1
-Text Notes 9740 6720 0    60   ~ 0
-2
-Text Notes 9750 1430 0    60   ~ 0
-1
-Text Notes 3390 1660 1    60   ~ 0
-1
-Text Notes 3290 1660 1    60   ~ 0
-2
-Text Notes 3190 1660 1    60   ~ 0
-3
-Text Notes 3090 1660 1    60   ~ 0
-4
-Text Notes 2990 1660 1    60   ~ 0
-5
-Text Notes 2890 1660 1    60   ~ 0
-6
-Text Notes 2790 1650 1    60   ~ 0
-7
-Text Notes 2690 1650 1    60   ~ 0
-8
-Text Notes 2590 1720 1    60   ~ 0
-14
-Text Notes 2490 1720 1    60   ~ 0
-13
-Text Notes 2390 1720 1    60   ~ 0
-12
-Text Notes 2290 1720 1    60   ~ 0
-11
-Text Notes 2190 1720 1    60   ~ 0
-10
-Text Notes 2075 1650 1    60   ~ 0
-9
-Text Notes 10200 4400 0    60   ~ 0
-CN3
-Text Notes 10200 6150 0    60   ~ 0
-CN3
+Wire Wire Line
+	9700 2950 9700 2650
+Wire Wire Line
+	9200 2950 9200 2650
+Wire Wire Line
+	8700 2950 8700 2650
+Wire Wire Line
+	8700 4900 8700 4600
+Wire Wire Line
+	7550 4350 7300 4350
+Wire Wire Line
+	5400 3900 5200 3900
+Wire Wire Line
+	5400 3400 5200 3400
 Wire Wire Line
 	9850 6100 7400 6100
 Connection ~ 8700 6100
@@ -241,8 +147,6 @@ Wire Wire Line
 	9700 4100 9700 3850
 Connection ~ 8950 4600
 Wire Wire Line
-	8700 4800 8700 4600
-Wire Wire Line
 	8700 4600 9850 4600
 Wire Wire Line
 	2000 5250 2000 5100
@@ -290,8 +194,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 3900 5200 1600
 Connection ~ 5200 3400
-Wire Wire Line
-	5200 3400 5300 3400
 Connection ~ 7400 4100
 Wire Wire Line
 	8200 2950 8200 2650
@@ -308,8 +210,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 4800 8600 4100
 Connection ~ 9700 2050
-Wire Wire Line
-	7450 4600 7300 4600
 Connection ~ 8950 2800
 Wire Wire Line
 	8950 2800 6600 2800
@@ -323,8 +223,6 @@ Wire Wire Line
 	6700 4350 6800 4350
 Wire Wire Line
 	6800 4600 6700 4600
-Wire Wire Line
-	8950 4600 8950 4800
 Connection ~ 8950 3950
 Connection ~ 9450 3950
 Wire Wire Line
@@ -336,12 +234,6 @@ Wire Wire Line
 	9700 2050 9700 2150
 Wire Wire Line
 	8950 2050 8950 2150
-Wire Wire Line
-	8700 2650 8700 2850
-Wire Wire Line
-	9200 2850 9200 2650
-Wire Wire Line
-	9700 2850 9700 2650
 Wire Wire Line
 	8600 4600 8450 4600
 Wire Wire Line
@@ -389,10 +281,6 @@ Wire Wire Line
 	2850 5750 2850 5600
 Connection ~ 8600 4350
 Wire Wire Line
-	9450 2850 9450 2650
-Wire Wire Line
-	8950 2650 8950 2850
-Wire Wire Line
 	8700 2750 8450 2750
 Wire Wire Line
 	8450 2750 8450 2650
@@ -403,10 +291,6 @@ Connection ~ 9450 2050
 Wire Wire Line
 	8700 3950 8700 3850
 Connection ~ 9200 3950
-Wire Wire Line
-	7450 4100 7400 4100
-Wire Wire Line
-	7300 4350 7450 4350
 Wire Wire Line
 	6700 4600 6700 1750
 Connection ~ 6700 4350
@@ -426,12 +310,6 @@ Wire Wire Line
 	8400 3950 8400 3650
 Wire Wire Line
 	8400 3650 6300 3650
-Wire Wire Line
-	5200 3900 5300 3900
-Wire Wire Line
-	5200 3150 5300 3150
-Wire Wire Line
-	5300 3650 5200 3650
 Connection ~ 5200 3650
 Wire Wire Line
 	3400 2750 3500 2750
@@ -597,6 +475,128 @@ Wire Wire Line
 	4800 2250 4800 1450
 Wire Wire Line
 	8700 6100 8700 5800
+Wire Wire Line
+	5400 3150 5200 3150
+Wire Wire Line
+	5400 3650 5200 3650
+Wire Wire Line
+	7550 4100 7400 4100
+Wire Wire Line
+	7550 4600 7300 4600
+Wire Wire Line
+	8950 4900 8950 4600
+Wire Wire Line
+	8950 2950 8950 2650
+Wire Wire Line
+	9450 2950 9450 2650
+Text Notes 900  7400 0    60   ~ 0
+on 3 x 20 mm impregnated paper tube
+Text Notes 900  7500 0    60   ~ 0
+R=15 ohm
+Text Notes 900  7300 0    60   ~ 0
+n=600 0.15 CuZ l=15 mm
+Text Notes 800  7150 0    60   ~ 0
+Inductors:
+Text HLabel 3400 1550 1    60   Input ~ 0
+J8-2
+Text HLabel 3300 1550 1    60   Input ~ 0
+J2-2
+Text HLabel 3200 1550 1    60   Input ~ 0
+J12
+Text HLabel 3100 1550 1    60   Input ~ 0
+J11
+Text HLabel 3000 1550 1    60   Input ~ 0
+J10
+Text HLabel 2900 1550 1    60   Input ~ 0
+J9
+Text HLabel 2800 1550 1    60   Input ~ 0
+J8
+Text HLabel 2700 1550 1    60   Input ~ 0
+J7
+Text HLabel 2600 1550 1    60   Input ~ 0
+J6
+Text HLabel 2500 1550 1    60   Input ~ 0
+J5
+Text HLabel 2400 1550 1    60   Input ~ 0
+J4
+Text HLabel 2300 1550 1    60   Input ~ 0
+J3
+Text HLabel 2200 1550 1    60   Input ~ 0
+J2
+Text HLabel 2100 1550 1    60   Input ~ 0
+J1
+Text HLabel 9850 2050 2    60   Input ~ 0
+Um3
+Text HLabel 9850 1900 2    60   Input ~ 0
+Um2
+Text HLabel 9850 1750 2    60   Input ~ 0
+Um1
+Text HLabel 9850 1600 2    60   Input ~ 0
+AO
+Text HLabel 9850 1450 2    60   Input ~ 0
++5V
+Text HLabel 9850 4100 2    60   Input ~ 0
+C
+Text HLabel 9850 4350 2    60   Input ~ 0
+B
+Text HLabel 9850 4600 2    60   Input ~ 0
+E
+Text HLabel 9850 6100 2    60   Input ~ 0
+COM
+Text HLabel 9850 6750 2    60   Input ~ 0
+GND
+Text Notes 9750 1725 0    60   ~ 0
+8
+Text Notes 9750 4575 0    60   ~ 0
+7
+Text Notes 9750 4075 0    60   ~ 0
+6
+Text Notes 9750 2025 0    60   ~ 0
+5
+Text Notes 9750 1575 0    60   ~ 0
+4
+Text Notes 9750 4325 0    60   ~ 0
+3
+Text Notes 9750 1875 0    60   ~ 0
+2
+Text Notes 9750 6050 0    60   ~ 0
+1
+Text Notes 9740 6720 0    60   ~ 0
+2
+Text Notes 9750 1430 0    60   ~ 0
+1
+Text Notes 3390 1660 1    60   ~ 0
+1
+Text Notes 3290 1660 1    60   ~ 0
+2
+Text Notes 3190 1660 1    60   ~ 0
+3
+Text Notes 3090 1660 1    60   ~ 0
+4
+Text Notes 2990 1660 1    60   ~ 0
+5
+Text Notes 2890 1660 1    60   ~ 0
+6
+Text Notes 2790 1650 1    60   ~ 0
+7
+Text Notes 2690 1650 1    60   ~ 0
+8
+Text Notes 2590 1720 1    60   ~ 0
+14
+Text Notes 2490 1720 1    60   ~ 0
+13
+Text Notes 2390 1720 1    60   ~ 0
+12
+Text Notes 2290 1720 1    60   ~ 0
+11
+Text Notes 2190 1720 1    60   ~ 0
+10
+Text Notes 2075 1650 1    60   ~ 0
+9
+Text Notes 10200 4400 0    60   ~ 0
+CN3
+Text Notes 10200 6150 0    60   ~ 0
+CN3
 Text Notes 10200 6800 0    60   ~ 0
 CN2
 Text Notes 10200 1500 0    60   ~ 0
@@ -761,73 +761,73 @@ $EndComp
 $Comp
 L SPST JC6
 U 1 1 4D1709E6
-P 8950 3350
-F 0 "JC6" H 8750 3500 70  0000 C CNN
-F 1 "SPST" H 8950 3250 70  0001 C CNN
-	1    8950 3350
+P 8950 3400
+F 0 "JC6" H 8750 3550 70  0000 C CNN
+F 1 "SPST" H 8950 3300 70  0001 C CNN
+	1    8950 3400
 	0    -1   1    0   
 $EndComp
 $Comp
 L SPST JC7
 U 1 1 4D1709E3
-P 9200 3350
-F 0 "JC7" H 9000 3500 70  0000 C CNN
-F 1 "SPST" H 9200 3250 70  0001 C CNN
-	1    9200 3350
+P 9200 3400
+F 0 "JC7" H 9000 3550 70  0000 C CNN
+F 1 "SPST" H 9200 3300 70  0001 C CNN
+	1    9200 3400
 	0    -1   1    0   
 $EndComp
 $Comp
 L SPST JC8
 U 1 1 4D1709DF
-P 9450 3350
-F 0 "JC8" H 9250 3500 70  0000 C CNN
-F 1 "SPST" H 9450 3250 70  0001 C CNN
-	1    9450 3350
+P 9450 3400
+F 0 "JC8" H 9250 3550 70  0000 C CNN
+F 1 "SPST" H 9450 3300 70  0001 C CNN
+	1    9450 3400
 	0    -1   1    0   
 $EndComp
 $Comp
 L SPST JC8-2
 U 1 1 4D1709DC
-P 9700 3350
-F 0 "JC8-2" H 9500 3500 70  0000 C CNN
-F 1 "SPST" H 9700 3250 70  0001 C CNN
-	1    9700 3350
+P 9700 3400
+F 0 "JC8-2" H 9500 3550 70  0000 C CNN
+F 1 "SPST" H 9700 3300 70  0001 C CNN
+	1    9700 3400
 	0    -1   1    0   
 $EndComp
 $Comp
 L SPST JC12
 U 1 1 4D170907
-P 5800 3900
-F 0 "JC12" H 6000 4050 70  0000 C CNN
-F 1 "SPST" H 5800 3800 70  0001 C CNN
-	1    5800 3900
+P 5850 3900
+F 0 "JC12" H 6050 4050 70  0000 C CNN
+F 1 "SPST" H 5850 3800 70  0001 C CNN
+	1    5850 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L SPST JC11
 U 1 1 4D170905
-P 5800 3650
-F 0 "JC11" H 6000 3800 70  0000 C CNN
-F 1 "SPST" H 5800 3550 70  0001 C CNN
-	1    5800 3650
+P 5850 3650
+F 0 "JC11" H 6050 3800 70  0000 C CNN
+F 1 "SPST" H 5850 3550 70  0001 C CNN
+	1    5850 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L SPST JC10
 U 1 1 4D170901
-P 5800 3400
-F 0 "JC10" H 6000 3550 70  0000 C CNN
-F 1 "SPST" H 5800 3300 70  0001 C CNN
-	1    5800 3400
+P 5850 3400
+F 0 "JC10" H 6050 3550 70  0000 C CNN
+F 1 "SPST" H 5850 3300 70  0001 C CNN
+	1    5850 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L SPST JC9
 U 1 1 4D1708FB
-P 5800 3150
-F 0 "JC9" H 6000 3300 70  0000 C CNN
-F 1 "SPST" H 5800 3050 70  0001 C CNN
-	1    5800 3150
+P 5850 3150
+F 0 "JC9" H 6050 3300 70  0000 C CNN
+F 1 "SPST" H 5850 3050 70  0001 C CNN
+	1    5850 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1076,19 +1076,19 @@ $EndComp
 $Comp
 L SPST JC4
 U 1 1 4D16F9F7
-P 8950 5300
-F 0 "JC4" H 9100 5450 70  0000 C CNN
-F 1 "SPST" H 8950 5200 70  0001 C CNN
-	1    8950 5300
+P 8950 5350
+F 0 "JC4" H 9100 5500 70  0000 C CNN
+F 1 "SPST" H 8950 5250 70  0001 C CNN
+	1    8950 5350
 	0    1    -1   0   
 $EndComp
 $Comp
 L SPST JC3
 U 1 1 4D16F9E7
-P 8700 5300
-F 0 "JC3" H 8850 5150 70  0000 C CNN
-F 1 "SPST" H 8700 5200 70  0001 C CNN
-	1    8700 5300
+P 8700 5350
+F 0 "JC3" H 8850 5200 70  0000 C CNN
+F 1 "SPST" H 8700 5250 70  0001 C CNN
+	1    8700 5350
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1148,37 +1148,37 @@ $EndComp
 $Comp
 L SPST JC5
 U 1 1 4D16F172
-P 8700 3350
-F 0 "JC5" H 8500 3500 70  0000 C CNN
-F 1 "SPST" H 8700 3250 70  0001 C CNN
-	1    8700 3350
+P 8700 3400
+F 0 "JC5" H 8500 3550 70  0000 C CNN
+F 1 "SPST" H 8700 3300 70  0001 C CNN
+	1    8700 3400
 	0    -1   1    0   
 $EndComp
 $Comp
 L SPST JC2-2
 U 1 1 4D16F141
-P 7950 4600
-F 0 "JC2-2" H 7700 4750 70  0000 C CNN
-F 1 "SPST" H 7950 4500 70  0001 C CNN
-	1    7950 4600
+P 8000 4600
+F 0 "JC2-2" H 7750 4750 70  0000 C CNN
+F 1 "SPST" H 8000 4500 70  0001 C CNN
+	1    8000 4600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L SPST JC2
 U 1 1 4D16F13D
-P 7950 4350
-F 0 "JC2" H 7750 4500 70  0000 C CNN
-F 1 "SPST" H 7950 4250 70  0001 C CNN
-	1    7950 4350
+P 8000 4350
+F 0 "JC2" H 7800 4500 70  0000 C CNN
+F 1 "SPST" H 8000 4250 70  0001 C CNN
+	1    8000 4350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L SPST JC1
 U 1 1 4D16F129
-P 7950 4100
-F 0 "JC1" H 7750 4250 70  0000 C CNN
-F 1 "SPST" H 7950 4000 70  0001 C CNN
-	1    7950 4100
+P 8000 4100
+F 0 "JC1" H 7800 4250 70  0000 C CNN
+F 1 "SPST" H 8000 4000 70  0001 C CNN
+	1    8000 4100
 	-1   0    0    -1  
 $EndComp
 $Comp
