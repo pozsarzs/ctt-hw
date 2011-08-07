@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011. júl. 28., csütörtök, 21.18.03 CEST
+EESchema Schematic File Version 2  date 2011. aug.  2., kedd, 21.43.39 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 11
 Title "CTT Transistor tester - CTT/SC Status collector unit"
-Date "28 jul 2011"
+Date "2 aug 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/40"

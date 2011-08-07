@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011. júl. 28., csütörtök, 21.18.03 CEST
+EESchema Schematic File Version 2  date 2011. aug.  2., kedd, 21.43.39 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 11
 Title "CTT Transistor tester - CTT/PS4 power supply unit"
-Date "28 jul 2011"
+Date "2 aug 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/20"
@@ -270,11 +270,11 @@ $EndComp
 Text HLabel 4750 6900 0    60   UnSpc ~ 0
 GND
 Text HLabel 4750 6750 0    60   Output ~ 0
-3V 100mA AC
+5V 100mA AC
 Text HLabel 4750 6050 0    60   UnSpc ~ 0
-3V 100mA AC COM
+5V 100mA AC COM
 Text HLabel 4750 5350 0    60   Output ~ 0
-3V 100mA AC
+5V 100mA AC
 Text HLabel 4750 5200 0    60   Output ~ 0
 25V 1A AC
 Text HLabel 4750 4500 0    60   UnSpc ~ 0
@@ -286,9 +286,9 @@ Text HLabel 4750 3650 0    60   Output ~ 0
 Text HLabel 4750 2950 0    60   Output ~ 0
 18V 10mA AC
 Text HLabel 4750 2800 0    60   Output ~ 0
-8V 0.5A AC
+8V 500mA AC
 Text HLabel 4750 2100 0    60   Output ~ 0
-8V 0.5A AC
+8V 500mA AC
 Text HLabel 4750 1950 0    60   Output ~ 0
 8V 2A AC
 Text HLabel 4750 1250 0    60   Output ~ 0
