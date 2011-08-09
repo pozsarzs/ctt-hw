@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011. aug.  2., kedd, 21.43.39 CEST
+EESchema Schematic File Version 2  date 2011. aug.  9., kedd, 16.19.45 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 11
 Title "CTT Transistor tester - CTT/PS3 power supply unit"
-Date "2 aug 2011"
+Date "9 aug 2011"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/??"
@@ -334,7 +334,7 @@ F 1 "LM336" H 3150 1850 40  0000 C CNN
 $EndComp
 $Comp
 L GND #PWR03
-U 1 1 4DE65356
+U 1 1 4E4141F9
 P 3450 4500
 F 0 "#PWR03" H 3450 4500 30  0001 C CNN
 F 1 "GND" H 3450 4430 30  0001 C CNN
@@ -408,7 +408,7 @@ F 1 "BY399" H 2100 4500 40  0001 C CNN
 $EndComp
 $Comp
 L DIODE D4
-U 1 1 4DE65134
+U 1 1 4E4141F1
 P 2100 4250
 F 0 "D4" H 2250 4350 40  0000 C CNN
 F 1 "BY399" H 2100 4150 40  0001 C CNN
