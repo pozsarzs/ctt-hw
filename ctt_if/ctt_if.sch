@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011. aug.  9., kedd, 16.19.45 CEST
+EESchema Schematic File Version 2  date 2011. aug. 10., szerda, 00.21.20 CEST
 LIBS:power
 LIBS:device
 LIBS:conn
