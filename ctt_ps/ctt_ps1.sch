@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2011. aug. 11., csütörtök, 07.58.42 CEST
+EESchema Schematic File Version 2  date 2012.01.08. 14:43:31
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -32,7 +32,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 11
 Title "CTT Transistor tester - CTT/PS1 power supply unit"
-Date "11 aug 2011"
+Date "8 jan 2012"
 Rev "1.0"
 Comp "Pozsar Zsolt"
 Comment1 "Draw number: CTT/21"
