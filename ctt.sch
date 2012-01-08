@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012.01.08. 14:43:31
+EESchema Schematic File Version 2  date 2012.01.08. 16:55:02
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -40,6 +40,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 3000 6600 0    60   ~ 0
+29
+Text Label 3000 5800 0    60   ~ 0
+32
+Text Label 6200 5800 0    60   ~ 0
+32
 Connection ~ 6550 5800
 Wire Wire Line
 	6100 5800 6550 5800
