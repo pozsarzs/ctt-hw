@@ -1,289 +1,289 @@
-# EESchema Netlist Version 1.1 created  2012.01.19. 10:03:16
+# EESchema Netlist Version 1.1 created  2012.01.19. 21:07:19
 (
  ( /4F17CF77 $noname  C6 10u {Lib=CP}
-  (    1 Vcc )
-  (    2 /GND )
+  (    1 /+5V )
+  (    2 GND )
  )
  ( /4F09F041 $noname  J1 RELAY {Lib=RELAY}
-  (    1 Vcc )
-  (    2 N-000008 )
+  (    1 /+5V )
+  (    2 N-000018 )
  )
  ( /4F09BB96 $noname  R20 1k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000017 )
+  (    1 /+5V )
+  (    2 N-000002 )
  )
  ( /4F09BB95 $noname  R21 1k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000005 )
+  (    1 /+5V )
+  (    2 N-000017 )
  )
  ( /4F09BB94 $noname  R23 1k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000003 )
- )
- ( /4F09BB93 $noname  R22 1k {Lib=R}
-  (    1 Vcc )
+  (    1 /+5V )
   (    2 N-000016 )
  )
- ( /4F09BB92 $noname  R18 1k {Lib=R}
-  (    1 Vcc )
+ ( /4F09BB93 $noname  R22 1k {Lib=R}
+  (    1 /+5V )
   (    2 N-000015 )
  )
- ( /4F09BB91 $noname  R19 1k {Lib=R}
-  (    1 Vcc )
+ ( /4F09BB92 $noname  R18 1k {Lib=R}
+  (    1 /+5V )
   (    2 N-000013 )
  )
+ ( /4F09BB91 $noname  R19 1k {Lib=R}
+  (    1 /+5V )
+  (    2 N-000012 )
+ )
  ( /4F09BB8E $noname  R17 1k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000014 )
+  (    1 /+5V )
+  (    2 N-000010 )
  )
  ( /4F09BB82 $noname  R16 1k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000024 )
+  (    1 /+5V )
+  (    2 N-000014 )
  )
  ( /4F09BB73 $noname  R12 4,7k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000007 )
+  (    1 /+5V )
+  (    2 N-000019 )
  )
  ( /4F09BB72 $noname  R13 4,7k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000045 )
- )
- ( /4F09BB71 $noname  R15 4,7k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000023 )
- )
- ( /4F09BB70 $noname  R14 4,7k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000046 )
- )
- ( /4F09BB6F $noname  R10 4,7k {Lib=R}
-  (    1 Vcc )
+  (    1 /+5V )
   (    2 N-000006 )
  )
+ ( /4F09BB71 $noname  R15 4,7k {Lib=R}
+  (    1 /+5V )
+  (    2 N-000005 )
+ )
+ ( /4F09BB70 $noname  R14 4,7k {Lib=R}
+  (    1 /+5V )
+  (    2 N-000052 )
+ )
+ ( /4F09BB6F $noname  R10 4,7k {Lib=R}
+  (    1 /+5V )
+  (    2 N-000048 )
+ )
  ( /4F09BB6E $noname  R11 4,7k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000044 )
+  (    1 /+5V )
+  (    2 N-000004 )
  )
  ( /4F09BB6B $noname  R9 4,7k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000049 )
+  (    1 /+5V )
+  (    2 N-000003 )
  )
  ( /4F09BAF3 $noname  IC7 OPTONPN {Lib=OPTONPN}
-  (    1 N-000017 )
-  (    2 N-000030 )
-  (    4 /GND )
-  (    5 N-000044 )
+  (    1 N-000002 )
+  (    2 N-000001 )
+  (    4 GND )
+  (    5 N-000004 )
  )
  ( /4F09BAF2 $noname  IC8 OPTONPN {Lib=OPTONPN}
-  (    1 N-000005 )
-  (    2 N-000004 )
-  (    4 /GND )
-  (    5 N-000006 )
+  (    1 N-000017 )
+  (    2 N-000028 )
+  (    4 GND )
+  (    5 N-000048 )
  )
  ( /4F09BAF1 $noname  IC10 OPTONPN {Lib=OPTONPN}
-  (    1 N-000003 )
-  (    2 N-000002 )
-  (    4 /GND )
-  (    5 N-000025 )
- )
- ( /4F09BAF0 $noname  IC9 OPTONPN {Lib=OPTONPN}
   (    1 N-000016 )
-  (    2 N-000001 )
-  (    4 /GND )
+  (    2 N-000024 )
+  (    4 GND )
   (    5 N-000049 )
  )
- ( /4F09BAED $noname  IC5 OPTONPN {Lib=OPTONPN}
+ ( /4F09BAF0 $noname  IC9 OPTONPN {Lib=OPTONPN}
   (    1 N-000015 )
-  (    2 N-000035 )
-  (    4 /GND )
-  (    5 N-000045 )
+  (    2 N-000027 )
+  (    4 GND )
+  (    5 N-000003 )
+ )
+ ( /4F09BAED $noname  IC5 OPTONPN {Lib=OPTONPN}
+  (    1 N-000013 )
+  (    2 N-000034 )
+  (    4 GND )
+  (    5 N-000006 )
  )
  ( /4F09BAEC $noname  IC6 OPTONPN {Lib=OPTONPN}
-  (    1 N-000013 )
-  (    2 N-000032 )
-  (    4 /GND )
-  (    5 N-000007 )
+  (    1 N-000012 )
+  (    2 N-000011 )
+  (    4 GND )
+  (    5 N-000019 )
  )
  ( /4F09BAE9 $noname  IC4 OPTONPN {Lib=OPTONPN}
-  (    1 N-000014 )
-  (    2 N-000012 )
-  (    4 /GND )
-  (    5 N-000046 )
+  (    1 N-000010 )
+  (    2 N-000035 )
+  (    4 GND )
+  (    5 N-000052 )
  )
  ( /4F09B970 $noname  R1 300 {Lib=R}
-  (    1 N-000051 )
-  (    2 N-000053 )
+  (    1 N-000039 )
+  (    2 N-000022 )
  )
  ( /4F09B93C $noname  R5 4,3k {Lib=R}
-  (    1 N-000047 )
-  (    2 /GND )
+  (    1 N-000051 )
+  (    2 GND )
  )
  ( /4F099C2B $noname  R24 470 {Lib=R}
   (    1 ? )
-  (    2 N-000010 )
+  (    2 N-000008 )
  )
  ( /4F099C22 $noname  T4 BC109 {Lib=NPN}
-  (    1 /GND )
-  (    2 N-000009 )
-  (    3 N-000008 )
+  (    1 GND )
+  (    2 N-000007 )
+  (    3 N-000018 )
  )
  ( /4F099C1D $noname  T5 BC182 {Lib=NPN}
-  (    1 N-000009 )
-  (    2 N-000010 )
-  (    3 N-000008 )
+  (    1 N-000007 )
+  (    2 N-000008 )
+  (    3 N-000018 )
  )
  ( /4F099A44 $noname  C5 33n {Lib=C}
-  (    1 /GND )
-  (    2 Vcc )
+  (    1 GND )
+  (    2 /+5V )
  )
  ( /4F0992C6 $noname  IC11 74LS374 {Lib=74LS374}
-  (    1 /GND )
-  (    2 N-000043 )
+  (    1 GND )
+  (    2 N-000038 )
   (    3 ? )
   (    4 ? )
-  (    5 N-000012 )
-  (    6 N-000035 )
+  (    5 N-000035 )
+  (    6 N-000034 )
   (    7 ? )
   (    8 ? )
-  (    9 N-000032 )
-  (   10 /GND )
+  (    9 N-000011 )
+  (   10 GND )
   (   11 ? )
-  (   12 N-000030 )
+  (   12 N-000001 )
   (   13 ? )
   (   14 ? )
-  (   15 N-000004 )
-  (   16 N-000001 )
+  (   15 N-000028 )
+  (   16 N-000027 )
   (   17 ? )
   (   18 ? )
-  (   19 N-000002 )
-  (   20 Vcc )
+  (   19 N-000024 )
+  (   20 /+5V )
  )
  ( /4F099182 $noname  C4 33n {Lib=C}
-  (    1 /GND )
-  (    2 Vcc )
+  (    1 GND )
+  (    2 /+5V )
  )
  ( /4F098E76 $noname  D5 1,2V {Lib=ZENER}
-  (    1 /GND )
-  (    2 N-000048 )
+  (    1 GND )
+  (    2 N-000023 )
  )
  ( /4F098EF0 $noname  R8 4,7k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000025 )
+  (    1 /+5V )
+  (    2 N-000049 )
  )
  ( /4F098E94 $noname  IC3 OPTONPN {Lib=OPTONPN}
-  (    1 N-000024 )
-  (    2 N-000043 )
-  (    4 /GND )
-  (    5 N-000023 )
+  (    1 N-000014 )
+  (    2 N-000038 )
+  (    4 GND )
+  (    5 N-000005 )
  )
  ( /4F098E0E $noname  R7 1k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000048 )
+  (    1 /+5V )
+  (    2 N-000023 )
  )
  ( /4F098E0C $noname  R6 1k {Lib=R}
-  (    1 Vcc )
-  (    2 N-000020 )
+  (    1 /+5V )
+  (    2 N-000047 )
  )
  ( /4F098D1C $noname  P1 100k {Lib=POT}
-  (    1 N-000041 )
-  (    2 /GND )
-  (    3 N-000042 )
+  (    1 N-000046 )
+  (    2 GND )
+  (    3 N-000045 )
  )
  ( /4F098CDA $noname  IC2 LF351 {Lib=LM741}
-  (    1 N-000041 )
-  (    2 N-000022 )
-  (    3 N-000021 )
-  (    4 N-000053 )
-  (    5 N-000042 )
-  (    6 N-000047 )
-  (    7 Vcc )
+  (    1 N-000046 )
+  (    2 N-000044 )
+  (    3 N-000043 )
+  (    4 N-000022 )
+  (    5 N-000045 )
+  (    6 N-000051 )
+  (    7 /+5V )
  )
  ( /4F098B32 $noname  JC2 SWITCH_INV {Lib=SWITCH_INV}
-  (    1 N-000039 )
-  (    2 /GND )
-  (    3 /GND )
+  (    1 N-000054 )
+  (    2 GND )
+  (    3 GND )
  )
  ( /4F098B2E $noname  JC1 SWITCH_INV {Lib=SWITCH_INV}
-  (    1 /GND )
+  (    1 GND )
   (    2 ? )
-  (    3 N-000039 )
+  (    3 N-000054 )
  )
  ( /4F098A96 $noname  R4 1,5K {Lib=R}
-  (    1 /GND )
-  (    2 N-000054 )
+  (    1 GND )
+  (    2 N-000041 )
  )
  ( /4F098A6F $noname  T2 BC212 {Lib=PNP}
-  (    1 N-000047 )
-  (    2 N-000054 )
-  (    3 N-000051 )
+  (    1 N-000051 )
+  (    2 N-000041 )
+  (    3 N-000039 )
  )
  ( /4F098A65 $noname  T3 BC212 {Lib=PNP}
-  (    1 N-000039 )
-  (    2 N-000038 )
-  (    3 N-000051 )
+  (    1 N-000054 )
+  (    2 N-000040 )
+  (    3 N-000039 )
  )
  ( /4F098A42 $noname  T1 BC212 {Lib=PNP}
-  (    1 N-000038 )
-  (    2 N-000051 )
-  (    3 N-000053 )
+  (    1 N-000040 )
+  (    2 N-000039 )
+  (    3 N-000022 )
  )
  ( /4DE9B35B $noname  R2 12 {Lib=R}
-  (    1 N-000039 )
-  (    2 N-000038 )
+  (    1 N-000054 )
+  (    2 N-000040 )
  )
  ( /4DE9B354 $noname  R3 1,5K {Lib=R}
-  (    1 N-000054 )
-  (    2 N-000039 )
+  (    1 N-000041 )
+  (    2 N-000054 )
  )
  ( /4DE65164 $noname  C3 10u_6V {Lib=CP}
-  (    1 /GND )
-  (    2 N-000039 )
+  (    1 GND )
+  (    2 N-000054 )
  )
  ( /4DE6513B $noname  C1 2200u_16V {Lib=CP}
-  (    1 Vcc )
-  (    2 /GND )
+  (    1 /+5V )
+  (    2 GND )
  )
  ( /4DE65139 $noname  C2 2200u_16V {Lib=CP}
-  (    1 /GND )
-  (    2 N-000053 )
+  (    1 GND )
+  (    2 N-000022 )
  )
  ( /4DE65136 $noname  D4 BY399 {Lib=DIODE}
-  (    1 N-000053 )
+  (    1 N-000022 )
   (    2 /5V_100mA_AC )
  )
  ( /4E4141F1 $noname  D1 BY399 {Lib=DIODE}
-  (    1 N-000053 )
+  (    1 N-000022 )
   (    2 /5V_100mA_AC )
  )
  ( /4DE65132 $noname  D3 BY399 {Lib=DIODE}
   (    1 /5V_100mA_AC )
-  (    2 Vcc )
+  (    2 /+5V )
  )
  ( /4DE6512E $noname  D2 BY399 {Lib=DIODE}
   (    1 /5V_100mA_AC )
-  (    2 Vcc )
+  (    2 /+5V )
  )
  ( /4DE248D4 $noname  IC1 DAC0832 {Lib=DAC0832}
-  (    1 /GND )
-  (    2 /GND )
-  (    3 /GND )
-  (    4 N-000023 )
-  (    5 N-000049 )
-  (    6 N-000006 )
-  (    7 N-000007 )
-  (    8 N-000048 )
-  (    9 N-000047 )
-  (   10 /GND )
-  (   11 N-000022 )
-  (   12 N-000021 )
-  (   13 N-000025 )
-  (   14 N-000046 )
-  (   15 N-000045 )
-  (   16 N-000044 )
-  (   17 /GND )
-  (   18 /GND )
-  (   19 N-000020 )
-  (   20 Vcc )
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000005 )
+  (    5 N-000003 )
+  (    6 N-000048 )
+  (    7 N-000019 )
+  (    8 N-000023 )
+  (    9 N-000051 )
+  (   10 GND )
+  (   11 N-000044 )
+  (   12 N-000043 )
+  (   13 N-000049 )
+  (   14 N-000052 )
+  (   15 N-000006 )
+  (   16 N-000004 )
+  (   17 GND )
+  (   18 GND )
+  (   19 N-000047 )
+  (   20 /+5V )
  )
 )
 *
@@ -507,78 +507,90 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "" ""
- IC9 2
- IC11 16
+ IC11 12
+ IC7 2
 Net 2 "" ""
- IC10 2
- IC11 19
+ R20 2
+ IC7 1
 Net 3 "" ""
- IC10 1
- R23 2
+ IC1 5
+ R9 2
+ IC9 5
 Net 4 "" ""
- IC11 15
- IC8 2
+ IC1 16
+ IC7 5
+ R11 2
 Net 5 "" ""
+ IC3 5
+ IC1 4
+ R15 2
+Net 6 "" ""
+ IC1 15
+ R13 2
+ IC5 5
+Net 7 "" ""
+ T4 2
+ T5 1
+Net 8 "" ""
+ R24 2
+ T5 2
+Net 10 "" ""
+ IC4 1
+ R17 2
+Net 11 "" ""
+ IC11 9
+ IC6 2
+Net 12 "" ""
+ R19 2
+ IC6 1
+Net 13 "" ""
+ R18 2
+ IC5 1
+Net 14 "" ""
+ R16 2
+ IC3 1
+Net 15 "" ""
+ R22 2
+ IC9 1
+Net 16 "" ""
+ R23 2
+ IC10 1
+Net 17 "" ""
  IC8 1
  R21 2
-Net 6 "" ""
- IC1 6
- IC8 5
- R10 2
-Net 7 "" ""
- IC6 5
- R12 2
- IC1 7
-Net 8 "" ""
+Net 18 "" ""
  J1 2
  T4 3
  T5 3
-Net 9 "" ""
- T4 2
- T5 1
-Net 10 "" ""
- T5 2
- R24 2
-Net 12 "" ""
- IC4 2
- IC11 5
-Net 13 "" ""
- R19 2
- IC6 1
-Net 14 "" ""
- R17 2
- IC4 1
-Net 15 "" ""
- R18 2
- IC5 1
-Net 16 "" ""
- R22 2
- IC9 1
-Net 17 "" ""
- IC7 1
- R20 2
-Net 18 "/5V 100mA AC" "5V 100mA AC"
- D2 1
- D1 2
-Net 19 "Vcc" "Vcc"
- IC1 20
+Net 19 "" ""
+ IC1 7
+ R12 2
+ IC6 5
+Net 20 "/5V 100mA AC" "5V 100mA AC"
+ D4 2
+ D3 1
+Net 21 "/+5V" "+5V"
+ R14 1
  C4 2
  R8 1
  C5 2
- IC2 7
- R6 1
- R7 1
- C1 1
- IC11 20
- D3 2
- D2 2
  R12 1
+ IC1 20
  R13 1
  R15 1
- R14 1
- R10 1
- R11 1
+ R7 1
+ R6 1
+ IC2 7
  R9 1
+ IC11 20
+ R11 1
+ R10 1
+ C1 1
+ R19 1
+ R17 1
+ D3 2
+ R16 1
+ D2 2
  C6 1
  J1 1
  R20 1
@@ -586,90 +598,80 @@ Net 19 "Vcc" "Vcc"
  R23 1
  R22 1
  R18 1
- R19 1
- R17 1
- R16 1
-Net 20 "" ""
- IC1 19
- R6 2
-Net 21 "" ""
- IC2 3
- IC1 12
 Net 22 "" ""
- IC2 2
- IC1 11
+ IC2 4
+ T1 3
+ R1 2
+ C2 2
+ D4 1
+ D1 1
 Net 23 "" ""
- IC3 5
- R15 2
- IC1 4
+ D5 2
+ R7 2
+ IC1 8
 Net 24 "" ""
- IC3 1
- R16 2
-Net 25 "" ""
- IC1 13
- IC10 5
- R8 2
-Net 30 "" ""
- IC11 12
- IC7 2
-Net 32 "" ""
- IC6 2
- IC11 9
-Net 35 "" ""
+ IC10 2
+ IC11 19
+Net 27 "" ""
+ IC11 16
+ IC9 2
+Net 28 "" ""
+ IC11 15
+ IC8 2
+Net 34 "" ""
  IC11 6
  IC5 2
+Net 35 "" ""
+ IC4 2
+ IC11 5
 Net 38 "" ""
+ IC11 2
+ IC3 2
+Net 39 "" ""
+ T1 2
+ R1 1
+ T2 3
+ T3 3
+Net 40 "" ""
  T3 2
  T1 1
  R2 2
-Net 39 "" ""
- R3 2
- T3 1
- R2 1
- C3 2
- JC1 3
- JC2 1
 Net 41 "" ""
- P1 1
- IC2 1
-Net 42 "" ""
- P1 3
- IC2 5
+ R3 1
+ T2 2
+ R4 2
 Net 43 "" ""
- IC11 2
- IC3 2
+ IC1 12
+ IC2 3
 Net 44 "" ""
- R11 2
- IC1 16
- IC7 5
+ IC2 2
+ IC1 11
 Net 45 "" ""
- IC1 15
- R13 2
- IC5 5
+ IC2 5
+ P1 3
 Net 46 "" ""
- R14 2
- IC4 5
- IC1 14
+ IC2 1
+ P1 1
 Net 47 "" ""
- IC2 6
- T2 1
- R5 1
- IC1 9
+ R6 2
+ IC1 19
 Net 48 "" ""
- IC1 8
- D5 2
- R7 2
+ IC8 5
+ R10 2
+ IC1 6
 Net 49 "" ""
- R9 2
- IC1 5
- IC9 5
-Net 50 "/GND" "GND"
- IC1 2
- IC1 1
- C6 2
+ R8 2
+ IC10 5
+ IC1 13
+Net 50 "GND" "GND"
  IC9 4
  IC10 4
- IC8 4
+ C6 2
+ C3 1
+ C1 2
+ IC1 2
+ C2 1
+ IC1 1
  IC7 4
  C5 1
  T4 1
@@ -677,8 +679,7 @@ Net 50 "/GND" "GND"
  IC4 4
  IC6 4
  IC5 4
- IC1 17
- IC1 10
+ IC8 4
  IC1 3
  D5 1
  C4 1
@@ -688,30 +689,29 @@ Net 50 "/GND" "GND"
  JC1 1
  JC2 3
  JC2 2
- IC3 4
  P1 2
- C2 1
- C1 2
- C3 1
+ IC3 4
  IC1 18
+ IC1 17
+ IC1 10
 Net 51 "" ""
- T1 2
- T2 3
- T3 3
- R1 1
-Net 52 "/5V 100mA AC" "5V 100mA AC"
- D4 2
- D3 1
-Net 53 "" ""
- D1 1
- D4 1
- C2 2
- T1 3
- R1 2
- IC2 4
+ IC1 9
+ IC2 6
+ R5 1
+ T2 1
+Net 52 "" ""
+ R14 2
+ IC4 5
+ IC1 14
+Net 53 "/5V 100mA AC" "5V 100mA AC"
+ D2 1
+ D1 2
 Net 54 "" ""
- T2 2
- R3 1
- R4 2
+ C3 2
+ R3 2
+ R2 1
+ T3 1
+ JC1 3
+ JC2 1
 }
 #End
