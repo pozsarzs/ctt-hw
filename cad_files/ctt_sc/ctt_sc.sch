@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2  date 2012.01.28. 6:39:46
+EESchema Schematic File Version 2
+LIBS:ctt-rescue
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -9,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -27,10 +27,11 @@ LIBS:siliconi
 LIBS:contrib
 LIBS:valves
 LIBS:ctt-cache
-EELAYER 24  0
+EELAYER 25 0
 EELAYER END
-$Descr A4 11700 8267
-Sheet 2 11
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 11
 Title "CTT Transistor tester - CTT/SC Status collector unit"
 Date "28 jan 2012"
 Rev "1.0"
@@ -93,11 +94,13 @@ Connection ~ 6300 4650
 Wire Wire Line
 	6850 3050 6800 3050
 $Comp
-L GND #PWR?
+L GND-RESCUE-ctt #PWR?
 U 1 1 4DEB44CB
 P 6300 4750
 F 0 "#PWR?" H 6300 4750 30  0001 C CNN
 F 1 "GND" H 6300 4680 30  0001 C CNN
+F 2 "" H 6300 4750 60  0001 C CNN
+F 3 "" H 6300 4750 60  0001 C CNN
 	1    6300 4750
 	1    0    0    -1  
 $EndComp
@@ -157,18 +160,27 @@ $Comp
 L 74LS244 IC1
 U 1 1 4DEB2A44
 P 6000 3850
-F 0 "IC1" H 6000 4500 60  0000 C CNN
+F 0 "IC1" H 6000 4100 60  0000 C CNN
 F 1 "74LS244" H 6000 2900 60  0000 C CNN
+F 2 "" H 6000 3850 60  0001 C CNN
+F 3 "" H 6000 3850 60  0001 C CNN
 	1    6000 3850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CP C1
+L CP-RESCUE-ctt C1
 U 1 1 4DEB19EC
 P 6600 3050
 F 0 "C1" V 6700 3200 50  0000 L CNN
 F 1 "4.7u" V 6450 2900 50  0000 L CNN
+F 2 "" H 6600 3050 60  0001 C CNN
+F 3 "" H 6600 3050 60  0001 C CNN
 	1    6600 3050
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 5300 4050
+NoConn ~ 5300 3950
+NoConn ~ 5300 3850
+NoConn ~ 5300 3750
+NoConn ~ 6700 4350
 $EndSCHEMATC
