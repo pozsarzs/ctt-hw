@@ -31,7 +31,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 9 11
 Title "CTT Transistor tester - CTT/DP Display unit"
 Date "28 jan 2012"
 Rev "1.0"

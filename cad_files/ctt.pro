@@ -1,4 +1,4 @@
-update=2022. szept.  2., péntek, 20:55:27 CEST
+update=2022. szept.  3., szombat, 15:25:52 CEST
 last_client=kicad
 [pcbnew]
 version=1
@@ -30,6 +30,8 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -45,22 +47,19 @@ LibName8=cmos4000
 LibName9=adc-dac
 LibName10=memory
 LibName11=xilinx
-LibName12=special
-LibName13=microcontrollers
-LibName14=dsp
-LibName15=microchip
-LibName16=analog_switches
-LibName17=motorola
-LibName18=texas
-LibName19=intel
-LibName20=audio
-LibName21=interface
-LibName22=digital-audio
-LibName23=philips
-LibName24=display
-LibName25=cypress
-LibName26=siliconi
-LibName27=contrib
-LibName28=valves
-[general]
-version=1
+LibName12=microcontrollers
+LibName13=dsp
+LibName14=microchip
+LibName15=analog_switches
+LibName16=motorola
+LibName17=texas
+LibName18=intel
+LibName19=audio
+LibName20=interface
+LibName21=digital-audio
+LibName22=philips
+LibName23=display
+LibName24=cypress
+LibName25=siliconi
+LibName26=contrib
+LibName27=valves

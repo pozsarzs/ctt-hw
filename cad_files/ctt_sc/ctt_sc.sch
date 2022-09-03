@@ -42,7 +42,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	6300 4750 6300 4400
+	6300 4750 6300 4650
+Wire Wire Line
+	6300 4650 6300 4400
 Wire Wire Line
 	5300 4550 5300 4250
 Wire Wire Line
@@ -53,17 +55,19 @@ Wire Wire Line
 	6800 4250 6700 4250
 Connection ~ 6300 3050
 Wire Wire Line
-	6400 3050 5100 3050
-Connection ~ 6850 4050
+	6400 3050 6300 3050
 Wire Wire Line
-	6700 4050 6850 4050
-Connection ~ 6850 3850
+	6300 3050 5100 3050
+Connection ~ 6900 4050
 Wire Wire Line
-	6850 3850 6700 3850
+	6700 4050 6900 4050
+Connection ~ 6900 3850
 Wire Wire Line
-	7050 3650 6700 3650
+	6900 3850 6700 3850
 Wire Wire Line
-	7050 3450 6700 3450
+	7150 3650 6700 3650
+Wire Wire Line
+	7150 3450 6700 3450
 Wire Wire Line
 	5300 3350 5100 3350
 Wire Wire Line
@@ -75,24 +79,34 @@ Wire Wire Line
 Wire Wire Line
 	5300 4250 5100 4250
 Wire Wire Line
-	6700 3350 7050 3350
+	6700 3350 7150 3350
 Wire Wire Line
-	6700 3550 7050 3550
+	6700 3550 7150 3550
 Wire Wire Line
-	6850 4650 6850 3050
+	6900 4650 6900 4050
 Wire Wire Line
-	6850 4650 5100 4650
+	6900 4050 6900 3950
 Wire Wire Line
-	6850 3750 6700 3750
-Connection ~ 6850 3750
+	6900 3950 6900 3850
 Wire Wire Line
-	6850 3950 6700 3950
-Connection ~ 6850 3950
+	6900 3850 6900 3750
+Wire Wire Line
+	6900 3750 6900 3050
+Wire Wire Line
+	6900 4650 6300 4650
+Wire Wire Line
+	6300 4650 5100 4650
+Wire Wire Line
+	6900 3750 6700 3750
+Connection ~ 6900 3750
+Wire Wire Line
+	6900 3950 6700 3950
+Connection ~ 6900 3950
 Wire Wire Line
 	6300 3050 6300 3300
 Connection ~ 6300 4650
 Wire Wire Line
-	6850 3050 6800 3050
+	6900 3050 6800 3050
 $Comp
 L GND-RESCUE-ctt #PWR?
 U 1 1 4DEB44CB
@@ -104,13 +118,13 @@ F 3 "" H 6300 4750 60  0001 C CNN
 	1    6300 4750
 	1    0    0    -1  
 $EndComp
-Text Notes 6950 3650 0    60   ~ 0
+Text Notes 7050 3650 0    60   ~ 0
 3
-Text Notes 6950 3550 0    60   ~ 0
+Text Notes 7050 3550 0    60   ~ 0
 4
-Text Notes 6950 3450 0    60   ~ 0
+Text Notes 7050 3450 0    60   ~ 0
 2
-Text Notes 6950 3350 0    60   ~ 0
+Text Notes 7050 3350 0    60   ~ 0
 1
 Text Notes 5150 3650 0    60   ~ 0
 5
@@ -132,19 +146,19 @@ Text Notes 4550 3950 0    60   ~ 0
 CN1
 Text Notes 4550 3100 0    60   ~ 0
 CN2
-Text Notes 7400 3550 0    60   ~ 0
+Text Notes 7500 3550 0    60   ~ 0
 CN3
 Text HLabel 5100 4650 0    60   UnSpc ~ 0
 GND
 Text HLabel 5100 3050 0    60   Input ~ 0
 +5V
-Text HLabel 7050 3650 2    60   Input ~ 0
+Text HLabel 7150 3650 2    60   Input ~ 0
 ST3
-Text HLabel 7050 3550 2    60   Input ~ 0
+Text HLabel 7150 3550 2    60   Input ~ 0
 ST2
-Text HLabel 7050 3450 2    60   Input ~ 0
+Text HLabel 7150 3450 2    60   Input ~ 0
 ST1
-Text HLabel 7050 3350 2    60   Input ~ 0
+Text HLabel 7150 3350 2    60   Input ~ 0
 ST0
 Text HLabel 5100 4250 0    60   Input ~ 0
 -SL1
