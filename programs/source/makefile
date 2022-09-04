@@ -1,6 +1,6 @@
 # +----------------------------------------------------------------------------+
-# | CTT v0.1 * Transistor tester                                               |
-# | Copyright (C) 2010-2017 Pozsar Zsolt <info@pozsarzs.hu>                    |
+# | CTT v0.1 * Transistor tester and characteristic curve plotter              |
+# | Copyright (C) 2010-2022 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Make file for FreePascal source.                                           |
 # +----------------------------------------------------------------------------+

@@ -1,15 +1,13 @@
 { +--------------------------------------------------------------------------+ }
-{ | CTT v0.1 * Transistor tester                                             | }
-{ | Copyright (C) 2010-2017 Pozsar Zsolt <info@pozsarzs.hu>                  | }
+{ | CTT v0.1 * Transistor tester and characteristic curve plotter            | }
+{ | Copyright (C) 2010-2022 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | checksw.pas                                                              | }
 { | Hardware tester                                                          | }
 { +--------------------------------------------------------------------------+ }
 
 {
-  Copyright (C) 2010-2017 Pozsar Zsolt
-
   This program is free software: you can redistribute it and/or modify
-it under the terms of the European Union Public License version 1.1.
+it under the terms of the European Union Public License version 1.2.
 
   This program is distributed WITHOUT ANY WARRANTY; without even the implied
 warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -30,9 +28,9 @@ const
 
 begin
   clrscr;
-  write('--------------------------------------------------------------------------------');
-  writeln(' CTT - Switching unit (CTT/SW1-2) checker            (C) 2010-2017 Pozsar Zsolt');
-  write('--------------------------------------------------------------------------------');
+    write('--------------------------------------------------------------------------------');
+  writeln(' CTT - Switching unit (CTT/SW1-2) checker            (C) 2010-2022 Pozsar Zsolt');
+    write('--------------------------------------------------------------------------------');
   writeln('- Connect CTT/SW2 unit to CTT/SW1,');
   WRITELN('- CTT/SW1 unit to CTT/IF and to a +5V power supply and press <ENTER>.');
   repeat

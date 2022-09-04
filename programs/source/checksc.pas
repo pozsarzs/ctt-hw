@@ -1,15 +1,13 @@
 { +--------------------------------------------------------------------------+ }
-{ | CTT v0.1 * Transistor tester                                             | }
-{ | Copyright (C) 2010-2017 Pozsar Zsolt <info@pozsarzs.hu>                  | }
+{ | CTT v0.1 * Transistor tester and characteristic curve plotter            | }
+{ | Copyright (C) 2010-2022 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | checksc.pas                                                              | }
 { | Hardware tester                                                          | }
 { +--------------------------------------------------------------------------+ }
 
 {
-  Copyright (C) 2010-2017 Pozsar Zsolt
-
   This program is free software: you can redistribute it and/or modify
-it under the terms of the European Union Public License version 1.1.
+it under the terms of the European Union Public License version 1.2.
 
   This program is distributed WITHOUT ANY WARRANTY; without even the implied
 warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -30,9 +28,9 @@ const
 
 begin
   clrscr;
-  write('--------------------------------------------------------------------------------');
-  writeln(' CTT - Status collector unit (CTT/SC) checker        (C) 2010-2017 Pozsar Zsolt');
-  write('--------------------------------------------------------------------------------');
+    write('--------------------------------------------------------------------------------');
+  writeln(' CTT - Status collector unit (CTT/SC) checker        (C) 2010-2022 Pozsar Zsolt');
+    write('--------------------------------------------------------------------------------');
   writeln('- Connect this unit to CTT/IF unit and to a +5V power supply and press <ENTER>.');
   repeat
     repeat until keypressed;
@@ -60,15 +58,15 @@ begin
     s:='';
     repeat
       b:=pxread(eqid,slct);
-	  if (b or 7)=15 then s:='1' else s:='0';
-	  if (b or 11)=15 then s:=s+'1' else s:=s+'0';
-	  if (b or 13)=15 then s:=s+'1' else s:=s+'0';
-	  if (b or 14)=15 then s:=s+'1' else s:=s+'0';
-	  gotoxy(x,y); write(s);
+      if (b or 7)=15 then s:='1' else s:='0';
+      if (b or 11)=15 then s:=s+'1' else s:=s+'0';
+      if (b or 13)=15 then s:=s+'1' else s:=s+'0';
+      if (b or 14)=15 then s:=s+'1' else s:=s+'0';
+      gotoxy(x,y); write(s);
       delay(500);
-	until keypressed;
-	c:=readkey;
-	c:=upcase(c);
+    until keypressed;
+    c:=readkey;
+    c:=upcase(c);
   until c='Q';
   writeln;
 end.

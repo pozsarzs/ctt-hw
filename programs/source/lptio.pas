@@ -1,13 +1,11 @@
 { +--------------------------------------------------------------------------+ }
-{ | 8 channels LPT I/O port                                                  | }
+{ | Extended I/O interface for LPT port                                      | }
 { | Copyright (C) 2010 Pozsar Zsolt <info@pozsarzs.hu>                       | }
 { | lptio.pas                                                                | }
 { | handler routines                                                         | }
 { +--------------------------------------------------------------------------+ }
 
 {
-  Copyright (C) 2010 Pozsar Zsolt
-
   This program is freeware software.
 
   This program is distributed WITHOUT ANY WARRANTY; without even the implied
