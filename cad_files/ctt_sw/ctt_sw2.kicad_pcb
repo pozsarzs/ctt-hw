@@ -72,11 +72,11 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00000_80000000)
+      (layerselection 0x00020_00000000)
       (usegerberextensions false)
       (excludeedgelayer false)
       (linewidth 0.100000)
-      (plotframeref true)
+      (plotframeref false)
       (viasonmask false)
       (mode 1)
       (useauxorigin false)
@@ -86,14 +86,14 @@
       (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
+      (plotreference false)
       (plotvalue false)
       (plotinvisibletext false)
-      (padsonsilk true)
+      (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
-      (mirror true)
-      (drillshape 1)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -1284,7 +1284,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC12 (at 0.635 0) (layer F.SilkS)
+    (fp_text reference K12a (at 0.635 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1316,7 +1316,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC11 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference K11a (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27 180) (layer F.SilkS) hide
@@ -1348,7 +1348,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC10 (at 0 0) (layer F.SilkS)
+    (fp_text reference K10a (at 0 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1380,7 +1380,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC9 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference K9a (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27 180) (layer F.SilkS) hide
@@ -1412,7 +1412,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC8-2 (at 0.635 0) (layer F.SilkS)
+    (fp_text reference K8-2a (at 0.635 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1444,7 +1444,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC8 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference K8a (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27 180) (layer F.SilkS) hide
@@ -1476,7 +1476,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC7 (at 0 0) (layer F.SilkS)
+    (fp_text reference K7a (at 0 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1508,7 +1508,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC6 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference K6a (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27 180) (layer F.SilkS) hide
@@ -1540,7 +1540,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC5 (at 0 0) (layer F.SilkS)
+    (fp_text reference K5a (at 0 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1572,7 +1572,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC4 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference K4a (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27 180) (layer F.SilkS) hide
@@ -1599,12 +1599,12 @@
     )
   )
 
-  (module R7 (layer F.Cu) (tedit 4DC6B7A8) (tstamp 4D16F9E7)
+  (module R7 (layer F.Cu) (tedit 63161C87) (tstamp 4D16F9E7)
     (at 162.56 92.71)
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC3 (at 0 0) (layer F.SilkS)
+    (fp_text reference K3a (at 0 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1636,7 +1636,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC2-2 (at 0 0) (layer F.SilkS)
+    (fp_text reference K2-2a (at 0 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1668,7 +1668,7 @@
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC2 (at 0 0) (layer F.SilkS)
+    (fp_text reference K2a (at 0 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27) (layer F.SilkS) hide
@@ -1695,12 +1695,12 @@
     )
   )
 
-  (module R7 (layer F.Cu) (tedit 4DC6B79B) (tstamp 4D16F129)
+  (module R7 (layer F.Cu) (tedit 63161C7F) (tstamp 4D16F129)
     (at 162.56 83.82 180)
     (descr "Resitance 7 pas")
     (tags R)
     (autoplace_cost180 10)
-    (fp_text reference JC1 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference K1a (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value SPST (at -2.286 -1.27 180) (layer F.SilkS) hide
@@ -1731,7 +1731,7 @@
     (at 144.78 129.54 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J12 (at -5.08 0 180) (layer F.SilkS)
+    (fp_text reference K12 (at -5.08 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1751,7 +1751,7 @@
     (at 144.78 125.73 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J11 (at -5.08 0 180) (layer F.SilkS)
+    (fp_text reference K11 (at -5.08 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1771,7 +1771,7 @@
     (at 144.78 121.92 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J10 (at -5.08 0 180) (layer F.SilkS)
+    (fp_text reference K10 (at -5.08 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1791,7 +1791,7 @@
     (at 144.78 118.11 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J9 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K9 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1811,7 +1811,7 @@
     (at 144.78 137.16 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J8-2 (at 0 -3.175 180) (layer F.SilkS)
+    (fp_text reference K8-2 (at 0 -3.175 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1831,7 +1831,7 @@
     (at 144.78 114.3 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J8 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K8 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1851,7 +1851,7 @@
     (at 144.78 110.49 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J7 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K7 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1871,7 +1871,7 @@
     (at 144.78 106.68 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J6 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K6 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1891,7 +1891,7 @@
     (at 144.78 102.87 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J5 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K5 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1911,7 +1911,7 @@
     (at 144.78 99.06 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J4 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K4 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1931,7 +1931,7 @@
     (at 144.78 95.25 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J3 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K3 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1951,7 +1951,7 @@
     (at 144.78 133.35 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J2-2 (at -5.715 0 180) (layer F.SilkS)
+    (fp_text reference K2-2 (at -5.715 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1971,7 +1971,7 @@
     (at 144.78 91.44 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J2 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K2 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide
@@ -1991,7 +1991,7 @@
     (at 144.78 87.63 180)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference J1 (at -4.445 0 180) (layer F.SilkS)
+    (fp_text reference K1 (at -4.445 0 180) (layer F.SilkS)
       (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
     )
     (fp_text value Reed_relay (at 0 -2.54 180) (layer F.SilkS) hide

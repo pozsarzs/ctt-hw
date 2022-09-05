@@ -60,115 +60,115 @@
   ( 1 N-000045 )
   ( 2 ? )
  )
- ( 4D170234 SIL-2 J1 Reed_relay
+ ( 4D170234 SIL-2 K1 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000040 )
  )
- ( 4D170238 SIL-2 J2 Reed_relay
+ ( 4D170238 SIL-2 K2 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000024 )
  )
- ( 4D170253 SIL-2 J2-2 Reed_relay
+ ( 4D170253 SIL-2 K2-2 Reed_relay
   ( 1 ? )
   ( 2 N-000041 )
  )
- ( 4D17023B SIL-2 J3 Reed_relay
+ ( 4D17023B SIL-2 K3 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000021 )
  )
- ( 4D170240 SIL-2 J4 Reed_relay
+ ( 4D170240 SIL-2 K4 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000022 )
  )
- ( 4D170243 SIL-2 J5 Reed_relay
+ ( 4D170243 SIL-2 K5 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000023 )
  )
- ( 4D170247 SIL-2 J6 Reed_relay
+ ( 4D170247 SIL-2 K6 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000042 )
  )
- ( 4D17046C SIL-2 J7 Reed_relay
+ ( 4D17046C SIL-2 K7 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000020 )
  )
- ( 4D170452 SIL-2 J8 Reed_relay
+ ( 4D170452 SIL-2 K8 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000044 )
  )
- ( 4D16DDEA SIL-2 J8-2 Reed_relay
+ ( 4D16DDEA SIL-2 K8-2 Reed_relay
   ( 1 ? )
   ( 2 +5V_1 )
  )
- ( 004D1704 SIL-2 J9 Reed_relay
+ ( 004D1704 SIL-2 K9 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000019 )
  )
- ( 4D17045F SIL-2 J10 Reed_relay
+ ( 4D17045F SIL-2 K10 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000018 )
  )
- ( 4D170463 SIL-2 J11 Reed_relay
+ ( 4D170463 SIL-2 K11 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000017 )
  )
- ( 4D170466 SIL-2 J12 Reed_relay
+ ( 4D170466 SIL-2 K12 Reed_relay
   ( 1 +5V_1 )
   ( 2 N-000016 )
  )
- ( 4D16F129 R7 JC1 SPST
+ ( 4D16F129 R7 K1a SPST
   ( 1 B_1 )
   ( 2 COM_1 )
  )
- ( 4D16F13D R7 JC2 SPST
+ ( 4D16F13D R7 K2a SPST
   ( 1 B_1 )
   ( 2 N-000036 )
  )
- ( 4D16F141 R7 JC2-2 SPST
+ ( 4D16F141 R7 K2-2a SPST
   ( 1 B_1 )
   ( 2 N-000026 )
  )
- ( 4D16F9E7 R7 JC3 SPST
+ ( 4D16F9E7 R7 K3a SPST
   ( 1 COM_1 )
   ( 2 E_1 )
  )
- ( 4D16F9F7 R7 JC4 SPST
+ ( 4D16F9F7 R7 K4a SPST
   ( 1 N-000027 )
   ( 2 E_1 )
  )
- ( 4D16F172 R7 JC5 SPST
+ ( 4D16F172 R7 K5a SPST
   ( 1 N-000033 )
   ( 2 C_1 )
  )
- ( 4D1709E6 R7 JC6 SPST
+ ( 4D1709E6 R7 K6a SPST
   ( 1 N-000027 )
   ( 2 C_1 )
  )
- ( 4D1709E3 R7 JC7 SPST
+ ( 4D1709E3 R7 K7a SPST
   ( 1 N-000029 )
   ( 2 C_1 )
  )
- ( 4D1709DF R7 JC8 SPST
+ ( 4D1709DF R7 K8a SPST
   ( 1 N-000032 )
   ( 2 C_1 )
  )
- ( 4D1709DC R7 JC8-2 SPST
+ ( 4D1709DC R7 K8-2a SPST
   ( 1 N-000030 )
   ( 2 C_1 )
  )
- ( 4D1708FB R7 JC9 SPST
+ ( 4D1708FB R7 K9a SPST
   ( 1 AO_1 )
   ( 2 N-000038 )
  )
- ( 4D170901 R7 JC10 SPST
+ ( 4D170901 R7 K10a SPST
   ( 1 AO_1 )
   ( 2 N-000027 )
  )
- ( 4D170905 R7 JC11 SPST
+ ( 4D170905 R7 K11a SPST
   ( 1 AO_1 )
   ( 2 C_1 )
  )
- ( 4D170907 R7 JC12 SPST
+ ( 4D170907 R7 K12a SPST
   ( 1 AO_1 )
   ( 2 B_1 )
  )

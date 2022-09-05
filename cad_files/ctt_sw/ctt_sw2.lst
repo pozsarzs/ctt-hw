@@ -14,34 +14,34 @@ D11	1N4148
 D12	1N4148
 D13	1N4148
 D14	1N4148
-J1	Reed relay
-J2	Reed relay
-J3	Reed relay
-J4	Reed relay
-J5	Reed relay
-J6	Reed relay
-J7	Reed relay
-J8	Reed relay
-J9	Reed relay
-J10	Reed relay
-J11	Reed relay
-J12	Reed relay
-J2-2	Reed relay
-J8-2	Reed relay
-JC1	SPST
-JC2	SPST
-JC3	SPST
-JC4	SPST
-JC5	SPST
-JC6	SPST
-JC7	SPST
-JC8	SPST
-JC9	SPST
-JC10	SPST
-JC11	SPST
-JC12	SPST
-JC2-2	SPST
-JC8-2	SPST
+K1	Reed relay
+K2	Reed relay
+K3	Reed relay
+K4	Reed relay
+K5	Reed relay
+K6	Reed relay
+K7	Reed relay
+K8	Reed relay
+K9	Reed relay
+K10	Reed relay
+K11	Reed relay
+K12	Reed relay
+K2-2	Reed relay
+K8-2	Reed relay
+K1a	SPST
+K2a	SPST
+K3a	SPST
+K4a	SPST
+K5a	SPST
+K6a	SPST
+K7a	SPST
+K8a	SPST
+K9a	SPST
+K10a	SPST
+K11a	SPST
+K12a	SPST
+K2-2a	SPST
+K8-2a	SPST
 R1	100 1%
 R2	1k 1%
 R3	33K
