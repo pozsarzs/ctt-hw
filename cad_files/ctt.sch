@@ -95,7 +95,7 @@ Wire Bus Line
 Wire Bus Line
 	6800 7050 2850 7050
 Wire Bus Line
-	2850 5100 2850 7050
+	2850 7050 2850 5100
 Wire Wire Line
 	3250 5100 2950 5100
 Wire Wire Line
