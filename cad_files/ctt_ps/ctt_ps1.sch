@@ -299,7 +299,7 @@ F 3 "" H 4200 5100 60  0001 C CNN
 $EndComp
 Text Notes 3350 5100 0    60   ~ 0
 CN3
-Text Notes 8100 6190 0    60   ~ 0
+Text Notes 7900 6350 0    60   ~ 0
 CN4
 Text Notes 3350 3000 0    60   ~ 0
 CN2\n
@@ -440,7 +440,7 @@ $EndComp
 Text HLabel 3850 5950 0    60   Output ~ 0
 POL
 Text HLabel 7650 6150 2    60   Input ~ 0
--NPN
+-NPN/PNP
 Text HLabel 3850 4800 0    60   Output ~ 0
 +Um2
 Text HLabel 3850 5400 0    60   Output ~ 0

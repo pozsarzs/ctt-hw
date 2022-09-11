@@ -125,15 +125,12 @@ Wire Wire Line
 	1075 3550 10850 3550
 Wire Wire Line
 	7300 5900 6600 5900
-Connection ~ 1050 5225
 Wire Wire Line
-	950  5225 1375 5225
+	1050 5425 1375 5425
 Wire Bus Line
 	6450 3000 6450 3350
 Wire Wire Line
 	6350 3100 6100 3100
-Wire Wire Line
-	1050 5225 1050 5600
 Wire Wire Line
 	1050 5600 1375 5600
 Wire Wire Line
@@ -424,9 +421,9 @@ Wire Wire Line
 Wire Wire Line
 	2600 5700 2325 5700
 Wire Wire Line
-	1375 5425 1150 5425
+	1375 5225 1150 5225
 Wire Wire Line
-	1150 5425 1150 5800
+	1150 5225 1150 5800
 Wire Wire Line
 	6100 3000 6350 3000
 Wire Wire Line
@@ -499,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	750  6950 1675 6950
 Wire Notes Line
-	1850 6775 1850 5350
+	1850 5300 1850 6775
 Wire Wire Line
 	6300 6550 950  6550
 Connection ~ 4600 4000
@@ -545,8 +542,8 @@ $Comp
 L RELAY K1
 U 1 1 4E2F1050
 P 1825 6950
-F 0 "K1" H 2000 7050 60  0000 C CNN
-F 1 "RELAY" H 1850 6725 60  0001 C CNN
+F 0 "K1" H 1650 7050 60  0000 C CNN
+F 1 "РЭС-22" H 1850 6725 60  0000 C CNN
 F 2 "" H 1825 6950 60  0001 C CNN
 F 3 "" H 1825 6950 60  0001 C CNN
 	1    1825 6950
@@ -676,7 +673,7 @@ Entry Wire Line
 	2850 600  2950 700 
 Text Label 1200 5600 0    60   ~ 0
 77
-Text Label 1200 5425 0    60   ~ 0
+Text Label 1200 5225 0    60   ~ 0
 76
 Text Label 8900 5300 0    60   ~ 0
 75
@@ -690,7 +687,7 @@ Text Label 8900 4850 0    60   ~ 0
 71
 Text Label 8900 4750 0    60   ~ 0
 70
-Text Label 1200 5225 0    60   ~ 0
+Text Label 1200 5425 0    60   ~ 0
 27
 Text Label 1200 5800 0    60   ~ 0
 31
@@ -812,7 +809,7 @@ F 1 "SWITCH_INV" H 1675 5175 50  0001 C CNN
 F 2 "" H 1825 5325 60  0001 C CNN
 F 3 "" H 1825 5325 60  0001 C CNN
 	1    1825 5325
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SWITCH_INV K1b
@@ -1426,4 +1423,9 @@ F12 "-Um2" O L 7300 6050 60
 F13 "-NPN/PNP" I L 7300 5800 60 
 F14 "POL" O L 7300 5900 60 
 $EndSheet
+Wire Wire Line
+	1050 5225 1050 5600
+Wire Wire Line
+	1050 5225 950  5225
+Connection ~ 1050 5425
 $EndSCHEMATC
