@@ -520,7 +520,7 @@ $Sheet
 S 4800 3900 1300 2350
 U 4DD13EAC
 F0 "CTT/PS3" 60
-F1 "ctt_ps/ctt_ps3.sch" 60
+F1 "ctt_ps3/ctt_ps3.sch" 60
 F2 "DO0" I R 6100 4000 60 
 F3 "DO1" I R 6100 4100 60 
 F4 "DO2" I R 6100 4200 60 
@@ -647,7 +647,7 @@ $Sheet
 S 3250 3900 1300 2350
 U 4DD13EAA
 F0 "CTT/PS2" 60
-F1 "ctt_ps/ctt_ps2.sch" 60
+F1 "ctt_ps2/ctt_ps2.sch" 60
 F2 "DO0" I L 3250 4000 60 
 F3 "DO1" I L 3250 4100 60 
 F4 "DO2" I L 3250 4200 60 
@@ -737,7 +737,7 @@ $Sheet
 S 4800 950  1300 2350
 U 4DD13EAE
 F0 "CTT/SW2" 60
-F1 "ctt_sw/ctt_sw2.sch" 60
+F1 "ctt_sw2/ctt_sw2.sch" 60
 F2 "J1" I L 4800 1050 60 
 F3 "J2" I L 4800 1150 60 
 F4 "J3" I L 4800 1250 60 
@@ -1304,7 +1304,7 @@ $Sheet
 S 3250 950  1300 2350
 U 4DD13EB2
 F0 "CTT/SW1" 60
-F1 "ctt_sw/ctt_sw1.sch" 60
+F1 "ctt_sw1/ctt_sw1.sch" 60
 F2 "-SL0" I L 3250 1050 60 
 F3 "DO7" I L 3250 2500 60 
 F4 "DO6" I L 3250 2600 60 
@@ -1386,7 +1386,7 @@ $Sheet
 S 9100 3900 1300 2350
 U 4DD14235
 F0 "CTT/PS4" 60
-F1 "ctt_ps/ctt_ps4.sch" 60
+F1 "ctt_ps4/ctt_ps4.sch" 60
 F2 "230V AC" I R 10400 4000 60 
 F3 "PRT GND" U R 10400 4100 60 
 F4 "230V AC" I R 10400 4200 60 
@@ -1408,7 +1408,7 @@ $Sheet
 S 7300 3900 1300 2350
 U 4DD13EA8
 F0 "CTT/PS1" 60
-F1 "ctt_ps/ctt_ps1.sch" 60
+F1 "ctt_ps1/ctt_ps1.sch" 60
 F2 "+Um2" O L 7300 6150 60 
 F3 "+5V" O L 7300 4150 60 
 F4 "-5V" O L 7300 4250 60 
