@@ -120,16 +120,6 @@ Wire Wire Line
 Connection ~ 7400 2250
 Wire Wire Line
 	6500 1250 6200 1250
-Text Notes 7450 1950 0    60   ~ 0
-3
-Text Notes 7450 1600 0    60   ~ 0
-2
-Text Notes 7450 1250 0    60   ~ 0
-1
-Text Notes 3600 4100 0    60   ~ 0
-CN2
-Text Notes 8300 1650 0    60   ~ 0
-CN1
 $Comp
 L GND-RESCUE-ctt #PWR?
 U 1 1 4DD3D9AA

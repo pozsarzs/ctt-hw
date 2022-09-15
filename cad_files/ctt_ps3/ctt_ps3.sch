@@ -1279,4 +1279,36 @@ F 4 "16V" H 3450 1850 50  0000 C CNN "Voltage"
 	-1   0    0    -1  
 $EndComp
 Connection ~ 3600 3750
+Text Notes 10050 1900 0    60   ~ 0
+1
+Text Notes 1650 1650 0    60   ~ 0
+1
+Text Notes 1650 2550 0    60   ~ 0
+3
+Text Notes 1650 3450 0    60   ~ 0
+2
+Text Notes 1650 3750 0    60   ~ 0
+1
+Text Notes 1650 4350 0    60   ~ 0
+2
+Text Notes 1650 4875 0    60   ~ 0
+1
+Text Notes 1650 4975 0    60   ~ 0
+2
+Text Notes 1650 5075 0    60   ~ 0
+3
+Text Notes 1650 5175 0    60   ~ 0
+4
+Text Notes 1650 5275 0    60   ~ 0
+5
+Text Notes 1650 5375 0    60   ~ 0
+6
+Text Notes 1650 5475 0    60   ~ 0
+7
+Text Notes 1650 5575 0    60   ~ 0
+8
+Text Notes 1650 5775 0    60   ~ 0
+1
+Text Notes 1650 6125 0    60   ~ 0
+1
 $EndSCHEMATC

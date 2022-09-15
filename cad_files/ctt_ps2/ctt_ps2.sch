@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
+LIBS:ctt-rescue
 LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
 LIBS:linear
 LIBS:regul
@@ -24,18 +24,14 @@ LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
-LIBS:opto
-LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ctt-cache
-LIBS:ctt-rescue
-LIBS:relay_leg-5
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 4 11
 Title "CTT Transistor tester - CTT/PS2 power supply unit"
 Date "28 jan 2012"
 Rev "1.0"
@@ -1283,4 +1279,36 @@ F 4 "40V" H 3350 2150 50  0000 C CNN "Voltage"
 	1    3450 2300
 	-1   0    0    -1  
 $EndComp
+Text Notes 1650 4875 0    60   ~ 0
+1
+Text Notes 1650 4975 0    60   ~ 0
+2
+Text Notes 1650 5075 0    60   ~ 0
+3
+Text Notes 1650 5175 0    60   ~ 0
+4
+Text Notes 1650 5275 0    60   ~ 0
+5
+Text Notes 1650 5375 0    60   ~ 0
+6
+Text Notes 1650 5475 0    60   ~ 0
+7
+Text Notes 1650 5575 0    60   ~ 0
+8
+Text Notes 1650 1650 0    60   ~ 0
+1
+Text Notes 1650 2550 0    60   ~ 0
+3
+Text Notes 1650 3450 0    60   ~ 0
+2
+Text Notes 1650 3750 0    60   ~ 0
+1
+Text Notes 1650 4350 0    60   ~ 0
+2
+Text Notes 1650 5775 0    60   ~ 0
+1
+Text Notes 1650 6125 0    60   ~ 0
+1
+Text Notes 10050 1900 0    60   ~ 0
+1
 $EndSCHEMATC
