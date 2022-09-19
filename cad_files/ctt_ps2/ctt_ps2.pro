@@ -1,4 +1,4 @@
-update=2022. szept. 14., szerda, 08:08:04 CEST
+update=2022. szept. 19., hétfő, 11:43:34 CEST
 version=1
 last_client=kicad
 [general]
