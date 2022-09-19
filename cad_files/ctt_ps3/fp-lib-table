@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name relay_lg)(type KiCad)(uri ../relay_lg.pretty)(options "")(descr ""))
+  (lib (name relay_leg)(type KiCad)(uri /home/pozsarzs/Projektek/ctt-hw/cad_files/relay_leg.pretty)(options "")(descr ""))
+  (lib (name relay_lmr2)(type KiCad)(uri /home/pozsarzs/Projektek/ctt-hw/cad_files/relay_lmr2.pretty)(options "")(descr ""))
 )

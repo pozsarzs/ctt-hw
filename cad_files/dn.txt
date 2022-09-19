@@ -1,0 +1,51 @@
+Drawing numbers of CTT device
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Number         Title of document
+ -------------------------------------------
+ CTT/1          Wiring list of device
+ CTT/2          Wiring drawing of device
+ CTT/3          CTT/IF schematic
+ CTT/4          CTT/IF solder side of PCB
+ CTT/5          CTT/IF component side of PCB
+ CTT/6          CTT/IF silkscreen of PCB
+ CTT/7          CTT/DP schematic
+ CTT/8          CTT/DP solder side of PCB
+ CTT/9          CTT/DP silkscreen of PCB
+ CTT/10         CTT/AD schematic
+ CTT/11         CTT/AD solder side of PCB
+ CTT/12         CTT/AD component side of PCB
+ CTT/13         CTT/AD silkscreen of PCB
+ CTT/14         CTT/SW1 schematic
+ CTT/15         CTT/SW1 solder side of PCB
+ CTT/16         CTT/SW1 component side of PCB
+ CTT/17         CTT/SW1 silkscreen of PCB
+ CTT/18
+ CTT/19
+ CTT/20         CTT/PS4 schematic
+ CTT/21         CTT/PS1 schematic
+ CTT/22         CTT/PS1 solder side of PCB
+ CTT/23         CTT/PS1 silkscreen of PCB
+ CTT/24         CTT/PS2 schematic
+ CTT/25         CTT/PS2 solder side of PCB
+ CTT/26         CTT/PS2 component side of PCB
+ CTT/27         CTT/PS2 silkscreen of PCB
+ CTT/28         CTT/PS3 schematic
+ CTT/29         CTT/PS3 solder side of PCB
+ CTT/30         CTT/PS3 component side of PCB
+ CTT/31         CTT/PS3 silkscreen of PCB
+ CTT/32         CTT/SW2 solder side of PCB
+ CTT/33         CTT/SW2 silkscreen of PCB
+ CTT/34         CTT/SW2 schematic
+ CTT/35
+ CTT/36
+ CTT/37
+ CTT/38
+ CTT/39
+ CTT/40         CTT/SC schematic
+ CTT/41         CTT/SC solder side of PCB
+ CTT/42         CTT/SC silkscreen of PCB
+ CTT/43         Shorting box
+
+---------------------------------------------------------------------------------
+  CTT * Copyright (C) 2010-2022 Pozsár Zsolt <pozsarzs@gmail.com>

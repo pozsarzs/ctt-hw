@@ -36,7 +36,7 @@ Title "CTT Transistor tester - CTT/PS3 power supply unit"
 Date "28 jan 2012"
 Rev "1.0"
 Comp "Pozsar Zsolt"
-Comment1 "Draw number: CTT/37"
+Comment1 "Draw number: CTT/28"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -261,7 +261,7 @@ L NPN T9
 U 1 1 631FCAD4
 P 10200 4575
 F 0 "T9" H 10500 4575 50  0000 R CNN
-F 1 "BC109" H 10375 4200 50  0000 R CNN
+F 1 "BC109" H 10650 4475 50  0000 R CNN
 F 2 "" H 10200 4575 60  0001 C CNN
 F 3 "" H 10200 4575 60  0001 C CNN
 	1    10200 4575
@@ -1311,4 +1311,18 @@ Text Notes 1650 5775 0    60   ~ 0
 1
 Text Notes 1650 6125 0    60   ~ 0
 1
+$Comp
+L GND-RESCUE-ctt #PWR?
+U 1 1 6328FABE
+P 10300 5225
+F 0 "#PWR?" H 10300 5225 30  0001 C CNN
+F 1 "GND-RESCUE-ctt" H 10300 5155 30  0001 C CNN
+F 2 "" H 10300 5225 60  0001 C CNN
+F 3 "" H 10300 5225 60  0001 C CNN
+	1    10300 5225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 4875 10300 5225
+Connection ~ 10300 4875
 $EndSCHEMATC
