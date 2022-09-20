@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../../Git/ctt-hw/cad_files
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=/home/pozsarzs/Projektek/ctt-hw/cad_files/ctt-cache
+LibName31=/home/pozsarzs/Projektek/ctt-hw/cad_files/ctt-rescue
+LibName32=/home/pozsarzs/Projektek/ctt-hw/cad_files/relay_leg-5

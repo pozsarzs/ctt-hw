@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/pozsarzs/Projektek/ctt-hw/cad_files/ctt_ps3/ctt_ps3.sch</source>
+    <date>2022. szept. 20., kedd, 19:31:31 CEST</date>
+    <tool>Eeschema 4.0.5+dfsg1-4+deb9u1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CTT Transistor tester - CTT/PS3 power supply unit</title>
+        <company>Pozsar Zsolt</company>
+        <rev>1.0</rev>
+        <date>28 jan 2012</date>
+        <source>ctt_ps3.sch</source>
+        <comment number="1" value="Draw number: CTT/28"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC2">
+      <value>74LS374</value>
+      <footprint>Housings_DIP:DIP-20_W7.62mm_LongPads</footprint>
+      <libsource lib="74xx" part="74LS374"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631D5E1D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2200u</value>
+      <footprint>Capacitors_THT:CP_Radial_D14.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="ctt-cache" part="CP-RESCUE-ctt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE6513B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="ctt-cache" part="CP-RESCUE-ctt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE65139</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BY399</value>
+      <footprint>Diodes_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE65132</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BY399</value>
+      <footprint>Diodes_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAA7</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LM317T</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="regul" part="LM317T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAA5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4002</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631D5DA0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4002</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAA9</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCABA</tstamp>
+    </comp>
+    <comp ref="T3">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DE0CA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631E69C0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>640</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCACC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6320BC06</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAD6</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAD7</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6320CA38</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAD9</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCADA</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCADB</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCADC</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6320CE49</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>ZPD27</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6321501A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470u</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="ctt-cache" part="CP-RESCUE-ctt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63215995</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>390</value>
+      <footprint>Potentiometers:Potentiometer_WirePads_Small</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63217325</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100u</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="ctt-cache" part="CP-RESCUE-ctt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631EB70D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="ctt-cache" part="C-RESCUE-ctt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAC4</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FA465</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FC544</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FC54A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>632040F5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>8</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63204241</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAAB</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAAC</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAAD</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DA8C9</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DA9CD</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAAA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="ctt-cache" part="CP-RESCUE-ctt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FC190</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAB7</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DABE4</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DAAD0</tstamp>
+    </comp>
+    <comp ref="K7">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAB0</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAAF</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAAE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>64</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63204644</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>32</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAD0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>16</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6320433F</tstamp>
+    </comp>
+    <comp ref="T6">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCABE</tstamp>
+    </comp>
+    <comp ref="T5">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DE469</tstamp>
+    </comp>
+    <comp ref="T4">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DE463</tstamp>
+    </comp>
+    <comp ref="T7">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DE7C1</tstamp>
+    </comp>
+    <comp ref="T8">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAC0</tstamp>
+    </comp>
+    <comp ref="T9">
+      <value>BC109</value>
+      <footprint>TO_SOT_Packages_THT:TO-18-3</footprint>
+      <libsource lib="ctt-cache" part="NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63209A4D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>128</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63204751</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>256</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAD3</tstamp>
+    </comp>
+    <comp ref="K8">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAB1</tstamp>
+    </comp>
+    <comp ref="K9">
+      <value>LEG-5</value>
+      <footprint>relay_leg:relay_leg</footprint>
+      <libsource lib="ctt-cache" part="Relay_LEG-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631D9D74</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAB8</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631DAF87</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <libsource lib="ctt-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631FCAC5</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>LMR2-5D</value>
+      <footprint>relay_lmr2:relay_lmr2</footprint>
+      <libsource lib="ctt-cache" part="Relay_LMR2-5D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631E3FE0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS374">
+      <description>8 bits Register, 3 state Out</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS374</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="O0" type="3state"/>
+        <pin num="3" name="D0" type="input"/>
+        <pin num="4" name="D1" type="input"/>
+        <pin num="5" name="O1" type="3state"/>
+        <pin num="6" name="O2" type="3state"/>
+        <pin num="7" name="D2" type="input"/>
+        <pin num="8" name="D3" type="input"/>
+        <pin num="9" name="O3" type="3state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Cp" type="input"/>
+        <pin num="12" name="O4" type="3state"/>
+        <pin num="13" name="D4" type="input"/>
+        <pin num="14" name="D5" type="input"/>
+        <pin num="15" name="O5" type="3state"/>
+        <pin num="16" name="O6" type="3state"/>
+        <pin num="17" name="D6" type="input"/>
+        <pin num="18" name="D7" type="input"/>
+        <pin num="19" name="O7" type="3state"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ctt-cache" part="C-RESCUE-ctt">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-ctt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ctt-cache" part="CP-RESCUE-ctt">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-RESCUE-ctt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ctt-cache" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM317T">
+      <aliases>
+        <alias>LM317AT</alias>
+      </aliases>
+      <description>1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.national.com/ds/LM/LM117.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317T</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ctt-cache" part="NPN">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmeter</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ctt-cache" part="Relay_LEG-5">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">Relay_LEG-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Coil" type="passive"/>
+        <pin num="2" name="Coil" type="passive"/>
+        <pin num="3" name="Common" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="NO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ctt-cache" part="Relay_LMR2-5D">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">Relay_LMR2-5D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Coil" type="passive"/>
+        <pin num="2" name="Coil" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="Common" type="passive"/>
+        <pin num="5" name="NO" type="passive"/>
+        <pin num="6" name="NO" type="passive"/>
+        <pin num="7" name="Common" type="passive"/>
+        <pin num="8" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ctt-cache" part="ZENER">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="ctt-cache">
+      <uri>/home/pozsarzs/Projektek/ctt-hw/cad_files/ctt-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D14-Pad2)">
+      <node ref="K7" pin="2"/>
+      <node ref="T6" pin="3"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D13-Pad2)">
+      <node ref="K6" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="T5" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="K5" pin="2"/>
+      <node ref="T4" pin="3"/>
+    </net>
+    <net code="4" name="Net-(K7-Pad5)">
+      <node ref="K7" pin="5"/>
+    </net>
+    <net code="5" name="Net-(K5-Pad5)">
+      <node ref="K5" pin="5"/>
+    </net>
+    <net code="6" name="Net-(K6-Pad5)">
+      <node ref="K6" pin="5"/>
+    </net>
+    <net code="7" name="Net-(IC2-Pad12)">
+      <node ref="R14" pin="2"/>
+      <node ref="IC2" pin="12"/>
+    </net>
+    <net code="8" name="/DO7">
+      <node ref="IC2" pin="18"/>
+    </net>
+    <net code="9" name="/DO5">
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="10" name="/DO3">
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="11" name="/DO1">
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="12" name="/DO0">
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="13" name="/DO2">
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="14" name="/DO4">
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="15" name="/DO6">
+      <node ref="IC2" pin="17"/>
+    </net>
+    <net code="16" name="/-SL6">
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="17" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="18" name="Net-(IC2-Pad5)">
+      <node ref="R11" pin="2"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="19" name="Net-(IC2-Pad6)">
+      <node ref="IC2" pin="6"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="20" name="Net-(IC2-Pad9)">
+      <node ref="R13" pin="2"/>
+      <node ref="IC2" pin="9"/>
+    </net>
+    <net code="21" name="Net-(IC2-Pad15)">
+      <node ref="IC2" pin="15"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="22" name="Net-(IC2-Pad16)">
+      <node ref="R16" pin="2"/>
+      <node ref="IC2" pin="16"/>
+    </net>
+    <net code="23" name="Net-(IC2-Pad19)">
+      <node ref="R17" pin="2"/>
+      <node ref="IC2" pin="19"/>
+    </net>
+    <net code="24" name="Net-(R10-Pad1)">
+      <node ref="T1" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R11-Pad1)">
+      <node ref="T2" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="T3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(K6-Pad3)">
+      <node ref="K7" pin="4"/>
+      <node ref="K6" pin="3"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="28" name="Net-(K5-Pad3)">
+      <node ref="K5" pin="3"/>
+      <node ref="K6" pin="4"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="29" name="Net-(K7-Pad3)">
+      <node ref="R7" pin="1"/>
+      <node ref="K7" pin="3"/>
+      <node ref="K8" pin="4"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="30" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="T6" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R14-Pad1)">
+      <node ref="T5" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="T4" pin="2"/>
+    </net>
+    <net code="33" name="/5V 100mA AC COM">
+      <node ref="K1" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="K1" pin="6"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D15-Pad2)">
+      <node ref="K8" pin="2"/>
+      <node ref="T7" pin="3"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D16-Pad2)">
+      <node ref="K9" pin="2"/>
+      <node ref="T8" pin="3"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D5-Pad2)">
+      <node ref="T9" pin="3"/>
+      <node ref="K1" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="37" name="GND">
+      <node ref="T1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="K1" pin="4"/>
+      <node ref="T6" pin="1"/>
+      <node ref="T8" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="T2" pin="1"/>
+      <node ref="T9" pin="1"/>
+      <node ref="T3" pin="1"/>
+      <node ref="IC2" pin="10"/>
+      <node ref="T7" pin="1"/>
+      <node ref="T4" pin="1"/>
+      <node ref="T5" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="T7" pin="2"/>
+    </net>
+    <net code="39" name="Net-(R17-Pad1)">
+      <node ref="T8" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="40" name="Net-(K8-Pad3)">
+      <node ref="R9" pin="2"/>
+      <node ref="K9" pin="4"/>
+      <node ref="R8" pin="1"/>
+      <node ref="K8" pin="3"/>
+    </net>
+    <net code="41" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="T9" pin="2"/>
+    </net>
+    <net code="42" name="Net-(K8-Pad5)">
+      <node ref="K8" pin="5"/>
+    </net>
+    <net code="43" name="/Um3">
+      <node ref="K1" pin="7"/>
+    </net>
+    <net code="44" name="Net-(K9-Pad5)">
+      <node ref="K9" pin="5"/>
+    </net>
+    <net code="45" name="VCC">
+      <node ref="K9" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="K8" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="K7" pin="1"/>
+      <node ref="K6" pin="1"/>
+      <node ref="K5" pin="1"/>
+      <node ref="IC2" pin="20"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="K2" pin="1"/>
+      <node ref="K3" pin="1"/>
+      <node ref="K4" pin="1"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D6-Pad2)">
+      <node ref="P1" pin="3"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="47" name="/-NPN/PNP">
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="48" name="Net-(K2-Pad3)">
+      <node ref="R2" pin="1"/>
+      <node ref="K2" pin="3"/>
+      <node ref="K3" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="49" name="Net-(K4-Pad5)">
+      <node ref="K4" pin="5"/>
+    </net>
+    <net code="50" name="Net-(K3-Pad5)">
+      <node ref="K3" pin="5"/>
+    </net>
+    <net code="51" name="Net-(K3-Pad3)">
+      <node ref="K4" pin="4"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="K3" pin="3"/>
+    </net>
+    <net code="52" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="T2" pin="3"/>
+      <node ref="K3" pin="2"/>
+    </net>
+    <net code="53" name="Net-(K2-Pad5)">
+      <node ref="K2" pin="5"/>
+    </net>
+    <net code="54" name="Net-(K2-Pad4)">
+      <node ref="P1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="K2" pin="4"/>
+    </net>
+    <net code="55" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="56" name="/5V 100mA AC">
+      <node ref="D2" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C1-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C3-Pad1)">
+      <node ref="K9" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="K4" pin="2"/>
+      <node ref="T3" pin="3"/>
+    </net>
+    <net code="60" name="/5V 100mA AC">
+      <node ref="D3" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="61" name="Net-(K4-Pad3)">
+      <node ref="K4" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="K5" pin="4"/>
+    </net>
+    <net code="62" name="Net-(C2-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="K1" pin="8"/>
+      <node ref="K1" pin="5"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D9-Pad2)">
+      <node ref="K2" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="T1" pin="3"/>
+    </net>
+  </nets>
+</export>

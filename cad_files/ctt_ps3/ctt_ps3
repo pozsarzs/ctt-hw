@@ -1,0 +1,72 @@
+Source,/home/pozsarzs/Projektek/ctt-hw/cad_files/ctt_ps3/ctt_ps3.sch
+Kicad Rev,Eeschema 4.0.5+dfsg1-4+deb9u1
+Generated Date,2022. szept. 20., kedd, 19:31:31 CEST
+
+Title,CTT Transistor tester - CTT/PS3 power supply unit
+Company,Pozsar Zsolt
+Revision,1.0
+Date Issue,28 jan 2012
+Comment,Draw number: CTT/28
+
+Reference,Value,Voltage,Library,Library Ref
+IC2,74LS374,74xx,74LS374
+C1,2200u,16V,ctt-cache,CP-RESCUE-ctt
+C2,10u,16V,ctt-cache,CP-RESCUE-ctt
+D3,BY399,ctt-cache,DIODE
+D2,BY399,ctt-cache,DIODE
+IC1,LM317T,regul,LM317T
+D4,1N4002,ctt-cache,DIODE
+D1,1N4002,ctt-cache,DIODE
+T2,BC109,ctt-cache,NPN
+T3,BC109,ctt-cache,NPN
+R2,2,device,R
+R1,640,device,R
+R10,1k,device,R
+R11,1k,device,R
+R12,1k,device,R
+R13,1k,device,R
+R14,1k,device,R
+R15,1k,device,R
+R16,1k,device,R
+R17,1k,device,R
+R18,1k,device,R
+D6,ZPD27,ctt-cache,ZENER
+C4,470u,16V,ctt-cache,CP-RESCUE-ctt
+P1,390,device,POT
+C5,100u,10V,ctt-cache,CP-RESCUE-ctt
+C6,100n,ctt-cache,C-RESCUE-ctt
+D9,1N4001,ctt-cache,DIODE
+D8,1N4001,ctt-cache,DIODE
+D7,1N4001,ctt-cache,DIODE
+R3,4,device,R
+R4,8,device,R
+K2,LEG-5,ctt-cache,Relay_LEG-5
+K3,LEG-5,ctt-cache,Relay_LEG-5
+K4,LEG-5,ctt-cache,Relay_LEG-5
+D10,1N4001,ctt-cache,DIODE
+D11,1N4001,ctt-cache,DIODE
+T1,BC109,ctt-cache,NPN
+C3,10u,16V,ctt-cache,CP-RESCUE-ctt
+D14,1N4001,ctt-cache,DIODE
+D13,1N4001,ctt-cache,DIODE
+D12,1N4001,ctt-cache,DIODE
+K7,LEG-5,ctt-cache,Relay_LEG-5
+K6,LEG-5,ctt-cache,Relay_LEG-5
+K5,LEG-5,ctt-cache,Relay_LEG-5
+R7,64,device,R
+R6,32,device,R
+R5,16,device,R
+T6,BC109,ctt-cache,NPN
+T5,BC109,ctt-cache,NPN
+T4,BC109,ctt-cache,NPN
+T7,BC109,ctt-cache,NPN
+T8,BC109,ctt-cache,NPN
+T9,BC109,ctt-cache,NPN
+R8,128,device,R
+R9,256,device,R
+K8,LEG-5,ctt-cache,Relay_LEG-5
+K9,LEG-5,ctt-cache,Relay_LEG-5
+D15,1N4001,ctt-cache,DIODE
+D16,1N4001,ctt-cache,DIODE
+D5,1N4001,ctt-cache,DIODE
+K1,LMR2-5D,ctt-cache,Relay_LMR2-5D

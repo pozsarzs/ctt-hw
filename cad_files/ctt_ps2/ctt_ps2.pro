@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../../../Git/PROG_ctt-hw/cad_files
+LibDir=../../../../Git/ctt-hw/cad_files
 [eeschema/libraries]
 LibName1=power
 LibName2=device
