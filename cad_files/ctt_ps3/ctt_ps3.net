@@ -50,7 +50,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 631FCAA7))
     (comp (ref IC1)
-      (value LM317T)
+      (value LM317L)
       (footprint Power_Integrations:TO-220)
       (libsource (lib regul) (part LM317T))
       (sheetpath (names /) (tstamps /))

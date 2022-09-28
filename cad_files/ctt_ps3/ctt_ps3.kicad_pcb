@@ -1406,7 +1406,7 @@
     (fp_text reference IC1 (at 6.35 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LM317T (at 0 -4.318) (layer F.Fab)
+    (fp_text value LM317L (at 0 -4.318) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 4.826 -1.651) (end 4.826 1.778) (layer F.SilkS) (width 0.15))

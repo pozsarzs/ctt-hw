@@ -14,7 +14,7 @@ C1,2200u,16V,ctt-cache,CP-RESCUE-ctt
 C2,10u,16V,ctt-cache,CP-RESCUE-ctt
 D3,BY399,ctt-cache,DIODE
 D2,BY399,ctt-cache,DIODE
-IC1,LM317T,regul,LM317T
+IC1,LM317L,regul,LM317T
 D4,1N4002,ctt-cache,DIODE
 D1,1N4002,ctt-cache,DIODE
 T2,BC109,ctt-cache,NPN

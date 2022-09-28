@@ -61,7 +61,7 @@
       <tstamp>631FCAA7</tstamp>
     </comp>
     <comp ref="IC1">
-      <value>LM317T</value>
+      <value>LM317L</value>
       <footprint>Power_Integrations:TO-220</footprint>
       <libsource lib="regul" part="LM317T"/>
       <sheetpath names="/" tstamps="/"/>

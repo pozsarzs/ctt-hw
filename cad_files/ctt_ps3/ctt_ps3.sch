@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
+LIBS:ctt-rescue
 LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
 LIBS:linear
 LIBS:regul
@@ -24,19 +24,14 @@ LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
-LIBS:opto
-LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ctt-cache
-LIBS:ctt-rescue
-LIBS:relay_leg-5
-LIBS:ctt_ps3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 11
 Title "CTT Transistor tester - CTT/PS3 power supply unit"
 Date "28 jan 2012"
 Rev "1.0"
@@ -134,7 +129,7 @@ L LM317T IC1
 U 1 1 631FCAA5
 P 3700 1700
 F 0 "IC1" H 3500 1900 50  0000 C CNN
-F 1 "LM317T" H 3700 1900 50  0000 L CNN
+F 1 "LM317L" H 3700 1900 50  0000 L CNN
 F 2 "Power_Integrations:TO-220" H 3700 1800 50  0001 C CIN
 F 3 "" H 3700 1700 50  0000 C CNN
 	1    3700 1700
@@ -1229,13 +1224,13 @@ Wire Wire Line
 	9600 2300 9700 2300
 Connection ~ 9800 3500
 Wire Wire Line
-	9800 4300 3700 4300
+	3700 4300 9800 4300
 Wire Wire Line
 	9700 2850 10300 2850
 Wire Wire Line
 	9200 3000 9900 3000
 Wire Wire Line
-	9900 4150 9900 3000
+	9900 3000 9900 4150
 Wire Wire Line
 	10300 2850 10300 4375
 Connection ~ 9200 4150
@@ -1243,9 +1238,9 @@ Connection ~ 9700 4000
 Connection ~ 9100 4000
 Connection ~ 9200 4000
 Wire Wire Line
-	5000 4150 9900 4150
+	9900 4150 5000 4150
 Wire Wire Line
-	9800 3250 9800 4300
+	9800 4300 9800 3250
 Wire Wire Line
 	9700 4000 9650 4000
 Wire Wire Line
