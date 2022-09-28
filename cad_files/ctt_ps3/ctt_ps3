@@ -12,11 +12,11 @@ Reference,Value,Voltage,Library,Library Ref
 IC2,74LS374,74xx,74LS374
 C1,2200u,16V,ctt-cache,CP-RESCUE-ctt
 C2,10u,16V,ctt-cache,CP-RESCUE-ctt
-D3,BY399,ctt-cache,DIODE
-D2,BY399,ctt-cache,DIODE
+D3,1N4001,ctt-cache,DIODE
+D2,1N4001,ctt-cache,DIODE
 IC1,LM317L,regul,LM317T
-D4,1N4002,ctt-cache,DIODE
-D1,1N4002,ctt-cache,DIODE
+D4,1N4001,ctt-cache,DIODE
+D1,1N4001,ctt-cache,DIODE
 T2,BC109,ctt-cache,NPN
 T3,BC109,ctt-cache,NPN
 R2,2,device,R
@@ -30,7 +30,7 @@ R15,1k,device,R
 R16,1k,device,R
 R17,1k,device,R
 R18,1k,device,R
-D6,ZPD27,ctt-cache,ZENER
+D6,ZPD3,ctt-cache,ZENER
 C4,470u,16V,ctt-cache,CP-RESCUE-ctt
 P1,390,device,POT
 C5,100u,10V,ctt-cache,CP-RESCUE-ctt

@@ -47,14 +47,14 @@
       <tstamp>4DE65139</tstamp>
     </comp>
     <comp ref="D3">
-      <value>BY399</value>
+      <value>1N4001</value>
       <footprint>Diodes_THT:D_5W_P12.70mm_Horizontal</footprint>
       <libsource lib="ctt-cache" part="DIODE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>4DE65132</tstamp>
     </comp>
     <comp ref="D2">
-      <value>BY399</value>
+      <value>1N4001</value>
       <footprint>Diodes_THT:D_5W_P12.70mm_Horizontal</footprint>
       <libsource lib="ctt-cache" part="DIODE"/>
       <sheetpath names="/" tstamps="/"/>
@@ -68,14 +68,14 @@
       <tstamp>631FCAA5</tstamp>
     </comp>
     <comp ref="D4">
-      <value>1N4002</value>
+      <value>1N4001</value>
       <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
       <libsource lib="ctt-cache" part="DIODE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>631D5DA0</tstamp>
     </comp>
     <comp ref="D1">
-      <value>1N4002</value>
+      <value>1N4001</value>
       <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
       <libsource lib="ctt-cache" part="DIODE"/>
       <sheetpath names="/" tstamps="/"/>
